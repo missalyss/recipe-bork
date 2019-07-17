@@ -1,15 +1,10 @@
 import React from 'react';
 import './App.css';
-import data from './data.js';
-import RecipeList from './components/recipe/recipe-list.js';
+import Root from './components';
 
-const App = () => {
-  console.log('recipes: ', data)
-  return (
-    <div className="App">
-      <RecipeList />
-    </div>
-  );
-}
+const App = () =>
+  <div className="App">
+    <Root />
+  </div>
 
 export default App;

@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TODO:
+1. Make server so that it translates everything borked if chosen by user
+1. design to be borkier
+1. nav for each item
 
 ## Available Scripts
 
