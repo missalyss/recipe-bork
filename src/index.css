@@ -20,5 +20,5 @@ code {
 
 @font-face {
   font-family: "nordica";
-  src: url(./fonts/nordic-font/NordicaClassicLtExt.otf)format("opentype");
+  src: url(./fonts/NordicaClassicLtExt.otf)format("opentype");
 }
