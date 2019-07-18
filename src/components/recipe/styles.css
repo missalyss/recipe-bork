@@ -1,4 +1,46 @@
 .container {
-  background-color: palegreen;
+  border-radius: 8px;
   padding: 24px;
+  margin-bottom: 12px;
+}
+
+.r-title {
+  text-decoration: underline #2d2d2d;
+  text-underline-position: under;
+  font-size: 24px;
+  margin: 30px 0 20px;
+}
+
+.ingredients {
+  text-align: left;
+  padding: 12px 80px;
+}
+
+.directions {
+  padding: 12px 80px 24px 80px;
+}
+
+@media screen and (max-width: 700px) {
+  .directions {
+    padding: 0;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .ingredients {
+    padding: 4px 16px;
+  }
+
+  .ingredient-line {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .r-title {
+    font-size: 33px;
+    margin: 30px 0 20px;
+  }
 }

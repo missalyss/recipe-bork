@@ -1,22 +1,21 @@
 import React from 'react';
 import data from '../data.js';
-// import { url } from 'inspector';
+import './styles/nav.css';
 
 const Nav = () => {
-  console.log('navvv');
   const recipes = Object.values(data);
 
   const list = recipes.map((recipe, index) => {
     const { title } = recipe;
     const id = title.replace(/\s+/g, '-').toLowerCase();
     return (
-      <li id={id} key={index} >
-        <a href={`#${id}`}>{title}</a>
+      <li className='nav-li' id={id} key={index} >
+        <a className='link' href={`#${id}`}>{title}</a>
       </li>
     )
   });
   return (
-    <ul>
+    <ul className='nav-ul'>
       {list}
     </ul>
   )

@@ -30,12 +30,14 @@ const Recipe = ({ recipe: { title, ingredients, directions } }) => {
   const id = titlea.replace(/\s+/g, '-');
 
   return (
-    <div className='container'>
-      <h1 id={id}>
-        {titlea}
+    <div className='container bg-cream'>
+      <h1 className='text-soft-black r-title' id={id}>
+        {title}
       </h1>
       <Ingredients ingredients={ingredients} />
-      <p>{directions}</p>
+      <p className='directions'>
+        {directions}
+      </p>
     </div>
   );
 }
