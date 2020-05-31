@@ -25,7 +25,7 @@ const translateToBork = (deta) => {
       .then(response => response.json())
   }
 }
-const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield } }) => {
+const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credit } }) => {
   const titlea = title.toLowerCase()
   const id = titlea.replace(/\s+/g, '-');
 
@@ -49,6 +49,8 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield } }) =
       {directions[1] ? directionsOrderedList : (
         <p className='singleDirections'>{directions[0]}</p>
       )}
+      {credit && (<p className="small-font">Thank you, {credit} for this recipe!</p>)}
+
 
     <a href='#' className="scroll-link text-blue">Scroll to top</a>
     </div>
