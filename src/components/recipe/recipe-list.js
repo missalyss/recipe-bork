@@ -5,7 +5,6 @@ import './styles.css';
 
 const RecipeList = () => {
   const recipes = Object.values(recipeList);
-
   const list = recipes.map((recipe, index) => {
     return (<Recipe recipe={recipe} key={index} />)
   });

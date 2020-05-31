@@ -16,13 +16,29 @@
   padding: 12px 80px;
 }
 
-.directions {
+.singleDirections {
   padding: 12px 80px 24px 80px;
+  text-align: left;
+}
+
+.directionsForOL {
+  padding: 12px 80px 24px 80px;
+  margin-left: 20px;
+}
+
+.direction-li {
+  text-align: left;
+  padding-bottom: 8px;
 }
 
 @media screen and (max-width: 700px) {
-  .directions {
-    padding: 0;
+  .directionsForOL {
+    padding: 4px 16px;
+    margin-left: 20px;
+  }
+
+  .singleDirections {
+    padding: 4px 16px;
   }
 
   .container {
@@ -36,6 +52,10 @@
   .ingredient-line {
     margin: 10px 0;
   }
+}
+
+.scroll-link {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 700px) {

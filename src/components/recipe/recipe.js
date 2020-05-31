@@ -25,19 +25,32 @@ const translateToBork = (deta) => {
       .then(response => response.json())
   }
 }
-const Recipe = ({ recipe: { title, ingredients, directions } }) => {
+const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield } }) => {
   const titlea = title.toLowerCase()
   const id = titlea.replace(/\s+/g, '-');
 
+  const directionsOrderedList = (
+      <ol className="directionsForOL">
+    {directions.map((direction, index) => {
+      return (<li className='direction-li' key={index}>
+          {direction}
+        </li>)
+    })}
+    </ol>
+  )
+
   return (
-    <div className='container bg-cream'>
-      <h1 className='text-soft-black r-title' id={id}>
-        {title}
+    <div className='container bg-cream' id={id}>
+      <h1 className='text-soft-black r-title'>
+        {title.toUpperCase()}
       </h1>
+      <p>{tempTimeYield}</p>
       <Ingredients ingredients={ingredients} />
-      <p className='directions'>
-        {directions}
-      </p>
+      {directions[1] ? directionsOrderedList : (
+        <p className='singleDirections'>{directions[0]}</p>
+      )}
+
+    <a href='#' className="scroll-link text-blue">Scroll to top</a>
     </div>
   );
 }

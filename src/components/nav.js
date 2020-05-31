@@ -9,8 +9,8 @@ const Nav = () => {
     const { title } = recipe;
     const id = title.replace(/\s+/g, '-').toLowerCase();
     return (
-      <li className='nav-li' id={id} key={index} >
-        <a className='link' href={`#${id}`}>{title}</a>
+      <li className='nav-li' key={index} >
+        <a className='link' href={`#${id}`}>{title.toUpperCase()}</a>
       </li>
     )
   });

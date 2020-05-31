@@ -1,7 +1,28 @@
-TODO:
+# TODO:
 1. Make server so that it translates everything borked if chosen by user
 1. design to be borkier
 1. nav for each item
+1. add more recipes, obviously
+1. find a way to include CNAME file in `npm run build`
+
+# TO DEPLOY:
+
+```shell
+npm run build
+```
+
+after complete
+
+```shell
+surge
+```
+
+- Change project path to include /build
+- Make sure domain name remains `recipe-bork`
+- submit. voila!
+
+
+
 
 ## Available Scripts
 
