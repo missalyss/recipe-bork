@@ -94,9 +94,128 @@ const recipes = {
     ],
     directions: [ 'Mix tomatoes, tomato sauce, water, chili powder, and salt together; pour 1/3 over 9x13 pan. Then combine chicken, sour cream/yogurt, beans, and cheese.', 'Spoon chicken mixture evenly into 10 tortillas. Roll tightly and put into pan. Pour the rest of sauce on top. Bake covered 350 for 20 min. Sprinkle rest of cheese and bake 10 more min. uncovered.', 'Garnish with guacamole, lettuce, olives, sour cream, tomatoes, cheese, salsa, tortilla chips.', 'For guests add: hot sauce, green onions, chiles'
     ]
+  },
+  candiedYams: {
+    title: 'June’s Candied Yams',
+    tempTimeYield: '',
+    ingredients: [
+      'An unknown number of yams',
+      '1 cube margarine',
+      '2 cups brown sugar',
+      '1 tsp salt',
+      '¼ cup water'
+    ],
+    directions: [
+      'Cut yams in half',
+      'Boil yams until tender but firm. Peel after they cool',
+      'Slice yams about half inch thick',
+      'In fry pan, melt margarine, sugar, salt, and water to make thick syrup.',
+      'Turn Yams in syrup, watch closely that they don’t burn.'
+    ]
+
+
+  },
+  biscuits: {
+    title: 'Biscuits',
+    tempTimeYield: 'Makes 10-12. 425F for 15 min',
+    ingredients: [
+      '2 cup flour',
+      '1 T sugar',
+      '1 T baking powder',
+      '¾ tsp salt',
+      '½ tsp. soda',
+      '1/3 cup shortening (3 oz)',
+      '1 cup buttermilk (almost 1 cup milk, 1 T vinegar)'
+    ],
+    directions: [
+      'Sift dry ingredients.',
+      'Cut in shortening.',
+      'Add milk, mix well.',
+      'Place on flour board, knead lightly.',
+      'Roll out, cut with cookie cutter.',
+      'Place on greased pan. 425 for 15 min'
+    ]
+  },
+  tacoSoup: {
+    title: 'Taco Soup',
+    tempTimeYield: 'Takes several hours in a crock pot',
+    ingredients: [
+      '1 can corn (not drained)',
+      '1 can chopped green chilies',
+      '1 chopped onion',
+      '1 tsp. salt',
+      '1/2 tsp. garlic',
+      '1 package Taco seasoning',
+      '1 can chopped tomatoes',
+      '3-4 cans tomato sauce+1 can water',
+      '1-2 lbs. Ground beef (or ground turkey)',
+      '2 cans chili con carne',
+      '2 cans kidney beans',
+      '2 cans black beans',
+      '2 cans red beans'
+    ],
+    directions: [
+      'Drain and rinse all beans. Add all ingredients together and let simmer on low, for several hours in a crock pot.'
+    ]
+  },
+  bananaBread: {
+    title: 'Banana Bread',
+    tempTimeYield: 'Bake at 350 for: Large—60 min. Medium—50 min. Small—45 min. Credit: JuliePrice',
+    ingredients: [
+      '7 mashed bananas',
+      '2 cups sugar',
+      '2 squares margarine, softened',
+      '4 eggs',
+      '½ cup milk',
+      '2 tsp vanilla',
+      '4 1/2 cups flour',
+      '1 ½ tsp soda',
+      '½ tsp baking powder',
+      '½ tsp salt'
+    ],
+    directions: [
+      'Melt frozen bananas in microwave and mash.',
+      'Cream bananas with sugar; add margarine, eggs, vanilla and milk.',
+      'Add dry ingredients (flour, soda, powder, salt)',
+      'Check with toothpick for doneness.'
+    ]
+  },
+  cherryPie: {
+        title: 'Cherry Pie',
+    tempTimeYield: 'Makes 1 pie. 400F for 30 min. Credit: Grandma Harlan',
+    ingredients: [
+      '2 cans Cherries (Oregon Cherries, pitted red tart cherries in water)',
+      '¾ cup sugar',
+      '2 ‘heaping’ T of flour',
+      'Keep 2/3 cup juice, drain the rest',
+    ],
+    directions: [
+      'Drain cherries, save juice.',
+      'Pour cherries in pie dough, sprinkle on sugar and flour and stir in carefully, not poking the bottom.',
+      'Pour in juice, cover with top crust.',
+      'Bake at 400 for 30 min'
+    ]
   }
 
+
+
+
 };
+
+// recipe template
+/*
+    title: '
+    ',
+    tempTimeYield: '
+    ',
+    ingredients: [
+
+    ],
+    directions: [
+
+    ]
+*/
+
 
   // alphebetize the object
   const alphebetizedRecipes = {};

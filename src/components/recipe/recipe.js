@@ -44,7 +44,7 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield } }) =
       <h1 className='text-soft-black r-title'>
         {title.toUpperCase()}
       </h1>
-      <p>{tempTimeYield}</p>
+      {tempTimeYield && (<p>{tempTimeYield}</p>)}
       <Ingredients ingredients={ingredients} />
       {directions[1] ? directionsOrderedList : (
         <p className='singleDirections'>{directions[0]}</p>
