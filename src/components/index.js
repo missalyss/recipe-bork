@@ -3,6 +3,7 @@ import data from '../data.js';
 import RecipeList from './recipe/recipe-list.js';
 import Nav from './nav';
 import Header from './header';
+import Footer from './footer';
 import './styles/index.css';
 
 const Root = () => {
@@ -13,6 +14,7 @@ const Root = () => {
       <div className='rootBody'>
         <Nav />
         <RecipeList />
+        <Footer />
       </div>
     </div>
   );

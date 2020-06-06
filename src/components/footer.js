@@ -1,12 +1,10 @@
 import React from 'react';
 
 const Footer = () => {
-  console.log('footer');
-
   return (
-    <div className="footer">
-      footer
-    </div>
+    <footer className="container bg-dark-blue text-cream">
+      Made with &hearts; by Alyssa Helgason
+    </footer>
   );
 }
 
