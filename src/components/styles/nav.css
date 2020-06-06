@@ -1,12 +1,7 @@
 .nav-ul {
   list-style: none;
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
-}
-
-.nav-li {
-  margin: 12px 0;
+  padding: 0;
+  justify-content: space-evenly;
 }
 
 .link {
@@ -16,11 +11,11 @@
   line-height: 20px;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .nav-ul {
     columns: 2;
   }
-}
+} */
 
 @media screen and (min-width: 700px) {
   .link {
@@ -30,11 +25,11 @@
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1100px) {
+/* @media screen and (min-width: 700px) and (max-width: 1100px) {
   .nav-ul {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
   }
-}
+} */
 

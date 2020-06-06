@@ -1,21 +1,22 @@
 import React from 'react';
 import data from '../data.js';
+import alphadividerUtil from './util/alphadivider';
 import './styles/nav.css';
 
 const Nav = () => {
   const recipes = Object.values(data);
-
-  const list = recipes.map((recipe, index) => {
-    const { title } = recipe;
-    const id = title.replace(/\s+/g, '-').toLowerCase();
+  const alphabet = alphadividerUtil(false);
+  const list = alphabet.map((letter, index) => {
+  //  TODO: Check length of alphabet and adjust CSS so mobile nav isn't too cramped.
     return (
       <li className='nav-li' key={index} >
-        <a className='link' href={`#${id}`}>{title.toUpperCase()}</a>
+        <a className='link' href={`#${letter}`}>{letter.toUpperCase()}</a>
       </li>
     )
   });
+
   return (
-    <ul className='nav-ul'>
+    <ul className='nav-ul flex'>
       {list}
     </ul>
   )

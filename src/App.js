@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles-list.css';
 import Root from './components';
 
 const App = () =>

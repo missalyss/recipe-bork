@@ -4,13 +4,6 @@
   padding: 0 !important;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
 .heading-text {
   margin: 0;
   position: absolute;
