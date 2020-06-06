@@ -1,7 +1,5 @@
-import recipeList from '../../data.js';
-
-const alphadividerUtil = withRecipe => {
-  const recipeKeys = Object.keys(recipeList);
+const alphadividerUtil = ({recipes, withRecipe}) => {
+  const recipeKeys = Object.keys(recipes);
   const recipesWithAlphadivider = [];
   const alphadividersOnly = []
 
@@ -15,6 +13,5 @@ const alphadividerUtil = withRecipe => {
   })
   return withRecipe ? recipesWithAlphadivider : alphadividersOnly
 }
-
 
 export default alphadividerUtil;

@@ -1,5 +1,6 @@
 const recipes = {
   applesauceBranMuffins: {
+    id: 'applesauceBranMuffins',
     title: "APPLESAUCE BRAN MUFFINS",
     tempTimeYield: '400\u00B0 for 20 min, makes 18 muffins.',
     ingredients: [
@@ -18,6 +19,7 @@ const recipes = {
     ]
   },
   ableskivers: {
+    id: 'ableskivers',
     title: "AEBLESKIVERS",
     tempTimeYield: 'Stove - medium low.',
     ingredients: [
@@ -32,6 +34,7 @@ const recipes = {
     ]
   },
   crepes: {
+    id: 'crepes',
     title: "CREPES",
     tempTimeYield: 'Stove - medium low.',
     ingredients: [
@@ -45,6 +48,7 @@ const recipes = {
     ]
   },
   quiche: {
+    id: 'quiche',
     title: "QUICHE",
     tempTimeYield: 'Crust: 425\u00B0 5 min. Pie: 350\u00B0 45 min.',
     ingredients: [
@@ -61,6 +65,7 @@ const recipes = {
     ]
   },
   cornBread: {
+    id: 'cornBread',
     title: "CORN BREAD",
     tempTimeYield: '425\u00B0 for 20-25 min',
     ingredients: [
@@ -78,6 +83,7 @@ const recipes = {
     ]
   },
   chickenEnchiladas: {
+    id: 'chickenEnchiladas',
     title: "Chicken Enchiladas",
     tempTimeYield: 'Makes 10',
     ingredients: [
@@ -96,6 +102,7 @@ const recipes = {
     ]
   },
   candiedYams: {
+    id: 'candiedYams',
     title: 'Candied Yams',
     tempTimeYield: '',
     ingredients: [
@@ -115,6 +122,7 @@ const recipes = {
     credit: 'June Evans'
   },
   biscuits: {
+    id: 'biscuits',
     title: 'Biscuits',
     tempTimeYield: 'Makes 10-12. 425\u00B0 for 15 min',
     ingredients: [
@@ -137,6 +145,7 @@ const recipes = {
     credit: '"Mom E"'
   },
   tacoSoup: {
+    id: 'tacoSoup',
     title: 'Taco Soup',
     tempTimeYield: 'Takes several hours in a crock pot',
     ingredients: [
@@ -159,6 +168,7 @@ const recipes = {
     ]
   },
   bananaBread: {
+    id: 'bananaBread',
     title: 'Banana Bread',
     tempTimeYield: 'Bake at 350\u00B0 for: Large—60 min. Medium—50 min. Small—45 min.',
     ingredients: [
@@ -182,6 +192,7 @@ const recipes = {
     credit: 'Julie Price'
   },
   cherryPie: {
+    id: 'cherryPie',
     title: 'Cherry Pie',
     tempTimeYield: 'Makes 1 pie. 400\u00B0 for 30 min.',
     ingredients: [
@@ -199,6 +210,7 @@ const recipes = {
     credit: 'Barbara Harlan (or Grandma Weber?)'
   },
   wings: {
+    id: 'wings',
     title: 'Wings',
     tempTimeYield: '350\u00B0 for 1.5 hours',
     ingredients: [
@@ -219,6 +231,7 @@ const recipes = {
     credit: 'Keri Evans'
   },
   oysters: {
+    id: 'oysters',
     title: 'Grilled Oysters',
     tempTimeYield: 'Yields 12 oysters',
     ingredients: [
@@ -239,6 +252,7 @@ const recipes = {
     credit: 'Brendo Helgo'
   },
   pieCrust: {
+    id: 'pieCrust',
     title: 'Pie Crust',
     tempTimeYield: '1 top and bottom or two bottoms',
     ingredients: [
@@ -256,6 +270,7 @@ const recipes = {
     credit: 'Grandma (Harlan? Weber?)'
   },
   chocolateChipCookies: {
+    id: 'chocolateChipCookies',
     title: 'Chocolate Chip Cookies',
     tempTimeYield: 'Bake at 350\u00B0 for 10 minutes on a greased sheet. Makes 24 cookies',
     ingredients: [
@@ -279,6 +294,7 @@ const recipes = {
     credit: 'Jessi McAllister (probably!)'
   },
   schnikerdoodles: {
+    id: 'schnikerdoodles',
     title: 'Schnikerdoodles ',
     tempTimeYield: 'Makes 3 ½ dozen',
     ingredients: [
@@ -298,6 +314,7 @@ const recipes = {
     ]
   },
   riceKrispieTreats: {
+    id: 'riceKrispieTreats',
     title: 'Rice Krispy Treats',
     ingredients: [
       '1 ½ cubes margarine',
@@ -311,6 +328,7 @@ const recipes = {
     ],
   },
   ricePilaf: {
+    id: 'ricePilaf',
     title: 'Rice Pilaf',
     tempTimeYield: '15-20 min on a wok',
     ingredients: [
@@ -329,6 +347,7 @@ const recipes = {
     credit: 'Andrea Young'
   },
   haystacks: {
+    id: 'haystacks',
     title: 'Haystacks',
     tempTimeYield: 'Makes 1 large cookie sheet of no-bake cookies',
     ingredients: [
@@ -350,6 +369,7 @@ const recipes = {
     ]
   },
   oatmealCake: {
+    id: 'oatmealCake',
     title: 'Oatmeal Cake',
     tempTimeYield: '35 min at 350\u00B0',
     ingredients: [
@@ -381,6 +401,7 @@ const recipes = {
     credit: 'Andrea Young'
   },
   caramels: {
+    id: 'caramels',
     title: 'Caramels',
     tempTimeYield: 'Makes 1 9x9 pan',
     ingredients: [
@@ -404,6 +425,7 @@ const recipes = {
     credit: 'Andrea Young'
   },
   baconVinegretteSalad: {
+    id: 'baconVinegretteSalad',
     title: 'Bacon Vinegrette Salad',
     ingredients: [
       'DRESSING',
@@ -431,6 +453,7 @@ const recipes = {
     credit: 'Gena Marcum'
   },
   creamyChickenSoup: {
+    id: 'creamyChickenSoup',
     title: 'Creamy Chicken Soup',
     tempTimeYield: 'Serves 4-6',
     ingredients: [
@@ -459,6 +482,7 @@ const recipes = {
     ]
   },
   strawberrySpinachSaladDressing: {
+    id: 'strawberrySpinachSaladDressing',
     title: 'Strawberry Spinach Salad Dressing',
     ingredients: [
       '½ cup raspberry vinegar (or reg vinegar and 1-2 drop red food coloring)',
@@ -472,6 +496,7 @@ const recipes = {
     ]
   },
   honeyButteredPopcorn: {
+    id: 'honeyButteredPopcorn',
     title: 'Honey Buttered Popcorn',
     ingredients: [
       '3 quarts popcorn',
@@ -486,6 +511,7 @@ const recipes = {
     ]
   },
   bakedBeans: {
+    id: 'bakedBeans',
     title: 'Baked Beans',
     ingredients: [
       '3 slices of bacon cut in ½ ',
@@ -505,6 +531,7 @@ const recipes = {
     credit: 'Brenda Evans'
   },
   pepperkaker: {
+    id: 'pepperkaker',
     title: 'Pepperkaker',
     tempTimeYield: '(Swedish Gingersnaps) “Makes Children Kind and Dear”',
     ingredients: [
@@ -527,6 +554,7 @@ const recipes = {
     ]
   },
   pumpkinPie: {
+    id: 'pumpkinPie',
     title: 'Pumpkin Pie',
     tempTimeYield: 'Makes two pies',
     ingredients: [

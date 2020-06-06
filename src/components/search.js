@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
-import recipes from '../data.js';
-const Search = () => {
-  console.log('recipes: ', recipes);
+import React from 'react';
 
-  const [searchQuery, setSearchQuery ] = useState('');
-  console.log('SEARCH QUERY: ', searchQuery);
+const Search = ({setSearchQuery,searchQuery}) => {
   return (
     <input name="search" type="text" placeholder="search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}/>
   );
