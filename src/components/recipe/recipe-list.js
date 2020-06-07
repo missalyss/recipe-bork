@@ -1,9 +1,14 @@
 import React from 'react';
+import { isEmpty } from 'lodash';
 import Recipe from './recipe';
 import alphadividerUtil from '../util/alphadivider';
 import './styles.css';
 
 const RecipeList = ({recipes}) => {
+  if (isEmpty(recipes)) {
+    return (<h3>Oops! No recipes!</h3>)
+  }
+
   const recipesWithAlphadivider = alphadividerUtil({recipes, withRecipe: true});
   const list = recipesWithAlphadivider.map((heading, index) => {
     if (heading.length === 1) {

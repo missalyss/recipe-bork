@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { isEqual } from 'lodash';
 import data from '../data.js';
 import RecipeList from './recipe/recipe-list.js';
 import Nav from './nav';
@@ -15,7 +16,7 @@ const Root = () => {
     if (!filter) {
       return data;
     }
-    const filteredRecipeList = Object.values(recipes).filter(recipe => {
+    const filteredRecipeList = Object.values(data).filter(recipe => {
       const titleMatches = recipe.title.match(new RegExp(filter, 'ig'));
       return titleMatches;
     })
@@ -25,7 +26,7 @@ const Root = () => {
   }
   const filteredRecipes = filterRecipes(searchQuery);
 
-  if (JSON.stringify(recipes) !== JSON.stringify(filteredRecipes)) {
+  if (!isEqual(recipes, filteredRecipes)) {
     setFilteredRecipes(filteredRecipes);
   }
 
