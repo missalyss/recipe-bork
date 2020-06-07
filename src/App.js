@@ -1,5 +1,6 @@
 import React from 'react';
-import './styles-list.css';
+import './pattern-lib/styles-list.css';
+import './pattern-lib/padding-margin.css';
 import Root from './components';
 
 const App = () =>

@@ -9,7 +9,6 @@ import Footer from './footer';
 import './styles/index.css';
 
 const Root = () => {
-  const [ recipes, setFilteredRecipes ] = useState(data);
   const [searchQuery, setSearchQuery ] = useState('');
 
   const filterRecipes = (filter) => {
@@ -25,18 +24,15 @@ const Root = () => {
     return filteredObj;
   }
   const filteredRecipes = filterRecipes(searchQuery);
-
-  if (!isEqual(recipes, filteredRecipes)) {
-    setFilteredRecipes(filteredRecipes);
-  }
+  const filteredResultCount = Object.keys(filteredRecipes).length;
 
   return (
     <div className="Root">
       <Header />
       <div className='rootBody'>
-        <Search setSearchQuery={setSearchQuery} searchQuery={searchQuery}/>
-        <Nav recipes={recipes}/>
-        <RecipeList recipes={recipes} />
+        <Search setSearchQuery={setSearchQuery} searchQuery={searchQuery} numberOfResults={filteredResultCount}/>
+        <Nav recipes={filteredRecipes}/>
+        <RecipeList recipes={filteredRecipes} />
         <Footer />
       </div>
     </div>
