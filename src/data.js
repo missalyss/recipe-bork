@@ -575,11 +575,36 @@ const recipes = {
       'Bake in oven at 425\u00B0 for 15 minutes. Reduce temperature to 350\u00B0, bake 40-50 minutes or until knife comes out clean.',
       'Cool on wire rack for two hours.'
     ]
+  },
+  applePie: {
+    id: 'applePie',
+    title: 'Apple Pie',
+    tempTimeYield: '425\u00B0 and 30-45 min',
+    ingredients: [
+      '6-7 cored, sliced, skinless apples (green preferred—tarter the better!)',
+      '1/4 C apple water (post boil)',
+      '2 T butter dotted',
+      '1 T lemon juice',
+      '-',
+      'SUGAR MIXTURE',
+      '3/4 - 1 C Sugar',
+      '1 - 2 T Flour',
+      '1/8 tsp Salt',
+      '1/2 tsp Cinnamon',
+    ],
+    directions: [
+      'Cook apples until tender and a little transparent, save water afterward!',
+      'Make sugar mixture, put half on bottom of crust.',
+      'Add apples, water, and second half of sugar mixture. Dot cubed butter and lemon juice then top the crust.',
+      '425˚ F and 30-45 min'
+    ],
   }
 };
 
 // recipe template
 /*
+  sameAsId: {
+    id:
     title:
     tempTimeYield:
     ingredients: [
@@ -589,6 +614,7 @@ const recipes = {
 
     ],
     credit:
+  }
 */
 
 // DEGREE CHEAT \u00B0
