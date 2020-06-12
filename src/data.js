@@ -598,6 +598,30 @@ const recipes = {
       'Add apples, water, and second half of sugar mixture. Dot cubed butter and lemon juice then top the crust.',
       '425˚ F and 30-45 min'
     ],
+  },
+  ratatouille: {
+    id: 'ratatouille',
+    title: 'Ratatouille Parisienne',
+    tempTimeYield: 'feeds 5',
+    ingredients: [
+      '1 yellow onion',
+      '4 zucchini',
+      '4 large tomatoes',
+      '1 large eggplant',
+      '1 large bell pepper',
+      '½-1 C water',
+      'Salt',
+      'Herbes de Provence'
+    ],
+    directions: [
+      'Prep all vegetables before starting: dice onion, cut zucchini into thick slices, cube tomatoes and eggplant into large pieces, and cut bell pepper into even squares.',
+      'Put oil (enough to sauté one onion) in the bottom of a large pot on medium to high heat. Sauté onion until slightly browned.',
+      'Add zucchini, tomatoes, eggplant, bell pepper. Stir to make sure nothing sticks to the pot. Add water; it will seem like very minimal water, but as the tomatoes cook, they will release their liquid and make up for it.',
+      'Add salt and herbs to flavor, which will likely be quite a bit—at least a tablespoon of each. Stir and lower temperature to low to medium heat. Add lid and simmer until vegetables are as soft as desired. As the veggies cook, they will condense and make more room in the pot.',
+      'Use a ladle or a measuring cup to serve.'
+    ],
+    credit: 'Monia Rivet Bonjean (translated to English by Alyssa Helgason)',
+    dearAlyssa: "You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have `too much lavender` taste to it? No such thing."
   }
 };
 
