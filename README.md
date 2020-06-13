@@ -1,9 +1,10 @@
 # TODO:
-1. Make server so that it translates everything borked if chosen by user
-1. design to be borkier
-1. nav for each item
-1. add more recipes, obviously
-1. find a way to include CNAME file in `npm run build`
+[ ] - Make server so that it translates everything borked if chosen by user
+[ ] - design to be borkier
+[x] - nav for each item
+[x] - add more recipes, obviously
+[ ] - find a way to include CNAME file in `npm run build`
+[ ] - Filters: type of dessert (pie, cookie, cake, other); dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
 
 # TO DEPLOY:
 

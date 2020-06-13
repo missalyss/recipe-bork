@@ -16,7 +16,8 @@ const recipes = {
       "2 beaten eggs"
     ],
     directions: [ "Mix dry and liquid ingredients in separate bowls.Then combine and mix gently. Don’t overmix."
-    ]
+    ],
+    timeOfDay: ['breakfast']
   },
   ableskivers: {
     id: 'ableskivers',
@@ -35,7 +36,8 @@ const recipes = {
     dearAlyssa: [
       `One day you'll get that special cast-iron skillet required to make these. I don't even know if I could do it without Mom's help though, if I did have one. All I remember is you flip them with the use of a tooth pick.`,
       `And that they taste great with butter, cinnamon-sugar, maple syrup, jam, and powdered sugar.`
-    ]
+    ],
+    timeOfDay: ['breakfast']
   },
   crepes: {
     id: 'crepes',
@@ -49,7 +51,8 @@ const recipes = {
       "¼ tsp salt"
     ],
     directions: [ "Spoon small amount of batter onto lightly greased skillet. Spread batter and wait until there's no wet batter to flip. (Be careful!) Cook until slightly browned. Recommended additives: Banana, Nutella, Coconut, Butter and cinnamon-sugar, maple syrup."
-    ]
+    ],
+    timeOfDay: ['breakfast']
   },
   quiche: {
     id: 'quiche',
@@ -66,7 +69,8 @@ const recipes = {
       "1 T flour"
     ],
     directions: [ "Crust: single shell form then cook at 425\u00B0 for 5 min with weighted tin / tin foil inside to prevent bubbling. Take weight out and cook for another 5 - 7 minutes(not brown!) pull out and decrease heat to 350\u00B0.", "Innards: bacon cooked on low in order to crisp well.", "Cut onion in small pieces and partially sautee in small amount of bacon grease.", "Combine eggs, milk, butter, and flour in a bowl and whisk until flour is not lumpy.", "Layer all ingredients in tin (sprinkle some bacon bits on top for prettiness). Bake for 45 minutes at 350\u00B0"
-    ]
+    ],
+    timeOfDay: ['breakfast']
   },
   cornBread: {
     id: 'cornBread',
@@ -87,7 +91,8 @@ const recipes = {
       "Whisk egg, milk, and oil together.",
       "Add the rest of the dry ingredients all at once. Mix until just moistened. Pour into a greased 9x9 pan.",
       "Bake at 425\u00B0 for 20 - 25 min, or until golden on top."
-    ]
+    ],
+    timeOfDay: ['dinner']
   },
   chickenEnchiladas: {
     id: 'chickenEnchiladas',
@@ -115,7 +120,8 @@ const recipes = {
     dearAlyssa: [
       `You are lazy, so instead of making the sauce yourself, use a mild red sauce in a can from the store. I think one big one does it.`,
       `Don't forget that spooning the mixture into the tortillas and putting them in the dish is a very messy process.`
-    ]
+    ],
+    timeOfDay: ['dinner']
   },
   candiedYams: {
     id: 'candiedYams',
@@ -138,7 +144,8 @@ const recipes = {
     credit: 'June Evans',
     dearAlyssa: [
       `Wear long-sleeve shirt or at least be careful for your arms in this one. Spitting hot sugar, ouch.`
-      ]
+    ],
+    timeOfDay: ['dinner', 'holiday']
   },
   biscuits: {
     id: 'biscuits',
@@ -164,7 +171,8 @@ const recipes = {
     credit: '"Mom E"',
     dearAlyssa: [
       `Jessi is the queen of these, go to her for questions.`
-    ]
+    ],
+    timeOfDay: ['dinner']
   },
   tacoSoup: {
     id: 'tacoSoup',
@@ -187,7 +195,8 @@ const recipes = {
     ],
     directions: [
       'Drain and rinse all beans. Add all ingredients together and let simmer on low, for several hours in a crock pot.'
-    ]
+    ],
+    timeOfDay: ['dinner']
   },
   bananaBread: {
     id: 'bananaBread',
@@ -214,7 +223,8 @@ const recipes = {
     credit: 'Julie Price',
     dearAlyssa: [
       `Isn't it nice to be a grownup and get to keep all the banana bread? When no one is going to give a loaf away as a gift without your okay?`
-      ]
+    ],
+    timeOfDay: ['breakfast', 'dessert']
   },
   cherryPie: {
     id: 'cherryPie',
@@ -235,7 +245,8 @@ const recipes = {
     credit: 'Barbara Harlan (or Grandma Weber?)',
     dearAlyssa: [
       `Instead of stirring cherries in the dough, put it in a different bowl and mix with sugar in there. Just easier and less risk.`
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   wings: {
     id: 'wings',
@@ -256,7 +267,8 @@ const recipes = {
       'Refrigerate overnight or two hours.',
       'Bake at 350\u00B0 for 1 ½ hours.'
     ],
-    credit: 'Keri Evans'
+    credit: 'Keri Evans',
+    timeOfDay: ['dinner', 'lunch']
   },
   oysters: {
     id: 'oysters',
@@ -277,7 +289,8 @@ const recipes = {
       'Thoroughly mix the sauce repeatedly and sauce them oysters.',
       'Once sauce is bubbling, carefully remove that hot little cup of sea juice. Serve!'
     ],
-    credit: 'Brendo Helgo'
+    credit: 'Brendo Helgo',
+    timeOfDay: ['lunch', 'dinner']
   },
   pieCrust: {
     id: 'pieCrust',
@@ -302,7 +315,8 @@ const recipes = {
       `Remember, bottoms need more dough than tops.`,
       `When rolling, knead ball until it's flat from your hands. Flip over and reflour really well--best way to get it to not stick when picking it up for the dish (via rolling back over the pin). If it sticks anyway, scrape up the tearing pieces with a flipper as you pick up the dough.`,
       `Don't forget about Andrea Young's special extra dessert: any extra crust, cut off with scissors, then put on a tin and top with cinnamon sugar.`
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   chocolateChipCookies: {
     id: 'chocolateChipCookies',
@@ -328,7 +342,8 @@ const recipes = {
     ],
     dearAlyssa: [
       `Jessi is also the queen of these too, I think the doubling quantities all come from her`
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   schnikerdoodles: {
     id: 'schnikerdoodles',
@@ -351,7 +366,8 @@ const recipes = {
     ],
     dearAlyssa: [
       `Isn't it "Snickerdoodles" though? I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture.`
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   riceKrispieTreats: {
     id: 'riceKrispieTreats',
@@ -368,7 +384,8 @@ const recipes = {
     ],
     dearAlyssa: [
       `Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)`
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   ricePilaf: {
     id: 'ricePilaf',
@@ -390,7 +407,8 @@ const recipes = {
     credit: 'Andrea Young',
     dearAlyssa: [
       `Your "rice and beans" recipe stems from this one. Brown raw rice in oil and soy sauce, then add water to cook rice. Add black beans. Should this get its own recipe? Nah.`
-    ]
+    ],
+    timeOfDay: ['dinner']
   },
   haystacks: {
     id: 'haystacks',
@@ -416,7 +434,8 @@ const recipes = {
     dearAlyssa: [
       `Make drop cookies very small so they're easier to pick up once they're dried.`,
       `This one can burn, esp at the beginning because your butter probably hasn't melted yet and your milk is trying to save the cocoa and sugar. Don't let it burn.`
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   oatmealCake: {
     id: 'oatmealCake',
@@ -448,7 +467,8 @@ const recipes = {
       'Bake cake for 35 min at 350\u00B0.',
       'Frosting: Melt ingredients in a saucepan. Spread on cake and broil for 1-3 minutes. Watch carefully.'
     ],
-    credit: 'Andrea Young'
+    credit: 'Andrea Young',
+    timeOfDay: ['dessert']
   },
   caramels: {
     id: 'caramels',
@@ -479,7 +499,8 @@ const recipes = {
       `The "firm ball stage" is tricky. Stick on the softer side, because a firmer caramel is not as enjoyable to eat, even if it is easier to get out of the pan.`,
       `To wrap individual caramels, cut rectangles of wax paper/parchment paper wider than you think it needs to be. Twist each end the *same* direction, so that when you pull, it comes unraveled.`,
       `One day, I really ought to try a caramel apple with this recipe.`
-    ]
+    ],
+    timeOfDay: ['dessert', 'holiday']
   },
   redOnionMushroomSalad: {
     id: 'redOnionMushroomSalad',
@@ -507,7 +528,8 @@ const recipes = {
       'Marinate dressing ingredients for a day',
       'Mix salad ingredients, but hold cottage cheese and dressing to add before serving. May be too much dressing for salad so don’t pour all in.'
     ],
-    credit: 'Gena Marcum'
+    credit: 'Gena Marcum',
+    timeOfDay: ['lunch', 'dinner']
   },
   creamyChickenSoup: {
     id: 'creamyChickenSoup',
@@ -536,7 +558,8 @@ const recipes = {
       'Add chicken and cook until heated.',
       'Bring to a boil.',
       'Then add egg yolks and cream, stirring often. Do not boil after egg and cream are added.'
-    ]
+    ],
+    timeOfDay: ['dinner', 'lunch']
   },
   strawberrySpinachSaladDressing: {
     id: 'strawberrySpinachSaladDressing',
@@ -550,7 +573,8 @@ const recipes = {
     ],
     directions: [
       'Add to salad right before eating'
-    ]
+    ],
+    timeOfDay: ['dinner', 'lunch']
   },
   honeyButteredPopcorn: {
     id: 'honeyButteredPopcorn',
@@ -565,7 +589,8 @@ const recipes = {
       'Heat honey peanuts and butter until almost boiling.',
       'Pour over popcorn in roasting pan or large deep pan. Stir to cover all kernels.',
       'Put in oven at 275\u00B0 for about 6 minutes or until caramelized, stirring often.'
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   bakedBeans: {
     id: 'bakedBeans',
@@ -585,7 +610,8 @@ const recipes = {
       'Put mixture in 2 qt dish. Lay bacon on top. ',
       'Bake at 350\u00B0 oven for about 2 hours. '
     ],
-    credit: 'Brenda Evans'
+    credit: 'Brenda Evans',
+    timeOfDay: ['dinner', 'lunch', 'breakfast']
   },
   pepperkaker: {
     id: 'pepperkaker',
@@ -608,7 +634,8 @@ const recipes = {
       'Roll out thin and cut into heart shaped cookies. ',
       'Bake at 350\u00B0 for 8-10 min on a greased cookie sheet.',
       'Hold the pepperkaker in your hand. Make a wish, and then hit the center of the cookie with your knuckle. If it breaks into 3 pieces, give on piece to someone you love and eat the rest. Your wish will come true!'
-    ]
+    ],
+    timeOfDay: ['dessert', 'holiday']
   },
   pumpkinPie: {
     id: 'pumpkinPie',
@@ -631,7 +658,8 @@ const recipes = {
       'Pour into pie shells. ',
       'Bake in oven at 425\u00B0 for 15 minutes. Reduce temperature to 350\u00B0, bake 40-50 minutes or until knife comes out clean.',
       'Cool on wire rack for two hours.'
-    ]
+    ],
+    timeOfDay: ['dessert', 'holiday']
   },
   applePie: {
     id: 'applePie',
@@ -659,7 +687,8 @@ const recipes = {
       `Cooking the apples and then adding water into pie always turns the apples into applesauce. Next time, try cooking the skins (instead of the apples themselves) to get "apple water" and see if that helps the apple slices' texture.`,
       `Before you cut, core, and peel all the apples (which is easiest done with a countertop apple spiralizer), put the slices you've made in the empty pie dish until it's full. Now you have enough apples!`,
       `Consider trying mixing the apples with the sugar mixture before putting either into the pie. May make the flavor more even.`
-    ]
+    ],
+    timeOfDay: ['dessert']
   },
   ratatouille: {
     id: 'ratatouille',
@@ -685,7 +714,8 @@ const recipes = {
     credit: 'Monia Rivet Bonjean (translated to English by Alyssa Helgason)',
     dearAlyssa: [
       `You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have "too much lavender" taste to it? No such thing.`
-    ]
+    ],
+    timeOfDay: ['dinner']
   }
 };
 
