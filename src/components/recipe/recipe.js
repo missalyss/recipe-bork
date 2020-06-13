@@ -50,13 +50,14 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
         <p className='singleDirections'>{directions[0]}</p>
       )}
       {dearAlyssa && (
-        <div className="text-left mt4">
+        <div className="text-left mt4 text-red sm-font">
           <p><em>Dear Alyssa,</em></p>
-          <p><em>{dearAlyssa}</em></p>
+            {dearAlyssa.map((paragraph, i) =>
+            (<p key={i}><em>{paragraph}</em></p>))}
           <p><em>Love, Alyssa</em></p>
         </div>
       )}
-      {credit && (<p className="small-font">Thank you, {credit} for this recipe!</p>)}
+      {credit && (<p className={`xs-font ${dearAlyssa ? 'pt4' : ''}`}>Thank you, {credit} for this recipe!</p>)}
 
 
     <a href='#' className="scroll-link text-blue">Scroll to top</a>

@@ -31,6 +31,10 @@ const recipes = {
       "3 eggs—separated"
     ],
     directions: [ "Blend together (whisk) except egg whites. Whip egg whites into meringue. Heat pan. Fold together. Put a bit of oil or margarine before each batch."
+    ],
+    dearAlyssa: [
+      `One day you'll get that special cast-iron skillet required to make these. I don't even know if I could do it without Mom's help though, if I did have one. All I remember is you flip them with the use of a tooth pick.`,
+      `And that they taste great with butter, cinnamon-sugar, maple syrup, jam, and powdered sugar.`
     ]
   },
   crepes: {
@@ -72,14 +76,17 @@ const recipes = {
       "1 egg",
       "1 cup milk",
       "1 / 3 cup oil",
-      "Whisk above together and add dry all at once:",
+      "",
       "1 cup flour",
       "1 cup cornmeal",
       "¼ cup sugar",
       "1 tsp salt",
       "1 ½ T baking powder"
     ],
-    directions: [ "Mix until just moistened. Pour into 9x9 greased pan. Bake at 425\u00B0 for 20 - 25 min, or until golden on top."
+    directions: [
+      "Whisk egg, milk, and oil together.",
+      "Add the rest of the dry ingredients all at once. Mix until just moistened. Pour into a greased 9x9 pan.",
+      "Bake at 425\u00B0 for 20 - 25 min, or until golden on top."
     ]
   },
   chickenEnchiladas: {
@@ -98,7 +105,16 @@ const recipes = {
       '1 ¼ cup cheddar cheese grated (save ½ for top)',
       '10 flour tortillas'
     ],
-    directions: [ 'Mix tomatoes, tomato sauce, water, chili powder, and salt together; pour 1/3 over 9x13 pan. Then combine chicken, sour cream/yogurt, beans, and cheese.', 'Spoon chicken mixture evenly into 10 tortillas. Roll tightly and put into pan. Pour the rest of sauce on top. Bake covered 350\u00B0 for 20 min. Sprinkle rest of cheese and bake 10 more min. uncovered.', 'Garnish with guacamole, lettuce, olives, sour cream, tomatoes, cheese, salsa, tortilla chips.', 'For guests add: hot sauce, green onions, chiles'
+    directions: [
+      'Mix tomatoes, tomato sauce, water, chili powder, and salt together; pour 1/3 of it over 9x13 pan.',
+      'Combine chicken, sour cream/yogurt, beans, and cheese in a bowl.',
+      'Spoon chicken mixture evenly into 10 tortillas. Roll tightly and put into pan. Pour the rest of sauce on top. Bake covered 350\u00B0 for 20 min. Sprinkle rest of cheese and bake 10 more min. uncovered.',
+      'Garnish with guacamole, lettuce, olives, sour cream, tomatoes, cheese, salsa, tortilla chips.',
+      'For guests add: hot sauce, green onions, chiles'
+    ],
+    dearAlyssa: [
+      `You are lazy, so instead of making the sauce yourself, use a mild red sauce in a can from the store. I think one big one does it.`,
+      `Don't forget that spooning the mixture into the tortillas and putting them in the dish is a very messy process.`
     ]
   },
   candiedYams: {
@@ -119,7 +135,10 @@ const recipes = {
       'In fry pan, melt margarine, sugar, salt, and water to make thick syrup.',
       'Turn Yams in syrup, watch closely that they don’t burn.'
     ],
-    credit: 'June Evans'
+    credit: 'June Evans',
+    dearAlyssa: [
+      `Wear long-sleeve shirt or at least be careful for your arms in this one. Spitting hot sugar, ouch.`
+      ]
   },
   biscuits: {
     id: 'biscuits',
@@ -142,7 +161,10 @@ const recipes = {
       'Roll out, cut with cookie cutter.',
       'Place on greased pan. 425\u00B0 for 15 min'
     ],
-    credit: '"Mom E"'
+    credit: '"Mom E"',
+    dearAlyssa: [
+      `Jessi is the queen of these, go to her for questions.`
+    ]
   },
   tacoSoup: {
     id: 'tacoSoup',
@@ -170,7 +192,7 @@ const recipes = {
   bananaBread: {
     id: 'bananaBread',
     title: 'Banana Bread',
-    tempTimeYield: 'Bake at 350\u00B0 for: Large—60 min. Medium—50 min. Small—45 min.',
+    tempTimeYield: 'Bake at 350\u00B0 for: Large—60 min. Medium—50 min. Small—45 min. Recipe makes 2 large loaves.',
     ingredients: [
       '7 mashed bananas',
       '2 cups sugar',
@@ -189,14 +211,17 @@ const recipes = {
       'Add dry ingredients (flour, soda, powder, salt)',
       'Check with toothpick for doneness.'
     ],
-    credit: 'Julie Price'
+    credit: 'Julie Price',
+    dearAlyssa: [
+      `Isn't it nice to be a grownup and get to keep all the banana bread? When no one is going to give a loaf away as a gift without your okay?`
+      ]
   },
   cherryPie: {
     id: 'cherryPie',
     title: 'Cherry Pie',
     tempTimeYield: 'Makes 1 pie. 400\u00B0 for 30 min.',
     ingredients: [
-      '2 cans Cherries (Oregon Cherries, pitted red tart cherries in water)',
+      '2 cans Cherries ("Oregon Cherries, pitted red tart cherries in water") Save water!!',
       '¾ cup sugar',
       '2 ‘heaping’ T of flour',
       'Keep 2/3 cup juice, drain the rest',
@@ -207,7 +232,10 @@ const recipes = {
       'Pour in juice, cover with top crust.',
       'Bake at 400\u00B0 for 30 min'
     ],
-    credit: 'Barbara Harlan (or Grandma Weber?)'
+    credit: 'Barbara Harlan (or Grandma Weber?)',
+    dearAlyssa: [
+      `Instead of stirring cherries in the dough, put it in a different bowl and mix with sugar in there. Just easier and less risk.`
+    ]
   },
   wings: {
     id: 'wings',
@@ -267,7 +295,14 @@ const recipes = {
       'Roll once! ',
       'To make 2 pies (easier) 2 ½ times recipe: 3 cup+ 2 T flour, 2 ½ tsp salt, ½ cup+ 2T water (5 oz), 10 oz shortening'
     ],
-    credit: 'Grandma (Harlan? Weber?)'
+    credit: 'Grandma (Harlan? Weber?)',
+    dearAlyssa: [
+      `This never seems enough for one full pie, let alone two bottoms.`,
+      `For a full pie, do 1.5 C flour, and a heaping 1/2 cup of shortening (since 4oz = 1/2 cup). Add just a little more salt, but water can stay about the same.`,
+      `Remember, bottoms need more dough than tops.`,
+      `When rolling, knead ball until it's flat from your hands. Flip over and reflour really well--best way to get it to not stick when picking it up for the dish (via rolling back over the pin). If it sticks anyway, scrape up the tearing pieces with a flipper as you pick up the dough.`,
+      `Don't forget about Andrea Young's special extra dessert: any extra crust, cut off with scissors, then put on a tin and top with cinnamon sugar.`
+    ]
   },
   chocolateChipCookies: {
     id: 'chocolateChipCookies',
@@ -291,7 +326,9 @@ const recipes = {
       'Add flour, soda, salt, chocolate chips.',
       'Bake at 350\u00B0 for 10 minutes on a greased sheet'
     ],
-    credit: 'Jessi McAllister (probably!)'
+    dearAlyssa: [
+      `Jessi is also the queen of these too, I think the doubling quantities all come from her`
+    ]
   },
   schnikerdoodles: {
     id: 'schnikerdoodles',
@@ -309,8 +346,11 @@ const recipes = {
     directions: [
       'Cream shortening, sugar, and eggs.',
       'Add flour, cream of tarter, soda, and salt. ',
-      'Roll dough in quarter size balls and cover in a sugar & cinnamon mixture. ',
+      'Roll dough in quarter size balls and cover in a sugar & cinnamon mixture.',
       'Bake at 375\u00B0 for 10-12 minutes'
+    ],
+    dearAlyssa: [
+      `Isn't it "Snickerdoodles" though? I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture.`
     ]
   },
   riceKrispieTreats: {
@@ -326,6 +366,9 @@ const recipes = {
       'Add cereal. ',
       'Mix well and put on pan to cool.'
     ],
+    dearAlyssa: [
+      `Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)`
+    ]
   },
   ricePilaf: {
     id: 'ricePilaf',
@@ -340,11 +383,14 @@ const recipes = {
       '5 cups water'
     ],
     directions: [
-      'Brown onion and rice in oil until lightly golden.',
+      'Brown onion and RAW rice in oil until lightly golden. Rice should look a little transparent.',
       'Add bullion, carrots, and water. Stir.',
       'Put lid on when on medium heat for 15-20 min.'
     ],
-    credit: 'Andrea Young'
+    credit: 'Andrea Young',
+    dearAlyssa: [
+      `Your "rice and beans" recipe stems from this one. Brown raw rice in oil and soy sauce, then add water to cook rice. Add black beans. Should this get its own recipe? Nah.`
+    ]
   },
   haystacks: {
     id: 'haystacks',
@@ -352,7 +398,7 @@ const recipes = {
     tempTimeYield: 'Makes 1 large cookie sheet of no-bake cookies',
     ingredients: [
       '2 cup sugar',
-      '¼ cup coca',
+      '¼ cup cocoa',
       '½ cup milk',
       '½ cup butter',
       '½ cup peanut butter',
@@ -360,12 +406,16 @@ const recipes = {
       '3 cup oatmeal'
     ],
     directions: [
-      'Combine sugar, coca, butter, milk and peanut butter in sauce pan.',
+      'Combine sugar, cocoa, butter, milk and peanut butter in sauce pan.',
       'Bring to a boil and stir. Cook one minute. ',
       'Add oatmeal and vanilla and stir well. ',
       'Let mixture cool for a few minutes. ',
       'Scoop out with a spoon and drop onto cookie sheet. ',
       'Let them cool completely.'
+    ],
+    dearAlyssa: [
+      `Make drop cookies very small so they're easier to pick up once they're dried.`,
+      `This one can burn, esp at the beginning because your butter probably hasn't melted yet and your milk is trying to save the cocoa and sugar. Don't let it burn.`
     ]
   },
   oatmealCake: {
@@ -417,16 +467,23 @@ const recipes = {
       'Add 1/3 cream. Boil 7 more minutes',
       'Add 1/3 more cream, boil for 7 more minutes',
       'Total = 21 minutes.',
-      'Add rest of cream, and boil until soft, firm ball stage--Critical! ',
+      'Add rest of cream, and boil until soft, firm ball stage--Critical! (Pour tiny bits in cold water to check texture)',
       'Take off the heat and quickly stir in butter and vanilla. ',
       'Pour in buttered 9x9 pan',
       'Cool in fridge'
     ],
-    credit: 'Andrea Young'
+    credit: 'Andrea Young',
+    dearAlyssa: [
+      `Do this with a team mate or your hand will get so, so, so, so tired.`,
+      `Have everything ready before you start (especially if you're alone) so you don't get stuck not being able to stir.`,
+      `The "firm ball stage" is tricky. Stick on the softer side, because a firmer caramel is not as enjoyable to eat, even if it is easier to get out of the pan.`,
+      `To wrap individual caramels, cut rectangles of wax paper/parchment paper wider than you think it needs to be. Twist each end the *same* direction, so that when you pull, it comes unraveled.`,
+      `One day, I really ought to try a caramel apple with this recipe.`
+    ]
   },
-  baconVinegretteSalad: {
-    id: 'baconVinegretteSalad',
-    title: 'Bacon Vinegrette Salad',
+  redOnionMushroomSalad: {
+    id: 'redOnionMushroomSalad',
+    title: 'Red Onion Mushroom Salad',
     ingredients: [
       'DRESSING',
       '1 ½ T poppy seed',
@@ -533,7 +590,7 @@ const recipes = {
   pepperkaker: {
     id: 'pepperkaker',
     title: 'Pepperkaker',
-    tempTimeYield: '(Swedish Gingersnaps) “Makes Children Kind and Dear”',
+    tempTimeYield: '(Swedish Gingersnaps) “Makes Children Kind and Dear” 350\u00B0 for 8-10 min',
     ingredients: [
       '2/3 cup shortening',
       '¾ cup brown sugar',
@@ -598,6 +655,11 @@ const recipes = {
       'Add apples, water, and second half of sugar mixture. Dot cubed butter and lemon juice then top the crust.',
       '425˚ F and 30-45 min'
     ],
+    dearAlyssa: [
+      `Cooking the apples and then adding water into pie always turns the apples into applesauce. Next time, try cooking the skins (instead of the apples themselves) to get "apple water" and see if that helps the apple slices' texture.`,
+      `Before you cut, core, and peel all the apples (which is easiest done with a countertop apple spiralizer), put the slices you've made in the empty pie dish until it's full. Now you have enough apples!`,
+      `Consider trying mixing the apples with the sugar mixture before putting either into the pie. May make the flavor more even.`
+    ]
   },
   ratatouille: {
     id: 'ratatouille',
@@ -621,7 +683,9 @@ const recipes = {
       'Use a ladle or a measuring cup to serve.'
     ],
     credit: 'Monia Rivet Bonjean (translated to English by Alyssa Helgason)',
-    dearAlyssa: "You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have `too much lavender` taste to it? No such thing."
+    dearAlyssa: [
+      `You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have "too much lavender" taste to it? No such thing.`
+    ]
   }
 };
 
