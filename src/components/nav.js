@@ -1,5 +1,4 @@
 import React from 'react';
-import data from '../data.js';
 import alphadividerUtil from './util/alphadivider';
 import './styles/nav.css';
 

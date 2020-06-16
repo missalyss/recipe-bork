@@ -1,10 +1,12 @@
 # TODO:
-[ ] - Make server so that it translates everything borked if chosen by user
-[ ] - design to be borkier
+
+[ ] - design to be borkier (api no go-- create json for title and nav strings to go into, call up on them when something should be "borked". )
 [x] - nav for each item
 [x] - add more recipes, obviously
-[ ] - find a way to include CNAME file in `npm run build`
+[ ] - find a way to include CNAME file in `npm run build`/script for deployment.
 [ ] - Filters: type of dessert (pie, cookie, cake, other); dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
+[ ] - make manifest.json with icon so it can be added to home screen and look nice and shit
+
 
 # TO DEPLOY:
 
