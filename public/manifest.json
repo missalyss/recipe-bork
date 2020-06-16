@@ -3,7 +3,7 @@
   "name": "Recipe Bork",
   "icons": [
     {
-      "src": "chef-icon-b.png",
+      "src": "chef-icon-bg.png",
       "sizes": "192x192",
       "type": "image/png"
     },
