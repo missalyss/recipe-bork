@@ -5,21 +5,15 @@
 [x] - add more recipes, obviously
 [ ] - find a way to include CNAME file in `npm run build`/script for deployment.
 [ ] - Filters: type of dessert (pie, cookie, cake, other); dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
-[ ] - make manifest.json with icon so it can be added to home screen and look nice and shit
+[x] - make manifest.json with icon so it can be added to home screen and look nice and shit
 
 
 # TO DEPLOY:
 
 ```shell
-npm run build
+npm run build && surge
 ```
-
-after complete
-
-```shell
-surge
-```
-
+Then:
 - Change project path to include /build
 - Make sure domain name remains `recipe-bork`
 - submit. voila!

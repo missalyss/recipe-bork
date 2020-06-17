@@ -716,13 +716,47 @@ const recipes = {
       `You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have "too much lavender" taste to it? No such thing.`
     ],
     timeOfDay: ['dinner']
+  },
+    phadThai: {
+    id: 'phadThai',
+    title: 'Issan Phad Thai',
+    tempTimeYield: 'Preps for one meal. Measurments are approximate and flexible according to taste!',
+    ingredients: [
+      '1-2 cloves garlic, minced',
+      '1/2 small onion, diced',
+      '1/2 small tomato, diced',
+      '1 small handful of thin rice noodles',
+      '1 egg',
+      '1 cup of cooked meat/tofu if desired',
+      '1 T oyster sauce',
+      '1 T soy sauce',
+      '1 tsp-ish white sugar',
+      '1 T green onions, chopped',
+      '2 T roasted shelled unsalted peanuts, crushed/chopped',
+      '1 slice of lime'
+    ],
+    directions: [
+      'Start by boiling water for the noodles. Put noodles in a flat bowl where they can be submerged with boiling water. Check noodle consistency every few minutes, pour out water once they are chewy, but not too soft.',
+      'Recommend waiting until all food is prepared before starting the wok.',
+      'Put cooking oil, garlic, and onion into a wok or large frying pan. Cook on med-high until fragrant. Add tomato and stir in.',
+      'Push all food to one side of pan and break eggs in pan (or prescramble in bowl). Scramble eggs.',
+      "Mix veggies and eggs together once eggs are cooked enough. Add noodles to wok. (It's okay if noodles aren't completely drained.) Add a small amount of water if the noodles are sticky.",
+      "Add cooked and chopped meat if desired.",
+      'Add in oyster sauce, soy sauce, and sugar. Cook for a minute, and adjust sauces to desired flavor.',
+      "Add green onions for a minute before taking off heat to take the onion-y edge off",
+      "Serve with peanuts and lime"
+    ],
+    credit: "Miss On--who is never off!",
+    dearAlyssa: [
+      ""
+    ]
   }
 };
 
 // recipe template
 /*
   sameAsId: {
-    id:
+    id: sameAsId
     title:
     tempTimeYield:
     ingredients: [
@@ -732,6 +766,9 @@ const recipes = {
 
     ],
     credit:
+    dearAlyssa: [
+
+    ]
   }
 */
 
