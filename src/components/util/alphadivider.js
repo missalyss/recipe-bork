@@ -9,7 +9,8 @@ const alphadividerUtil = ({recipes, withRecipe}) => {
       recipesWithAlphadivider.push(beginningLetter);
       alphadividersOnly.push(beginningLetter)
     }
-      recipesWithAlphadivider.push(recipeName)
+      recipesWithAlphadivider.push(recipeName);
+      return;
   })
   return withRecipe ? recipesWithAlphadivider : alphadividersOnly
 }

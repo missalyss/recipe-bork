@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { isEqual } from 'lodash';
 import data from '../data.js';
 import RecipeList from './recipe/recipe-list.js';
 import Nav from './nav';
