@@ -728,7 +728,7 @@ const recipes = {
       '1 small handful of thin rice noodles',
       '1 egg',
       '1 cup of cooked meat/tofu if desired',
-      '1 T oyster sauce',
+      '1 T mushroom or oyster sauce',
       '1 T soy sauce',
       '1 tsp-ish white sugar',
       '1 T green onions, chopped',
@@ -737,7 +737,6 @@ const recipes = {
     ],
     directions: [
       'Start by boiling water for the noodles. Put noodles in a flat bowl where they can be submerged with boiling water. Check noodle consistency every few minutes, pour out water once they are chewy, but not too soft.',
-      'Recommend waiting until all food is prepared before starting the wok.',
       'Put cooking oil, garlic, and onion into a wok or large frying pan. Cook on med-high until fragrant. Add tomato and stir in.',
       'Push all food to one side of pan and break eggs in pan (or prescramble in bowl). Scramble eggs.',
       "Mix veggies and eggs together once eggs are cooked enough. Add noodles to wok. (It's okay if noodles aren't completely drained.) Add a small amount of water if the noodles are sticky.",
@@ -748,9 +747,43 @@ const recipes = {
     ],
     credit: "Miss On--who is never off!",
     dearAlyssa: [
-      ""
+      "Honestly, half of this recipe is your own reminders and instructions. Don't forget to take it REAL easy with the sauces--you often go overboard. Start small, you can always add more.",
+      'Recommend waiting until all food is prepared before starting the wok!!',
+      'Make sure you have everything before you start!!'
     ]
+  },
+  massamanCurry: {
+    id: 'massamanCurry',
+    title: 'Massaman Curry',
+    tempTimeYield: 'Preps for one meal.',
+    ingredients: [
+      '1 T oil',
+      '1 tsp red chili paste',
+      '1 tsp curry powder',
+      '1 T tomato',
+      '1 T onion',
+      '3 T canned coconut milk',
+      '2 T tofu or meat of choice',
+      '1/2 C water',
+      '1/2 C canned coconut milk',
+      '1 C mixed veggies (pre-cooked potato or pumpkin, carrot, broccoli, mushroom)',
+      '1 T soy sauce',
+      '1 T mushroom or oyster sauce',
+      '1 tsp sugar',
+      '1 tsp lime juice',
+      '1 T canned coconut milk',
+      '1 T roasted peanuts'
+    ],
+    directions: [
+      'In wok (or large frying pan), fry the following for 1-2 minutes, until fragrant: oil, chili paste, curry powser, tomato, onion, tofu/meat, and 3T of canned coconut milk.',
+      'Add water, 1/2 cup of coconut milk, and mixed vegetables. Cook for 3-4 minutes',
+      'Add soy sauce, mushroom/oyster sauce, sugar, and lime juice. Remove from heat',
+      'Before serving, top with 1 T of coconut milk and roasted peanuts. Great with side of rice.'
+    ],
+    credit: 'Miss On--who is never off!',
+    dearAlyssa: []
   }
+
 };
 
 // recipe template
