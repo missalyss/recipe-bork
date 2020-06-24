@@ -20,6 +20,45 @@ Then:
 
 
 
+# DATA TEMPLATE
+
+```
+  "template": {
+    "id": "template",
+    "title": "",
+    "tempTimeYield": "",
+    "ingredients": [
+      ""
+    ],
+    "directions": [
+      ""
+    ],
+    "credit": "",
+    "timeOfDay": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "dessert",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      ""
+    ]
+  }
+```
+
+### CHEATS
+DEGREE \u00B0 °
+half ½
+1third ⅓
+2thirds ⅔
+fourth ¼
+3fourth ¾
+eighth ⅛
+
+
+
+
 
 ## Available Scripts
 

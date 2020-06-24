@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import rawData from '../data.js';
+import rawData from '../data.json';
 import alphabetize from './util/alphabetize';
 import RecipeList from './recipe/recipe-list.js';
 import Nav from './nav';

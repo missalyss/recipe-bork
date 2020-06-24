@@ -17,6 +17,10 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
     </ol>
   )
 
+   const creditDue = credit && credit.text && (
+   <p className={`xs-font ${includeDearAlyssa ? 'pt4' : ''}`}>Thank you, {credit.url? (<a href={credit.url}>{credit.text}</a>) : credit.text} for this recipe!</p>
+   )
+
   return (
     <div className='container recipe-container bg-cream' id={id}>
       <h1 className='text-soft-black r-title'>
@@ -35,10 +39,8 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
           <p><em>Love, Alyssa</em></p>
         </div>
       )}
-      {credit && (<p className={`xs-font ${includeDearAlyssa ? 'pt4' : ''}`}>Thank you, {credit} for this recipe!</p>)}
-
-
-    <a href='#' className="scroll-link text-blue">Scroll to top</a>
+      {creditDue}
+      <a href='#' className="scroll-link text-blue">Scroll to top</a>
     </div>
   );
 }
