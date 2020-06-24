@@ -1,7 +1,9 @@
 import React from 'react';
+import { isEmpty } from "lodash";
 import Ingredients from './ingredients';
 
 const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credit, dearAlyssa } }) => {
+  const includeDearAlyssa = !isEmpty(dearAlyssa);
   const titlea = title.toLowerCase()
   const id = titlea.replace(/\s+/g, '-');
 
@@ -25,7 +27,7 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
       {directions[1] ? directionsOrderedList : (
         <p className='singleDirections'>{directions[0]}</p>
       )}
-      {dearAlyssa && (
+      {includeDearAlyssa && (
         <div className="text-left mt4 text-red sm-font">
           <p><em>Dear Alyssa,</em></p>
             {dearAlyssa.map((paragraph, i) =>
@@ -33,7 +35,7 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
           <p><em>Love, Alyssa</em></p>
         </div>
       )}
-      {credit && (<p className={`xs-font ${dearAlyssa ? 'pt4' : ''}`}>Thank you, {credit} for this recipe!</p>)}
+      {credit && (<p className={`xs-font ${includeDearAlyssa ? 'pt4' : ''}`}>Thank you, {credit} for this recipe!</p>)}
 
 
     <a href='#' className="scroll-link text-blue">Scroll to top</a>

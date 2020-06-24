@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import data from '../data.js';
+import rawData from '../data.js';
+import alphabetize from './util/alphabetize';
 import RecipeList from './recipe/recipe-list.js';
 import Nav from './nav';
 import Search from './search';
@@ -7,6 +8,8 @@ import Header from './header';
 import Filters from './filters';
 import Footer from './footer';
 import './styles/index.css';
+
+const data = alphabetize(rawData);
 
 const Root = () => {
   const [searchQuery, setSearchQuery ] = useState('');

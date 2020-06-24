@@ -782,8 +782,33 @@ const recipes = {
     ],
     credit: 'Miss On--who is never off!',
     dearAlyssa: []
+  },
+  pancakes: {
+    id: 'pancakes',
+    title: 'Pancakes',
+    tempTimeYield: 'Makes a full breakfast AND dinner for two adults',
+    ingredients: [
+      '~2 1/2 C flour',
+      '~3 T baking powder',
+      '~1 tsp salt',
+      '~2 T sugar',
+      `1 or 2 eggs`,
+      `~3 T of fully melted butter/flavored oil`,
+      'as much milk as it takes for consistency'
+    ],
+    directions: [
+      'Whisk together dry ingredients (flour, powder, salt, sugar).',
+      'Add eggs, butter, and milk.',
+      'Keep your pan on medium heat, use butter on your pan for the best deliciousness.',
+      `SWEET PANCAKES:: add directly to the pan: blueberries, flavored chips (chocolate chips, butterscotch chips, white chocolate chips, etc). Or don't! Serve with butter, jam, syrup, peanut butter, powdered sugar, cinnamon & sugar, whatever tickles your fancy!`,
+      `Recipe has enough batter for breakfast AND dinner. BE CAREFUL when adding sweet-enhancing ingredients to your breakfast batter if you're going to have savory pancakes later! (No vanilla, cinnamon, etc.)`,
+      `SAVORY PANCAKES: thin batter as desired for correct consistency. Add any of the following to batter: onion powder, garlic powder, cheese (cheddar, parmesan, mozzarella juice), sour cream, chives, etc. Possible meals: caprese with meatballs or fried chicken, black beans and corn, salad and meat in general. Use your imagination! The world is your pancake!`
+    ],
+    credit: 'Brendo Helgo',
+    dearAlyssa: [
+      'Just always have Brendon make these, because the way he fries the pancakes is just d e l i c i o u s.'
+    ]
   }
-
 };
 
 // recipe template
@@ -807,10 +832,4 @@ const recipes = {
 
 // DEGREE CHEAT \u00B0
 
-  // alphebetize the object
-  const alphebetizedRecipes = {};
-  Object.keys(recipes).sort().forEach(function(key) {
-  alphebetizedRecipes[key] = recipes[key];
-});
-
-export default alphebetizedRecipes;
+export default recipes;
