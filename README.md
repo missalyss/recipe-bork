@@ -1,10 +1,11 @@
 # TODO:
 
 [ ] - design to be borkier (api no go-- create json for title and nav strings to go into, call up on them when something should be "borked". )
+[ ] - find a way to include CNAME file in `npm run build`/script for deployment.
+[ ] - type of dessert: (pie, cookie, cake, other);
+[ ] - dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
 [x] - nav for each item
 [x] - add more recipes, obviously
-[ ] - find a way to include CNAME file in `npm run build`/script for deployment.
-[ ] - Filters: type of dessert (pie, cookie, cake, other); dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
 [x] - make manifest.json with icon so it can be added to home screen and look nice and shit
 
 
@@ -74,11 +75,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+[http://localhost:3000](http://localhost:3000)
+The page will reload if you make edits.
 
 ### `npm test`
 
