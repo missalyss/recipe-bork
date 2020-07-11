@@ -33,7 +33,10 @@ Then:
     "directions": [
       ""
     ],
-    "credit": "",
+    "credit": {
+      "text": "",
+      "url": "delete if N/A"
+    },
     "timeOfDay": [
       "breakfast",
       "lunch",
@@ -55,6 +58,11 @@ half ½
 fourth ¼
 3fourth ¾
 eighth ⅛
+
+### USE
+cup instead of C
+tsp instead of teaspoon
+T instead of tablespoon
 
 
 
