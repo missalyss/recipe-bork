@@ -12,12 +12,8 @@
 # TO DEPLOY:
 
 ```shell
-npm run build && surge
+npm run deploy
 ```
-Then:
-- Change project path to include /build
-- submit. voila!
-
 
 
 # DATA TEMPLATE

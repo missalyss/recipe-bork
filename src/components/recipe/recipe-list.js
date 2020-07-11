@@ -4,9 +4,9 @@ import Recipe from './recipe';
 import alphadividerUtil from '../util/alphadivider';
 import './styles.css';
 
-const RecipeList = ({recipes}) => {
+const RecipeList = ({recipes, isBorked}) => {
   if (isEmpty(recipes)) {
-    return (<h3>Oops! No recipes!</h3>)
+    return (<h3>{isBorked ? "Ouoops! Nu receepes! Bork Bork Bork!" : "Oops! No recipes!"}</h3>)
   }
 
   const recipesWithAlphadivider = alphadividerUtil({recipes, withRecipe: true});
@@ -14,7 +14,7 @@ const RecipeList = ({recipes}) => {
     if (heading.length === 1) {
       return (<h3 className='container bg-dark-blue text-cream' id={heading} key={index}>{heading.toUpperCase()}</h3>)
     }
-    return (<Recipe recipe={recipes[heading]} key={index} />)
+    return (<Recipe recipe={recipes[heading]} key={index} isBorked={isBorked}/>)
   });
 
   return (

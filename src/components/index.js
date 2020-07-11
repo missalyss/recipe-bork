@@ -6,6 +6,7 @@ import Nav from './nav';
 import Search from './search';
 import Header from './header';
 import Filters from './filters';
+import BorkBox from './bork-box';
 import Footer from './footer';
 import './styles/index.css';
 
@@ -15,7 +16,7 @@ const Root = () => {
   const [searchQuery, setSearchQuery ] = useState('');
   const [mealTypeFilter, setMealTypeFilter ] = useState('');
   const [dietaryNeedsFilter, setDietaryNeedsFilter ] = useState('');
-
+  const [isBorked, setBorked ] = useState(false);
 
   const filterRecipes = (recipeList, filterType, filter) => {
     if (!filter) {
@@ -47,13 +48,14 @@ const Root = () => {
 
   return (
     <div className="Root">
-      <Header />
+      <Header isBorked={isBorked} />
+      <BorkBox setBorked={setBorked} isBorked={isBorked} />
       <div className='rootBody'>
-        <Search setSearchQuery={setSearchQuery} searchQuery={searchQuery} numberOfResults={filteredResultCount}/>
-        <Filters setMealTypeFilter={setMealTypeFilter} setDietaryNeedsFilter={setDietaryNeedsFilter}/>
+        <Search setSearchQuery={setSearchQuery} searchQuery={searchQuery} numberOfResults={filteredResultCount} isBorked={isBorked}/>
+        <Filters setMealTypeFilter={setMealTypeFilter} setDietaryNeedsFilter={setDietaryNeedsFilter} isBorked={isBorked}/>
         <Nav recipes={filteredRecipes}/>
-        <RecipeList recipes={filteredRecipes} />
-        <Footer />
+        <RecipeList recipes={filteredRecipes} isBorked={isBorked}/>
+        <Footer isBorked={isBorked} />
       </div>
     </div>
   );

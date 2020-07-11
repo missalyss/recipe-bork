@@ -7,3 +7,9 @@
   border-radius: 8px;
   border: none;
 }
+
+.bork-box {
+  transform: rotate(90deg);
+  left: 0;
+  top: 0;
+}
