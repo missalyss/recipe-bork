@@ -12,11 +12,14 @@
       "1 tsp salt",
       "1 cup applesauce",
       "¼ cups milk",
-      "4 T Veggie oil",
+      "4 T veggie oil",
       "2 beaten eggs"
     ],
     "directions": [
       "Mix dry and liquid ingredients in separate bowls.Then combine and mix gently. Don’t overmix."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "timeOfDay": [
       "breakfast"
@@ -59,19 +62,22 @@
     "directions": [
       "Spoon small amount of batter onto lightly greased skillet. Spread batter and wait until there's no wet batter to flip. (Be careful!) Cook until slightly browned. Recommended additives: Banana, Nutella, Coconut, Butter and cinnamon-sugar, maple syrup."
     ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
     "timeOfDay": [
       "breakfast"
     ]
   },
   "quiche": {
     "id": "quiche",
-    "title": "QUICHE",
+    "title": "Quiche",
     "tempTimeYield": "Crust: 425° 5 min. Pie: 350° 45 min.",
     "ingredients": [
       "About 7 slices of bacon",
-      "1 whole med.White / sweet(what’s the difference ?) onion",
-      "  ½ green pepper",
-      "1 cup of cheese(used swiss..maybe a little sharper w / cheddar ?)",
+      "1 whole medium white or sweet(what’s the difference?) onion",
+      "½ green pepper",
+      "1 cup of grated cheese",
       "4 eggs",
       "1 cup milk",
       "1 T butter melted",
@@ -82,21 +88,21 @@
       "Innards: bacon cooked on low in order to crisp well.",
       "Cut onion in small pieces and partially sautee in small amount of bacon grease.",
       "Combine eggs, milk, butter, and flour in a bowl and whisk until flour is not lumpy.",
-      "Layer all ingredients in tin (sprinkle some bacon bits on top for prettiness). Bake for 45 minutes at 350°"
+      "Layer all ingredients over crust (sprinkle some bacon bits on top for prettiness). Bake for 45 minutes at 350°"
     ],
+    "dietaryNeeds": [],
     "timeOfDay": [
       "breakfast"
     ]
   },
   "cornBread": {
     "id": "cornBread",
-    "title": "CORN BREAD",
+    "title": "Corn Bread",
     "tempTimeYield": "425° for 20-25 min",
     "ingredients": [
       "1 egg",
       "1 cup milk",
       "⅓ cup oil",
-      "",
       "1 cup flour",
       "1 cup cornmeal",
       "¼ cup sugar",
@@ -105,8 +111,11 @@
     ],
     "directions": [
       "Whisk egg, milk, and oil together.",
-      "Add the rest of the dry ingredients all at once. Mix until just moistened. Pour into a greased 9x9 pan.",
-      "Bake at 425° for 20 - 25 min, or until golden on top."
+      "Add flour, cornmeal, sugar, salt, and baking powder all at once. Mix until just moistened.",
+      "Pour into a greasted 9x9 pan and bake at 425° for 20 - 25 min, or until golden on top."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "timeOfDay": [
       "dinner"
@@ -126,7 +135,7 @@
       "¾ to  cup sour cream or yogurt",
       "1 16 oz can black beans (Caribbean style, drained lightly, but not rinsed)",
       "1 ¼ cup cheddar cheese grated (save ½ for top)",
-      "10 flour tortillas"
+      "10 flour (or soaked corn) tortillas (8\" or fits width of pan) "
     ],
     "directions": [
       "Mix tomatoes, tomato sauce, water, chili powder, and salt together; pour ⅓ of it over 9x13 pan.",
@@ -134,6 +143,9 @@
       "Spoon chicken mixture evenly into 10 tortillas. Roll tightly and put into pan. Pour the rest of sauce on top. Bake covered 350° for 20 min. Sprinkle rest of cheese and bake 10 more min. uncovered.",
       "Garnish with guacamole, lettuce, olives, sour cream, tomatoes, cheese, salsa, tortilla chips.",
       "For guests add: hot sauce, green onions, chiles"
+    ],
+    "dietaryNeeds": [
+      "gluten-free"
     ],
     "dearAlyssa": [
       "You are lazy, so instead of making the sauce yourself, use a mild red sauce in a can from the store. I think one big one does it.",
@@ -149,7 +161,7 @@
     "tempTimeYield": "",
     "ingredients": [
       "An unknown number of yams",
-      "1 cube margarine",
+      "1 cube butter",
       "2 cups brown sugar",
       "1 tsp salt",
       "¼ cup water"
@@ -158,8 +170,12 @@
       "Cut yams in half",
       "Boil yams until tender but firm. Peel after they cool",
       "Slice yams about half inch thick",
-      "In fry pan, melt margarine, sugar, salt, and water to make thick syrup.",
+      "In fry pan, melt butter, sugar, salt, and water to make thick syrup.",
       "Turn Yams in syrup, watch closely that they don’t burn."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "gluten-free"
     ],
     "credit": {
       "text": "June Evans"
@@ -178,13 +194,12 @@
     "tempTimeYield": "Makes 10-12. 425° for 15 min",
     "ingredients": [
       "2 cups flour",
-      "1 T sgar",
+      "1 T sugar",
       "1 T baking powder",
       "¾ tsp salt",
-      "½ tsp. soda",
+      "½ tsp soda",
       "⅓ cup shortening (3 oz)",
-      "1 cup buttermilk (almost 1 cup milk",
-      "1 T vinegar"
+      "1 cup buttermilk (substitute with almost 1 cup milk + 1 T vinegar"
     ],
     "directions": [
       "Sift dry ingredients.",
@@ -193,6 +208,9 @@
       "Place on flour board, knead lightly.",
       "Roll out, cut with cookie cutter.",
       "Place on greased pan. 425° for 15 min"
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "credit": {
       "text": "\"Mom E\""
@@ -212,12 +230,12 @@
       "1 can corn (not drained)",
       "1 can chopped green chilies",
       "1 chopped onion",
-      "1 tsp. salt",
-      "½ tsp. garlic",
-      "1 package Taco seasoning",
+      "1 tsp salt",
+      "½ tsp garlic",
+      "1 package taco seasoning",
       "1 can chopped tomatoes",
-      "3-4 cans tomato sauce+1 can water",
-      "1-2 lbs. Ground beef (or ground turkey)",
+      "3-4 cans tomato sauce + 1 can water",
+      "1-2 lbs ground beef (or ground turkey)",
       "2 cans chili con carne",
       "2 cans kidney beans",
       "2 cans black beans",
@@ -225,6 +243,11 @@
     ],
     "directions": [
       "Drain and rinse all beans. Add all ingredients together and let simmer on low, for several hours in a crock pot."
+    ],
+    "dietaryNeeds": [
+      "low-carb",
+      "gluten-free",
+      "lactose-free"
     ],
     "timeOfDay": [
       "dinner"
@@ -237,7 +260,7 @@
     "ingredients": [
       "7 mashed bananas",
       "2 cups sugar",
-      "2 squares margarine, softened",
+      "2 squares butter, softened",
       "4 eggs",
       "½ cup milk",
       "2 tsp vanilla",
@@ -248,9 +271,12 @@
     ],
     "directions": [
       "Melt frozen bananas in microwave and mash.",
-      "Cream bananas with sugar; add margarine, eggs, vanilla and milk.",
+      "Cream bananas with sugar; add butter, eggs, vanilla and milk.",
       "Add dry ingredients (flour, soda, powder, salt)",
       "Check with toothpick for doneness."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "credit": {
       "text": "Julie Price"
@@ -279,6 +305,11 @@
       "Pour in juice, cover with top crust.",
       "Bake at 400° for 30 min"
     ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free"
+    ],
     "credit": {
       "text": "Barbara Harlan (or Grandma Weber?)"
     },
@@ -294,7 +325,7 @@
     "title": "Wings",
     "tempTimeYield": "350° for 1 ½ hours",
     "ingredients": [
-      "½ cup soy",
+      "½ cup soy sauce",
       "3 T white sugar",
       "1 tsp ginger",
       "½ cup chicken broth",
@@ -303,10 +334,13 @@
       "1 clove garlic minced"
     ],
     "directions": [
-      "Cut off tips and cut in half.",
-      "Put wings in baking dish and pour sauce over.",
-      "Refrigerate overnight or two hours.",
-      "Bake at 350° for 1 ½ hours."
+      "Mix above ingredients to make sauce.",
+      "Cut off wing tips and cut in half. Put wings in baking dish and pour sauce over.",
+      "Refrigerate for 2+ hours. (Overnight is best)",
+      "Bake at 350° for 1½ hours."
+    ],
+    "dietaryNeeds": [
+      "lactose-free"
     ],
     "credit": {
       "text": "Keri Evans"
@@ -335,6 +369,9 @@
       "Thoroughly mix the sauce repeatedly and sauce them oysters.",
       "Once sauce is bubbling, carefully remove that hot little cup of sea juice. Serve!"
     ],
+    "dietaryNeeds": [
+      "low-carb"
+    ],
     "credit": {
       "text": "Brendo Helgo"
     },
@@ -362,6 +399,11 @@
     "credit": {
       "text": "Grandma (Harlan? Weber?)"
     },
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free"
+    ],
     "dearAlyssa": [
       "This never seems enough for one full pie, let alone two bottoms.",
       "For a full pie, do 1 ½ cups flour, and a heaping ½ cups of shortening (since 4oz = ½ cup). Add just a little more salt, but water can stay about the same.",
@@ -395,6 +437,10 @@
       "Add flour, soda, salt, chocolate chips.",
       "Bake at 350° for 10 minutes on a greased sheet"
     ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free"
+    ],
     "dearAlyssa": [
       "Jessi is also the queen of these too, I think the doubling quantities all come from her."
     ],
@@ -421,6 +467,10 @@
       "Roll dough in quarter size balls and cover in a sugar & cinnamon mixture.",
       "Bake at 375° for 10-12 minute"
     ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free"
+    ],
     "dearAlyssa": [
       "Isn't it \"Snickerdoodles\" though? I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture."
     ],
@@ -432,14 +482,17 @@
     "id": "riceKrispieTreats",
     "title": "Rice Krispy Treats",
     "ingredients": [
-      "1 ½ cubes margarine",
+      "1 ½ cubes butter",
       "1 ½ 16 oz package of marshmallows",
       "1 whole box of 15 oz Rice Krispys"
     ],
     "directions": [
-      "Stir margarine and marshmallows together until melted.",
+      "Stir butter and marshmallows together until melted.",
       "Add cereal.",
       "Mix well and put on pan to cool"
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "dearAlyssa": [
       "Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)"
@@ -464,6 +517,10 @@
       "Brown onion and RAW rice in oil until lightly golden. Rice should look a little transparent.",
       "Add bullion, carrots, and water. Stir.",
       "Put lid on when on medium heat for 15-20 min."
+    ],
+    "dietaryNeeds": [
+      "lactose-free",
+      "gluten-free"
     ],
     "credit": {
       "text": "Andrea Young"
@@ -495,6 +552,10 @@
       "Let mixture cool for a few minutes.",
       "Scoop out with a spoon and drop onto cookie sheet.",
       "Let them cool completely."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "gluten-free"
     ],
     "dearAlyssa": [
       "Make drop cookies very small so they're easier to pick up once they're dried.",
@@ -533,6 +594,9 @@
       "Add flour, salt, and cinnamon. Add boiling water then oats.",
       "Bake cake for 35 min at 350°.",
       "Frosting: Melt ingredients in a saucepan. Spread on cake and broil for 1-3 minutes. Watch carefully."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "credit": {
       "text": "Andrea Young"
@@ -573,6 +637,10 @@
       "To wrap individual caramels, cut rectangles of wax paper/parchment paper wider than you think it needs to be. Twist each end the *same* direction, so that when you pull, it comes unraveled.",
       "One day, I really ought to try a caramel apple with this recipe."
     ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "gluten-free"
+    ],
     "timeOfDay": [
       "dessert",
       "holiday"
@@ -587,10 +655,10 @@
       "½ cup red vinegar",
       "½ cup oil",
       "¾ cup sugar",
-      "1 Bunch  sliced green onions",
+      "1 bunch sliced green onions",
       "1 ½ tsp salt",
       "¾ tsp mustard (real)",
-      "Medium red onion",
+      "1 medium red onion",
       "¾ lb mushrooms cut in half",
       "-",
       "SALAD",
@@ -603,6 +671,9 @@
     "directions": [
       "Marinate dressing ingredients for a day",
       "Mix salad ingredients, but hold cottage cheese and dressing to add before serving. May be too much dressing for salad so don’t pour all in."
+    ],
+    "dietaryNeeds": [
+      "gluten-free"
     ],
     "credit": {
       "text": "Gena Marcum"
@@ -640,6 +711,9 @@
       "Bring to a boil.",
       "Then add egg yolks and cream, stirring often. Do not boil after egg and cream are added."
     ],
+    "dietaryNeeds": [
+      "low-carb"
+    ],
     "timeOfDay": [
       "dinner",
       "lunch"
@@ -657,6 +731,12 @@
     ],
     "directions": [
       "Add to salad right before eating"
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free"
     ],
     "timeOfDay": [
       "dinner",
@@ -676,6 +756,10 @@
       "Heat honey peanuts and butter until almost boiling.",
       "Pour over popcorn in roasting pan or large deep pan. Stir to cover all kernels.",
       "Put in oven at 275° for about 6 minutes or until caramelized, stirring often."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "gluten-free"
     ],
     "timeOfDay": [
       "dessert"
@@ -702,6 +786,10 @@
     "credit": {
       "text": "Brenda Evans"
     },
+    "dietaryNeeds": [
+      "lactose-free",
+      "gluten-free"
+    ],
     "timeOfDay": [
       "dinner",
       "lunch",
@@ -730,6 +818,11 @@
       "Bake at 350° for 8-10 min on a greased cookie sheet.",
       "Hold the pepperkaker in your hand. Make a wish, and then hit the center of the cookie with your knuckle. If it breaks into 3 pieces, give on piece to someone you love and eat the rest. Your wish will come true!"
     ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free"
+    ],
     "timeOfDay": [
       "dessert",
       "holiday"
@@ -756,6 +849,9 @@
       "Pour into pie shells.",
       "Bake in oven at 425° for 15 minutes. Reduce temperature to 350°, bake 40-50 minutes or until knife comes out clean.",
       "Cool on wire rack for two hours."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "timeOfDay": [
       "dessert",
@@ -791,6 +887,10 @@
     ],
     "timeOfDay": [
       "dessert"
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free"
     ]
   },
   "ratatouille": {
@@ -821,6 +921,13 @@
     ],
     "timeOfDay": [
       "dinner"
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
     ]
   },
   "phadThai": {
@@ -857,6 +964,10 @@
     },
     "timeOfDay": [
       "dinner"
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free"
     ],
     "dearAlyssa": [
       "Honestly, half of this recipe is your own reminders and instructions. Don't forget to take it REAL easy with the sauces--you often go overboard. Start small, you can always add more.",
@@ -896,6 +1007,13 @@
       "text": "Miss On (who is never off!)",
       "url": "https://www.facebook.com/OnsThaiIssan"
     },
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
+    ],
     "dearAlyssa": [
       "I've made this without chili powder (not spicy 😊) and using curry paste instead. Works great, though I wish it had a little more curry flavor in the end.",
       "Get a mango for your extra coconut milk, and make extra rice--mango sticky rice for dessert. Yum!"
@@ -929,6 +1047,9 @@
       "breakfast",
       "lunch",
       "dinner"
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "dearAlyssa": [
       "Just always have Brendon make these, because the way he fries the pancakes is just d e l i c i o u s.",
@@ -968,6 +1089,9 @@
     },
     "timeOfDay": [
       "breakfast"
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
     ],
     "dearAlyssa": [
       "Grate the zucchini first. I use our fine grater, and it makes a lot of juice, so when I add the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."

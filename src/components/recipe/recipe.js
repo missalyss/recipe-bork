@@ -18,7 +18,7 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
   )
 
    const creditDue = credit && credit.text && (
-   <p className={`xs-font ${includeDearAlyssa ? 'pt4' : ''}`}>Thank you, {credit.url? (<a href={credit.url}>{credit.text}</a>) : credit.text} for this recipe!</p>
+   <p className={`xs-font ${includeDearAlyssa ? 'pt4' : ''}`}>Thank you, {credit.url? (<a className="text-blue" href={credit.url}>{credit.text}</a>) : credit.text} for this recipe!</p>
    )
 
   return (

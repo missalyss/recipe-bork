@@ -1,9 +1,9 @@
 # TODO:
 
 [ ] - design to be borkier (api no go-- create json for title and nav strings to go into, call up on them when something should be "borked". )
-[ ] - find a way to include CNAME file in `npm run build`/script for deployment.
 [ ] - type of dessert: (pie, cookie, cake, other);
-[ ] - dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
+[x] - dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
+[x] - find a way to include CNAME file in `npm run build`/script for deployment.
 [x] - nav for each item
 [x] - add more recipes, obviously
 [x] - make manifest.json with icon so it can be added to home screen and look nice and shit
@@ -16,7 +16,6 @@ npm run build && surge
 ```
 Then:
 - Change project path to include /build
-- Make sure domain name remains `recipe-bork`
 - submit. voila!
 
 
@@ -34,6 +33,13 @@ Then:
     "directions": [
       ""
     ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
+    ]
     "credit": {
       "text": "",
       "url": "delete if N/A"

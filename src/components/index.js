@@ -14,6 +14,8 @@ const data = alphabetize(rawData);
 const Root = () => {
   const [searchQuery, setSearchQuery ] = useState('');
   const [mealTypeFilter, setMealTypeFilter ] = useState('');
+  const [dietaryNeedsFilter, setDietaryNeedsFilter ] = useState('');
+
 
   const filterRecipes = (recipeList, filterType, filter) => {
     if (!filter) {
@@ -26,13 +28,20 @@ const Root = () => {
       if (filterType === 'mealType' && recipe.timeOfDay[0]) {
         return recipe.timeOfDay.find(mealType => mealType === filter);
       }
+
+      if (filterType === 'dietaryNeeds' && recipe.dietaryNeeds) {
+        return recipe.dietaryNeeds.find(dietaryNeed => dietaryNeed === filter);
+      }
     })
     const filteredObj = {};
     filteredRecipeList.map(recipe => filteredObj[recipe.id] = recipe)
     return filteredObj;
   }
   const filteredSearchRecipes = filterRecipes(data, 'search', searchQuery);
-  const filteredRecipes = filterRecipes(filteredSearchRecipes, 'mealType', mealTypeFilter);
+
+  const filteredDietaryRecipes = filterRecipes(filteredSearchRecipes, 'dietaryNeeds', dietaryNeedsFilter);
+
+  const filteredRecipes = filterRecipes(filteredDietaryRecipes, 'mealType', mealTypeFilter);
 
   const filteredResultCount = Object.keys(filteredRecipes).length;
 
@@ -41,7 +50,7 @@ const Root = () => {
       <Header />
       <div className='rootBody'>
         <Search setSearchQuery={setSearchQuery} searchQuery={searchQuery} numberOfResults={filteredResultCount}/>
-        <Filters setMealTypeFilter={setMealTypeFilter}/>
+        <Filters setMealTypeFilter={setMealTypeFilter} setDietaryNeedsFilter={setDietaryNeedsFilter}/>
         <Nav recipes={filteredRecipes}/>
         <RecipeList recipes={filteredRecipes} />
         <Footer />
