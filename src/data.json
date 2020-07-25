@@ -1096,5 +1096,43 @@
     "dearAlyssa": [
       "Grate the zucchini first. I use our fine grater, and it makes a lot of juice, so when I add the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."
     ]
+  },
+  "spaghettiSauce": {
+    "id": "spaghettiSauce",
+    "title": "Spaghetti Sauce",
+    "tempTimeYield": "Around 30 min prep. Feeds 5?",
+    "ingredients": [
+      "1 lb. ground beef",
+      "½ onion (or dried, minced onions)",
+      "1 tsp+ seasoning salt",
+      "5 small cans of tomato sauce (or one big can of diced tomatoes plus some tomato paste and water)",
+      "1 T+ onion powder",
+      "1 T+ garlic powder",
+      "1 T+ basil",
+      "½ tsp oregano",
+      "⅓ cup white sugar",
+      "--any other veggies or herbs/spices desired (ie: zucchini, mushrooms, olives, green onions, garlic; thyme, sage, chives;)"
+    ],
+    "directions": [
+      "In a large pot, medium heat, cook ground beef, onion, and seasoning salt until ground beef is brown through. Add other veggies you might want sauteed here.",
+      "Add tomato sauce and herbs. Make sure to go easy on the oregano.",
+      "Let simmer for as long as you can so spices can take flavor in the sauce."
+    ],
+    "dietaryNeeds": [
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
+    ],
+    "credit": {
+      "text": "Andrea Young"
+    },
+    "timeOfDay": [
+      "dinner"
+    ],
+    "dearAlyssa": [
+      "The can of diced tomatoes is pretty good, but not quite the same as Nana's recipe. Still, sauce is flexible--the world is your spaghetti sauce! It's nice to use what you have on hand.",
+      "Always do more noodles than you think you'll need.",
+      "Also, don't forget to add garlic bread! White slices of bread, buttered and garlic salted/garlic powdered plus parmesan cheese. Broil on low for about 4 minutes. Yum!"
+    ]
   }
 }

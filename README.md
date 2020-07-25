@@ -35,7 +35,7 @@ npm run deploy
       "lactose-free",
       "gluten-free",
       "low-carb"
-    ]
+    ],
     "credit": {
       "text": "",
       "url": "delete if N/A"
