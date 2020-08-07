@@ -1059,7 +1059,7 @@
   "zucchiniMuffins": {
     "id": "zucchiniMuffins",
     "title": "Zucchini Muffins",
-    "tempTimeYield": "350° for 20-30 min. 1 dozen muffins",
+    "tempTimeYield": "350°. 1 dozen+ muffins 20-30 min. 1 large bread pan + ½ doz muffins for ~40 and ~30 min respectively (when at the same time)",
     "ingredients": [
       "2 large eggs",
       "1⅓ cups sugar",
@@ -1069,15 +1069,15 @@
       "2¾ cups all-purpose flour",
       "1 tsp baking soda",
       "1 tsp baking powder",
-      "¼ tsp salt",
-      "2 tsp cinnamon",
+      "1 tsp salt",
+      "1 T cinnamon",
       "1 tsp ground ginger",
-      "½ tsp nutmeg",
+      "1 tsp nutmeg",
       "1 cup walnuts (optional)",
       "1 cup raisins or dried cranberries (optional)"
     ],
     "directions": [
-      "Preheat the oven to 350°F and grate zucchini.",
+      "Grate zucchini and preheat the oven to 350°F.",
       "Beat the eggs in a large bowl. Mix in sugar and vanilla extract. Stir in the grated zucchini and the melted butter.",
       "In a separate bowl, mix together flour, baking soda, baking powder, cinnamon, ground ginger, nutmeg, and salt.",
       "Combine wet and dry ingredients. (Do not over-mix!) Stir in walnuts, raisins or cranberries if using.",
@@ -1094,7 +1094,9 @@
       "vegetarian"
     ],
     "dearAlyssa": [
-      "Grate the zucchini first. I use our fine grater, and it makes a lot of juice, so when I add the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."
+      "I've modified the original recipe since each time I make this, I end up adding more salt and spices anyway. 🌰",
+      "Can put it in a bread pan, had a little trouble getting the very bottom cooked while cooking it with the muffins. Use a knife instead of a toothpick to check the bottom.",
+      "If the zucchini is a little older, it's much juicier. So when adding the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."
     ]
   }
 }

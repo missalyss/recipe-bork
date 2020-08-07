@@ -2,7 +2,7 @@ import React from 'react';
 import { isEmpty } from "lodash";
 import Ingredients from './ingredients';
 
-const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credit, dearAlyssa } }, isBorked) => {
+const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credit, dearAlyssa } }) => {
   const includeDearAlyssa = !isEmpty(dearAlyssa);
   const titlea = title.toLowerCase()
   const id = titlea.replace(/\s+/g, '-');
@@ -40,7 +40,7 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
         </div>
       )}
       {creditDue}
-      <a href='#' className="scroll-link text-blue">{ isBorked ? "Scrull tu tup" : "Scroll to top"}</a>
+      <a href='#' className="scroll-link text-blue">Scroll to top</a>
     </div>
   );
 }
