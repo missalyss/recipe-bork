@@ -9,11 +9,23 @@
   position: absolute;
   text-decoration: none;
   font-size: 60px;
-  text-shadow: 5px 5px #2d2d2d;
+  text-shadow: 3px 3px var(--soft-black);
 }
 
 @media screen and (max-width: 700px) {
   .heading-text {
     font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .borked-text {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .heading-text {
+    font-size: 27px;
   }
 }

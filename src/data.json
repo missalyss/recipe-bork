@@ -448,9 +448,9 @@
       "dessert"
     ]
   },
-  "schnikerdoodles": {
-    "id": "schnikerdoodles",
-    "title": "Schnikerdoodles",
+  "snickerdoodles": {
+    "id": "snickerdoodles",
+    "title": "Snickerdoodles",
     "tempTimeYield": "Makes 3 ½ dozen",
     "ingredients": [
       "1 cup shortening (8 oz)",
@@ -472,7 +472,7 @@
       "lactose-free"
     ],
     "dearAlyssa": [
-      "Isn't it \"Snickerdoodles\" though? I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture."
+      "I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture."
     ],
     "timeOfDay": [
       "dessert"
@@ -484,21 +484,23 @@
     "ingredients": [
       "1 ½ cubes butter",
       "1 ½ 16 oz package of marshmallows",
-      "1 whole box of 15 oz Rice Krispys"
+      "1 whole box of 15 oz Rice Krispies"
     ],
     "directions": [
       "Stir butter and marshmallows together until melted.",
       "Add cereal.",
-      "Mix well and put on pan to cool"
+      "Mix well and put on pan to cool."
     ],
     "dietaryNeeds": [
       "vegetarian"
     ],
     "dearAlyssa": [
-      "Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)"
+      "Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)",
+      "Holiday fun treat: make wreathes! Substitute corn flakes for Rice Krispies, and add green food dye to the marshmallows when melting. Cool in little doughnut shapes, and add Twizzler pull-n-peels that have been shaped into bows, and Red hots if you like (as holly berries)."
     ],
     "timeOfDay": [
-      "dessert"
+      "dessert",
+      "holiday"
     ]
   },
   "ricePilaf": {
@@ -1064,7 +1066,7 @@
       "2 large eggs",
       "1⅓ cups sugar",
       "2 tsp vanilla extract",
-      "3 cups (packed) grated fresh zucchini",
+      "3 cups grated fresh zucchini",
       "¾ cups unsalted butter, melted",
       "2¾ cups all-purpose flour",
       "1 tsp baking soda",
@@ -1097,6 +1099,232 @@
       "I've modified the original recipe since each time I make this, I end up adding more salt and spices anyway. 🌰",
       "Can put it in a bread pan, had a little trouble getting the very bottom cooked while cooking it with the muffins. Use a knife instead of a toothpick to check the bottom.",
       "If the zucchini is a little older, it's much juicier. So when adding the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."
+    ]
+  },
+  "peachPie": {
+    "id": "peachPie",
+    "title": "Peach Pie",
+    "tempTimeYield": "425° 20-25 min. 1 pie",
+    "ingredients": [
+      "½ cup sugar",
+      "6 T corn starch",
+      "¼ tsp salt",
+      "¼ tsp cinnamon",
+      "1 cup water",
+      "½ cup orange juice",
+      "½ peach crushed",
+      "1 tsp vanilla",
+      "½ tsp lemon juice",
+      "1 T butter",
+      "6 large peaches cut ¼ inches thick."
+    ],
+    "directions": [
+      "Combine in a saucepan and cook over med heat, stirring constantly until thick: sugar, corn starch, salt, cinnamon, water, OJ, and crushed peach.",
+      "Cool sauce.",
+      "Gently combine vanilla, lemon juice, butter, and peaches.",
+      "Pour cooled sauce over peaches mixture and gently stir. Put in unbaked double crust. Bake on flat cookie sheet (so when it overflows into oven you don’t hate your life)."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "timeOfDay": [
+      "dessert"
+    ],
+    "dearAlyssa": [
+      "You've only made this once, and it was a long time ago. Check and make sure this recipe is still good! (The \"bake on cookie sheet\" seems awfully suspicious to me that there's too much sauce.)"
+    ]
+  },
+  "stirFryPotatoBellPepper": {
+    "id": "stirFryPotatoBellPepper",
+    "title": "Stir Fry Potato and Bell Pepper",
+    "tempTimeYield": "2 adults",
+    "ingredients": [
+      "2 bell peppers",
+      "2 medium-to-large potatoes",
+      "~1 \"splash\" of soy sauce",
+      "~1 tsp salt",
+      "~½ tsp. sugar (offsets saltiness; balance sugar and salt to taste)"
+    ],
+    "directions": [
+      "Cut peppers and potatoes into 1x1 pieces, trying to make same size.",
+      "In fry pan on med-high, stir-fry potatoes over a small amount of oil. When the potatoes start to stick, add in a little bit of cold water, just barely enough to make them stop sticking and give them a little moisture to absorb.",
+      "Once potatoes start to become soft, add in the green peppers and mix together.",
+      "Add soy sauce, salt, and sugar to taste (sugar counterbalances the saltiness of everything else).",
+      "Remove from heat when veggies are just soft, but heated through."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free"
+    ],
+    "credit": {
+      "text": "Amia Huang"
+    },
+    "timeOfDay": [
+      "lunch",
+      "dinner"
+    ],
+    "dearAlyssa": [
+      "Careful to not cook the potatoes too much before adding in the bell peppers, or they start to break apart at the end. No one wants stir fry mush!",
+      "This dish always reminds me of Avatar the Last Airbender, because I used to make this meal then watch it."
+    ]
+  },
+  "funeralPotatoes": {
+    "id": "funeralPotatoes",
+    "title": "Funeral Potatoes",
+    "tempTimeYield": "350° for 30 minutes. Feeds 10. 9 x 13 pan",
+    "ingredients": [
+      "4 cups thawed hash browns",
+      "1 can of cream of chicken soup",
+      "1 cup sour cream",
+      "½ cup chopped onion",
+      "½ cube + 2 T melted butter",
+      "½ cup cheese grated",
+      "¾ cups smashed cornflakes"
+    ],
+    "directions": [
+      "Mix hash browns, cream of chicken soup, sour cream, onion, ½ cube of melted butter, and cheese together. Put evenly in a 9x13 pan.",
+      "Top with cornflakes and 2 T melted butter.",
+      "Bake uncovered at 350° for 30 minutes. Feeds 10."
+    ],
+    "dietaryNeeds": [],
+    "timeOfDay": [
+      "dinner",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "I don't think I've ever made this specific recipe, but I know I love Funeral Potatoes. Never actually had them at a funeral, but it's one of the best Mormon casseroles to exist. I mean, who doesn't love cheesy potatoes?"
+    ]
+  },
+  "playDough": {
+    "id": "playDough",
+    "title": "Play Dough",
+    "tempTimeYield": "",
+    "ingredients": [
+      "1 cup water",
+      "¼ cup salt",
+      "1 or 2 drops food coloring",
+      "1 T alum",
+      "1 T baby oil",
+      "1 cup flour"
+    ],
+    "directions": [
+      "Boil water, then add salt, food coloring.",
+      "Add alum, baby oil, and flour.",
+      "Knead until complete."
+    ],
+    "timeOfDay": [
+      "inedible"
+    ],
+    "dearAlyssa": [
+      "I don't have alum in the house (had to look it up what it even was), and it seems a lot of people also use cream of tarter (though I'm not sure if it would work as a direct substitute in this recipe).",
+      "We still have play dough in the house, but when we next run out I'm trying this!"
+    ]
+  },
+  "gak": {
+    "id": "gak",
+    "title": "Gak",
+    "tempTimeYield": "",
+    "ingredients": [
+      "1 level tsp talcum powder (NOT corn starch)",
+      "4 tsp water",
+      "1-2 drops food coloring",
+      "5 tsp Elmer’s white glue",
+      "1-3 tsp borax solution (1 T of borax soap mixed with 1 cup water)"
+    ],
+    "directions": [
+      "Make Borax solution and shake until well dissolved.",
+      "In a separate paper cup (5 oz Dixie cup ok), measure and add Elmer’s glue. Add water, talcum powder, and food coloring. Stir well until lumps are all gone.",
+      "Add Borax mix until one glob is stuck to the stirrer (should be 2-3 tsp, but you may need to add more if all the glue mix isn’t transformed).",
+      "With your hands, pull the glob off the stirrer and squeeze out the excess fluid. Place in a zip-lock baggy or closable container so it will not dry out.",
+      "Be sure to clean up after as lots of ingredients stain!"
+    ],
+    "timeOfDay": [
+      "inedible"
+    ],
+    "dearAlyssa": [
+      "Never tried this! Sounds like a great project for kiddos!"
+    ]
+  },
+  "bathBomb": {
+    "id": "bathBomb",
+    "title": "Bath Bombs",
+    "tempTimeYield": "4 large bath bombs. 24 hrs drying time.",
+    "ingredients": [
+      "1 cup baking soda",
+      "½ cup citric acid",
+      "½ cup epsom salt",
+      "½ cup cornstarch",
+      "Loose leaf tea (optional)",
+      "Color pigment (DIY makeup pigment or food coloring) (optional)",
+      "2½ T almond oil/melted coconut oil",
+      "¾ T water",
+      "12-15 drops essential oil",
+      "Bath bomb molds"
+    ],
+    "directions": [
+      "In a medium bowl, mix together baking soda, citric acid, epsom salt, and corn starch.",
+      "If you want different colors/fragrances, separate into smaller bowls. Add tea and dry color pigment to desired look. Whisk to combine.",
+      "VERY slowly, add oils to dry ingredients, then any food coloring or extra water. (Important! The dry mixture is ready to start fizzing with any liquid added. Water and food coloring will make it fizz more, so do verrrry slowly.) Mix until combined, and the ingredients look like wet sand.",
+      "Molding the bomb: if using mini cupcake pan or ice tray, press mixture into mold and push down with flat surface if possible. Leave in to dry.",
+      "Molding the bomb: if using a global mold, fill each half of the mold, packing the mixture in slightly until it's overflowing. Press the halves together firmly. Let the filled mold sit for one minute. Lightly tap the mold and gently pull it apart to remove the bath bomb.",
+      "Let the bath bombs dry for 24 hours before enjoying in the tub."
+    ],
+    "credit": {
+      "text": "Michael Wurm, Jr.",
+      "url": "https://inspiredbycharm.com/diy-bath-bombs/"
+    },
+    "timeOfDay": [
+      "inedible"
+    ],
+    "dearAlyssa": [
+      "Remember that any water added will take out some of the fizziness in the tub. Add more oil if you want to skip out on liquids (we don't add the water in the ingredients).",
+      "Food coloring will also take out fizziness--don't go crazy. A natural dye is going to be better for your water/skin/tub.",
+      "It's fun to match teas with essential oil fragrances and for purposes (chamomile/lavender for soothing sleep, mint for pain, black teas for energy, etc.). It's especially pretty to add tea to the bottom of the mold to help identify it.",
+      "Enjoy creating! The world is your bath bomb."
+    ]
+  },
+  "coffeeCake": {
+    "id": "coffeeCake",
+    "title": "Coffee \"Breakfast\" Cake",
+    "tempTimeYield": "375°, 25-30 min. One 8x8 pan.",
+    "ingredients": [
+      "CAKE",
+      "1 ½ cups flour",
+      "¾ cup sugar",
+      "2 tsp baking powder",
+      "½ tsp salt",
+      "1 egg (beaten)",
+      "½ cup milk",
+      "¼ cup oil (veggie or coconut)",
+      "½ cup raisins (optional)",
+      "-",
+      "CRUMBLE",
+      "¾ cup brown sugar",
+      "¼ cup flour",
+      "¼ cup butter (softened)",
+      "2 - 3 tsp cinnamon",
+      "½ cup chopped nuts (optional)"
+    ],
+    "directions": [
+      "Combine flour, sugar, baking powder, salt in a medium sized bowl.",
+      "Combine egg, milk, and oil in another bowl.",
+      "Add wet and dry ingredients together, don't over stir.",
+      "Grease 9x9 or 8x8 pan and pour batter in.",
+      "Separately, combine topping ingredients, cutting in butter to make a crumble. Pour/sprinkle over batter.",
+      "Bake 25-30 minutes at 375°."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "timeOfDay": [
+      "breakfast",
+      "dessert"
+    ],
+    "dearAlyssa": [
+      "Crumble has already been multiplied, because lets be honest the crumble is the best part. I think last time I doubled the cake and poured it in a 9x13 pan. The crumble I think was still enough (but could have been more..?)",
+      "Heat a slice up and mix with vanilla ice cream for a yummy dessert!"
     ]
   }
 }

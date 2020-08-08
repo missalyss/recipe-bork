@@ -8,18 +8,18 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
   const id = titlea.replace(/\s+/g, '-');
 
   const directionsOrderedList = (
-      <ol className="directionsForOL">
-    {directions.map((direction, index) => {
-      return (<li className='direction-li' key={index}>
+    <ol className="directionsForOL">
+      {directions.map((direction, index) => {
+        return (<li className='direction-li' key={index}>
           {direction}
         </li>)
-    })}
+      })}
     </ol>
   )
 
-   const creditDue = credit && credit.text && (
-   <p className={`xs-font ${includeDearAlyssa ? 'pt4' : ''}`}>Thank you, {credit.url? (<a className="text-blue" href={credit.url}>{credit.text}</a>) : credit.text} for this recipe!</p>
-   )
+  const creditDue = credit && credit.text && (
+    <p className={`xs-font ${includeDearAlyssa ? 'pt4' : ''}`}>Thank you, {credit.url ? (<a className="text-blue" href={credit.url}>{credit.text}</a>) : credit.text} for this recipe!</p>
+  )
 
   return (
     <div className='container recipe-container bg-cream' id={id}>
@@ -32,9 +32,9 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
         <p className='singleDirections'>{directions[0]}</p>
       )}
       {includeDearAlyssa && (
-        <div className="text-left mt4 text-red sm-font">
+        <div className="text-left mt4 text-red sm-font pl2 pr2">
           <p><em>Dear Alyssa,</em></p>
-            {dearAlyssa.map((paragraph, i) =>
+          {dearAlyssa.map((paragraph, i) =>
             (<p key={i}><em>{paragraph}</em></p>))}
           <p><em>Love, Alyssa</em></p>
         </div>
