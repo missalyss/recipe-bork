@@ -225,29 +225,45 @@
   "tacoSoup": {
     "id": "tacoSoup",
     "title": "Taco Soup",
-    "tempTimeYield": "Takes several hours in a crock pot",
+    "tempTimeYield": "Feeds about 5",
     "ingredients": [
-      "1 can corn (not drained)",
-      "1 can chopped green chilies",
+      "1 pound ground beef (or turkey) (omit for vegan/vegetarian)",
       "1 chopped onion",
       "1 tsp salt",
       "½ tsp garlic",
-      "1 package taco seasoning",
-      "1 can chopped tomatoes",
-      "3-4 cans tomato sauce + 1 can water",
-      "1-2 lbs ground beef (or ground turkey)",
-      "2 cans chili con carne",
-      "2 cans kidney beans",
-      "2 cans black beans",
-      "2 cans red beans"
+      "1 packet of taco seasoning or Sazon (con azafrán)",
+      "1 large can diced tomatoes",
+      "1 T tomato paste + ½ cup water",
+      "1 cup frozen corn",
+      "1 can chili con carne (or vegetarian chili)",
+      "1 can kidney beans",
+      "1 can black beans",
+      "1 can red beans",
+      "RECOMMENDED TOPPINGS",
+      "Tortilla chips",
+      "Shredded cheddar cheese",
+      "Sour cream"
     ],
     "directions": [
-      "Drain and rinse all beans. Add all ingredients together and let simmer on low, for several hours in a crock pot."
+      "Cook ground meat in a large pot until brown. Pour out excess fat juice.",
+      "Add onion and garlic to pot and cook until onion pieces are barely translucent.",
+      "Add the following to the pot: beans (drained and rinsed), corn, chili, tomatoes, tomato sauce, salt, and seasoning.",
+      "Simmer on low until ready to eat."
+    ],
+    "dearAlyssa": [
+      "I admit, I've modified the recipe quite a bit, but I like the results a lot! Original recipe called for: 2 cans of each beans and 2 cans of chili, 1 can of corn (not drained), 3-4 small cans of tomato sauce + 1 can of water (instead of tomato paste), 1 can chopped green chilies. Would probably make enough for 10 adults.",
+      "Use only one can of beans (total) for a smaller amount of soup.",
+      "Great to make if you have tomatoes that are going bad and are a little mushy. Chop these up and replace the can of diced tomatoes. If you end up doing fresher tomatoes, make sure to cook the soup long enough to soften them.",
+      "Original recipe called for cooking everything in a crockpot for several hours. Not really necessary, since everything is already cooked and seasoned. A crockpot is great for keeping warm, however, especially for a potluck or something.",
+      "This is a great meal to offer to a family with a new baby--it lasts for a long time in the fridge (or freezer), is easy to reheat in the microwave or on the stove, and is a nice and hardy meal.",
+      "And never forget: The World is Your Taco Soup. There's a lot you can do to get rid of stuff in your pantry and make this very tasty!"
     ],
     "dietaryNeeds": [
       "low-carb",
       "gluten-free",
-      "lactose-free"
+      "lactose-free",
+      "vegan",
+      "vegetarian"
     ],
     "timeOfDay": [
       "dinner"
@@ -359,7 +375,7 @@
       "3-ish T dijon mustard",
       "1 ½ T - 2T old bay",
       "1 lemon, anaconda squeeezed",
-      "3 or 4 oz. beer (Shiner boch or lager preferred)",
+      "3 or 4 oz beer (Shiner boch or lager preferred)",
       "12 oysters"
     ],
     "directions": [
@@ -387,7 +403,7 @@
     "ingredients": [
       "1 ¼ cup flour",
       "1 tsp salt",
-      "4 oz. cup shortening",
+      "4 oz cup shortening",
       "¼ cup cold water"
     ],
     "directions": [
@@ -841,7 +857,7 @@
       "1 tsp ground ginger",
       "½ tsp ground cloves",
       "4 large eggs",
-      "1 can Libby’s Pumpkin",
+      "1 29 oz can Libby’s Pumpkin",
       "2 cans evaporated milk"
     ],
     "directions": [
@@ -916,7 +932,7 @@
       "Add salt and herbs to flavor, which will likely be quite a bit—at least a tablespoon of each. Stir and lower temperature to low to medium heat. Add lid and simmer until vegetables are as soft as desired. As the veggies cook, they will condense and make more room in the pot."
     ],
     "credit": {
-      "text": "Monia Rivet Bonjean (translated to English by Alyssa Helgason)"
+      "text": "Monia Rivet Bonjean (translated to English by Alyssa Helgabones)"
     },
     "dearAlyssa": [
       "You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have \"too much lavender\" taste to it? No such thing."
@@ -1097,7 +1113,7 @@
     ],
     "dearAlyssa": [
       "I've modified the original recipe since each time I make this, I end up adding more salt and spices anyway. 🌰",
-      "Can put it in a bread pan, had a little trouble getting the very bottom cooked while cooking it with the muffins. Use a knife instead of a toothpick to check the bottom.",
+      "Still working on turning it into zucchini bread (current recipe turns out very undercooked).",
       "If the zucchini is a little older, it's much juicier. So when adding the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."
     ]
   },
@@ -1325,6 +1341,75 @@
     "dearAlyssa": [
       "Crumble has already been multiplied, because lets be honest the crumble is the best part. I think last time I doubled the cake and poured it in a 9x13 pan. The crumble I think was still enough (but could have been more..?)",
       "Heat a slice up and mix with vanilla ice cream for a yummy dessert!"
+    ]
+  },
+  "pumpkinSeeds": {
+    "id": "pumpkinSeeds",
+    "title": "Roasted Pumpkin Seeds",
+    "tempTimeYield": "350° for 10 minutes, then 180° until crispy",
+    "ingredients": [
+      "1 pumpkin's-worth amount of seeds, separated from pumpkin guts",
+      "~1 tsp salt",
+      "~2 T olive oil",
+      "~1 tsp garlic powder",
+      "~1 tsp onion powder"
+    ],
+    "directions": [
+      "Scoop seeds out of a pumpkin, keeping separate from guts when possible. Rinse seeds in a collander.",
+      "Put seeds in bowl and add salt. Let salt dry seeds out for a few minutes.",
+      "Add olive oil, garlic powder, and onion powder. Amounts are undefined since number of seeds are variable. Season until it looks good.",
+      "Mix well until ingredients are evenly distributed. Lay seeds out on a cookie sheet lined with wax/parchment paper.",
+      "Cook at 350° for about 10 minutes.",
+      "'Stir' seeds by shimmying parchment paper and spreading out again. Turn temp down to 180° and cook until crispy, stiring each check so that seeds get flipped."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
+    ],
+    "credit": {
+      "text": "Brendo Helgo"
+    },
+    "timeOfDay": [
+      "dinner",
+      "dessert",
+      "holiday"
+    ]
+  },
+  "peanutButterPretzelTreats": {
+    "id": "peanutButterPretzelTreats",
+    "title": "Peanut Butter Pretzel Treats",
+    "tempTimeYield": "",
+    "ingredients": [
+      "~2 cups powdered sugar",
+      "15 oz creamy peanut butter (refrigerated)",
+      "¼ cup softened butter",
+      "1 tsp vanilla",
+      "1 tsp salt",
+      "1 bag of pretzel rods",
+      "1-2 bags white chocolate chips"
+    ],
+    "directions": [
+      "Mix peanut butter, salt, vanilla, powdered sugar and butter together.",
+      "Once you have a sturdy dough (helped with the fridge/freezer), roll out 1 T chunks and wrap around pretzel rods (leaving a handle). Place on a parchment-lined cookie sheet that will fit in your freezer.",
+      "Use all peanut butter dough and freeze sticks for about 2 hours.",
+      "Double boil white chocolate chips until very melted and liquidy. Do not try to melt twice.",
+      "Hold peanut butter stick over pot and spoon chocolate onto stick, covering peanut butter dough.",
+      "Place stick back on parchment-lined cookie sheet. Add sprinkles or other fun things for decoration. Place back in freezer until chocolate sets. Enjoy!"
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "Original recipe was inspired by Netflix's 'Curious Creations of Christine McConnel' (season 1, episode 1) and calls shaping the sticks into bones. Just didn't work. Dough was too soft and chocolate was always too thick. Consider using literal melting white chocolate. If you try bones again, get creative--besides the default 'dog bone', you can make spine bones, eye balls, teeth, finger bones, wish bones, ribs, etc.",
+      "Still working on the recipe for the peanut butter dough; my first go the dough was too soft and I had to keep the bones in the freezer constantly. Consider removing butter to help make the dough stiffer. May need more powdered sugar.",
+      "I've found a 'no sugar added' peanut butter, and stevia-sweetened white chocolate. Could be made into a relatively low-carb treat!"
     ]
   }
 }

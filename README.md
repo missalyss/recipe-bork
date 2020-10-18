@@ -4,10 +4,13 @@
 [ ] - Spices how to section from Brendo
 
 ## Recipes to add
-[ ] - "Breakfast" coffee cake
-[ ] - 7 Layer bars
-[ ] - gravy?
-[ ] - wassail
+* 7 Layer bars
+* gravy?
+* wassail
+* Spaghetti sauce
+* harlo vegan chocolate cake https://www.mydarlingvegan.com/vegan-chocolate-hazelnut-zucchini-cake/
+* harlo vegan butternut squash soup https://cookieandkate.com/roasted-butternut-squash-soup/
+* em "Grilled Chicken Thighs with Alaba.." Em text Mon Aug 17th.
 
 
 # TO DEPLOY:
@@ -68,6 +71,7 @@ eighth ⅛
 cup instead of C
 tsp instead of teaspoon
 T instead of tablespoon
+oz instead of oz.
 
 # BORKER
 https://funtranslations.com/chef
