@@ -11,7 +11,8 @@
 * harlo vegan chocolate cake https://www.mydarlingvegan.com/vegan-chocolate-hazelnut-zucchini-cake/
 * harlo vegan butternut squash soup https://cookieandkate.com/roasted-butternut-squash-soup/
 * em "Grilled Chicken Thighs with Alaba.." Em text Mon Aug 17th.
-
+* painted sugar cookies
+* Jessi's rolo cookies
 
 # TO DEPLOY:
 

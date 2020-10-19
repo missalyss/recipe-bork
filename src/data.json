@@ -1411,5 +1411,103 @@
       "Still working on the recipe for the peanut butter dough; my first go the dough was too soft and I had to keep the bones in the freezer constantly. Consider removing butter to help make the dough stiffer. May need more powdered sugar.",
       "I've found a 'no sugar added' peanut butter, and stevia-sweetened white chocolate. Could be made into a relatively low-carb treat!"
     ]
+  },
+  "royalIcing": {
+    "id": "royalIcing",
+    "title": "Royal Icing",
+    "tempTimeYield": "",
+    "ingredients": [
+      "2 T meringue powder",
+      "6 T water",
+      "2⅔ cups powdered sugar",
+      "Food coloring (optional)",
+      "Additional water for thinning (optional)"
+    ],
+    "directions": [
+      "Place the meringue powder and water in a large mixing bowl, and whip (with the whisk attachment) until foamy (about 3 minutes).",
+      "Add the powdered sugar, and whip on medium speed until very stiff and thick (the royal icing should hold a stiff peak).",
+      "Tint as needed with food coloring. If you use liquid food coloring, be careful, it could change consistency.",
+      "Thin with additional water, a drop at a time, to get the desired consistency."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free",
+      "gluten-free"
+    ],
+    "credit": {
+      "text": "bakingamoment.com",
+      "url": "https://bakingamoment.com/royal-icing/"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "Piping is tricky, and I definitely need more practice. Make sure to pipe and test--you need a slightly stiffer amount for outlining, and a thinner one for 'flooding'.",
+      "Trick to outlining is to hold your bag up higher than the cookie (instead of very close). You get straighter lines that way. Flooding IS easiest if you fill everything evenly. Tiny holes can be filled in with a toothpick, but it can sometimes be noticeably less frosting there.",
+      "I don't remember how long it takes to dry. A few hours at least though?",
+      "Don't add food coloring and use in tandem with Painted Sugar Cookies! (Under 'S' for 'Sugar')"
+    ]
+  },
+  "sugarCookies": {
+    "id": "sugarCookies",
+    "title": "Sugar Cookies",
+    "tempTimeYield": "400° for 7-8 minutes",
+    "ingredients": [
+      "2¾ cups flour",
+      "2 tsp baking powder",
+      "1 tsp salt",
+      "1 cup unsalted butter, softened",
+      "1½ cups powdered sugar",
+      "1 egg",
+      "3 tsp vanilla extract"
+    ],
+    "directions": [
+      "In a bowl, sift together flour, baking powder and salt; set aside. In a small bowl, lightly whisk together egg and vanilla extract; set aside.",
+      "In a large bowl, cream together softened butter and powdered sugar. With mixer running add in egg mixture and beat to combine; then add flour mixture little by little. Beat just until dough sticks to mixer, cookie dough gives slightly when gently pressed and dough does not stick to fingers.",
+      "Roll out dough between two sheets of parchment paper to 1/4 inch thickness. Use preferred cookie cutter and stamp out cookies.",
+      "Bake at 400° for 7-8 minutes."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "credit": {
+      "text": "Naomi Robinson from Bakers Royale",
+      "url": "https://www.bakersroyale.com/hand-painted-sugar-cookies/"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ]
+  },
+  "paintedSugarCookies": {
+    "id": "paintedSugarCookies",
+    "title": "Painted Sugar Cookies",
+    "tempTimeYield": "",
+    "ingredients": [
+      "Food coloring, gel preferred",
+      "Vodka",
+      "Food-safe paint brushes",
+      "Food-safe palette or multiple ramekins"
+    ],
+    "directions": [
+      "Make cookies according to Sugar Cookie recipe.",
+      "Make Royal Icing recipe and apply to cookies. Make sure icing has completely dried before attempting painting.",
+      "Create your colors on your palette, adding vodka to them to make more pastel.",
+      "Keeping brush as dry as possible, paint on the frosting of your cookies. Do not over-paint or frosting will dissolve."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free"
+    ],
+    "credit": {
+      "text": "Naomi Robinson from Bakers Royale",
+      "url": "https://www.bakersroyale.com/hand-painted-sugar-cookies/"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ]
   }
 }
