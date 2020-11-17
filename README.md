@@ -7,7 +7,7 @@
 * 7 Layer bars
 * gravy?
 * wassail
-* Spaghetti sauce
+* Spaghetti sauce BELOW
 * harlo vegan chocolate cake https://www.mydarlingvegan.com/vegan-chocolate-hazelnut-zucchini-cake/
 * harlo vegan butternut squash soup https://cookieandkate.com/roasted-butternut-squash-soup/
 * em "Grilled Chicken Thighs with Alaba.." Em text Mon Aug 17th.
@@ -78,6 +78,10 @@ oz instead of oz.
 https://funtranslations.com/chef
 
 
+SPAG SAUCE
+5x8" of ground beef, like half an onion (or whole?) or dried minced onions and seasoning salt. Once beef is all cooked, Then  5 small cans of tomato sauce. then onion powder, garlic powder, basil (I have fresh too or is that no good?), oregano, 1/3 C sugar give or take.
+
+Minced onions or onion powder or dried onion. Garlic or garlic powder. Easy on oregano
 
 ## Available Scripts
 
