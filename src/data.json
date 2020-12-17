@@ -1509,5 +1509,71 @@
       "dessert",
       "holiday"
     ]
+  },
+  "roloYoloCookies": {
+    "id": "roloYoloCookies",
+    "title": "Jessi's Yolo Rolo Cookies",
+    "tempTimeYield": "350° 12-14 minutes. Makes as many cookies as rolos (25-28)",
+    "ingredients": [
+      "1 box of devil's food cake",
+      "⅓ cup oil",
+      "2 eggs",
+      "1 small bag of rolos",
+      "~1 cup powered sugar"
+    ],
+    "directions": [
+      "In a medium sized bowl, mix food cake, oil, and eggs. If dough is too dry, add a little bit of water.",
+      "Take small pieces of dough and surround a rolo until it's in the middle.",
+      "Roll dough ball in powdered sugar and place on cookie sheet.",
+      "Put in oven for 350° for 12-14 minutes."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free"
+    ],
+    "credit": {
+      "text": "Jessi McAllister"
+    },
+    "timeOfDay": [
+      "dessert"
+    ],
+    "dearAlyssa": [
+      "Fun fact, these cookies won me a people's choice award at a Starbucks Web Engineering Cookie Bakeoff! They're just that good. And also easy to make!"
+    ]
+  },
+  "spaghetti": {
+    "id": "spaghetti",
+    "title": "Spaghetti",
+    "tempTimeYield": "",
+    "ingredients": [
+      "1 pound of ground beef",
+      "½ onion (or dried minced onions)",
+      "A few good shakes of seasoning salt",
+      "5 small cans of tomato sauce",
+      "~1 tsp onion powder",
+      "~1 tsp garlic powder",
+      "3 leaves of fresh basil or equivalent dried basil",
+      "A modest amount of oregano",
+      "~⅓ cup sugar"
+    ],
+    "directions": [
+      "In a pot on the stove, cook ground beef until brown, with onion and seasoning salt. Consider pouring out some beef fat before next step.",
+      "Add tomato sauce, then onion powser, garlic powder, basil, oregano, and sugar.",
+      "Simmer for as long as possible. Serve with spaghetti noodles/zucchini noodles and garlic bread."
+    ],
+    "dietaryNeeds": [
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
+    ],
+    "credit": {
+      "text": "Andrea Young"
+    },
+    "timeOfDay": [
+      "dinner"
+    ],
+    "dearAlyssa": [
+      "For gluten free"
+    ]
   }
 }
