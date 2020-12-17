@@ -909,7 +909,11 @@
     "dietaryNeeds": [
       "vegetarian",
       "lactose-free"
-    ]
+    ],
+    "credit": {
+      "text": "Better Homes and Gardens Cook Book",
+      "url": "https://www.amazon.com/Better-Homes-Gardens-New-Cookbook/dp/0553577956/ref=asc_df_0553577956/?tag=hyprod-20&linkCode=df0&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594&psc=1&tag=&ref=&adgrpid=58874700621&hvpone=&hvptwo=&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594"
+    }
   },
   "ratatouille": {
     "id": "ratatouille",
@@ -1543,8 +1547,8 @@
   },
   "spaghetti": {
     "id": "spaghetti",
-    "title": "Spaghetti",
-    "tempTimeYield": "",
+    "title": "Spaghetti Sauce",
+    "tempTimeYield": "~4 adults",
     "ingredients": [
       "1 pound of ground beef",
       "½ onion (or dried minced onions)",
@@ -1559,7 +1563,7 @@
     "directions": [
       "In a pot on the stove, cook ground beef until brown, with onion and seasoning salt. Consider pouring out some beef fat before next step.",
       "Add tomato sauce, then onion powser, garlic powder, basil, oregano, and sugar.",
-      "Simmer for as long as possible. Serve with spaghetti noodles/zucchini noodles and garlic bread."
+      "Simmer for as long as possible. Serve with spaghetti noodles (or for gluten free, zucchini noodles or spaghetti squash) and garlic bread."
     ],
     "dietaryNeeds": [
       "lactose-free",
@@ -1573,7 +1577,8 @@
       "dinner"
     ],
     "dearAlyssa": [
-      "For gluten free"
+      "I don't usually buy tomato sauce, instead I often put in cans of diced tomatoes (or dice up tomatoes that are going soft) and stick it in for content. I also use some tomato paste and water.",
+      "Optional add-ins: thyme, rosemary, olives, mushrooms... The world is your spaghetti sauce!"
     ]
   }
 }
