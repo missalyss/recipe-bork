@@ -1580,5 +1580,39 @@
       "I don't usually buy tomato sauce, instead I often put in cans of diced tomatoes (or dice up tomatoes that are going soft) and stick it in for content. I also use some tomato paste and water.",
       "Optional add-ins: thyme, rosemary, olives, mushrooms... The world is your spaghetti sauce!"
     ]
+  },
+  "sevenLayerBars": {
+    "id": "sevenLayerBars",
+    "title": "Seven Layer Bars",
+    "tempTimeYield": "350° 25-30 min. 13 x 9 pan",
+    "ingredients": [
+      "½ cup butter or margarine",
+      "1½ cups finely crushed graham crackers",
+      "1 6-oz package (1 cup) semisweet chocolate pieces",
+      "1 6-oz package (1 cup) butterscotch pieces",
+      "1 3½-o can (1⅓ cups) flaked coconut",
+      "½ cup chopped walnuts",
+      "1 14-oz can (1⅓ cups) sweetened condensed milk"
+    ],
+    "directions": [
+      "Melt butter; stir in crushed graham crackers. Pat crumb mixture evenly in bottom of an uncreased 13x9x2\" baking pan.",
+      "Layer evenly, in order: chocolate pieces, butterscotch pieces, coconut, and walnuts.",
+      "Pour sweetened condensed milk evenly over all.",
+      "Bake at 350° for 30 minutes. Cool and cut into bars"
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "credit": {
+      "text": "Better Homes and Gardens Cook Book",
+      "url": "https://www.amazon.com/Better-Homes-Gardens-New-Cookbook/dp/0553577956/ref=asc_df_0553577956/?tag=hyprod-20&linkCode=df0&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594&psc=1&tag=&ref=&adgrpid=58874700621&hvpone=&hvptwo=&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "1 package of graham crackers = more than 1½ cups of graham crackers, so do a little more butter. Nana's notes on the recipe say to do one package of graham crackers with one cube of butter, and to only cook it for 25 minutes."
+    ]
   }
 }
