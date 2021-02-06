@@ -8,7 +8,8 @@ const Filters = ({ setMealTypeFilter, setDietaryNeedsFilter, isBorked }) => {
     lunch: isBorked ? "Luonch" : "Lunch",
     dinner: isBorked ? "Deenner" : "Dinner",
     dessert: isBorked ? "Deesserte" : "Dessert",
-    holiday: isBorked ? "Huleedey" : "Holiday"
+    holiday: isBorked ? "Huleedey" : "Holiday",
+    inedible: isBorked ? "Inedeeble" : "Inedible"
   }
 
   const dietaryNeedsStrings = {
@@ -29,6 +30,7 @@ const Filters = ({ setMealTypeFilter, setDietaryNeedsFilter, isBorked }) => {
         <option value="dinner">{mealTypeStrings.dinner}</option>
         <option value="dessert">{mealTypeStrings.dessert}</option>
         <option value="holiday">{mealTypeStrings.holiday}</option>
+        <option value="inedible">{mealTypeStrings.inedible}</option>
       </select>
 
       <select className="search-box" name="dietary-needs" id="dietary-needs" onChange={e => setDietaryNeedsFilter(e.target.value)}>

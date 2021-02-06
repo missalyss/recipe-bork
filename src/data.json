@@ -135,7 +135,7 @@
       "¾ to  cup sour cream or yogurt",
       "1 16 oz can black beans (Caribbean style, drained lightly, but not rinsed)",
       "1 ¼ cup cheddar cheese grated (save ½ for top)",
-      "10 flour (or soaked corn) tortillas (8\" or fits width of pan) "
+      "10 flour (or soaked corn) tortillas (8\" or fits width of pan)"
     ],
     "directions": [
       "Mix tomatoes, tomato sauce, water, chili powder, and salt together; pour ⅓ of it over 9x13 pan.",
@@ -213,7 +213,7 @@
       "vegetarian"
     ],
     "credit": {
-      "text": "\"Mom E\""
+      "text": "'Mom E'"
     },
     "dearAlyssa": [
       "Jessi is the queen of these, go to her for questions."
@@ -225,29 +225,45 @@
   "tacoSoup": {
     "id": "tacoSoup",
     "title": "Taco Soup",
-    "tempTimeYield": "Takes several hours in a crock pot",
+    "tempTimeYield": "Feeds about 5",
     "ingredients": [
-      "1 can corn (not drained)",
-      "1 can chopped green chilies",
+      "1 pound ground beef (or turkey) (omit for vegan/vegetarian)",
       "1 chopped onion",
       "1 tsp salt",
       "½ tsp garlic",
-      "1 package taco seasoning",
-      "1 can chopped tomatoes",
-      "3-4 cans tomato sauce + 1 can water",
-      "1-2 lbs ground beef (or ground turkey)",
-      "2 cans chili con carne",
-      "2 cans kidney beans",
-      "2 cans black beans",
-      "2 cans red beans"
+      "1 packet of taco seasoning or Sazon (con azafrán)",
+      "1 large can diced tomatoes",
+      "1 T tomato paste + ½ cup water",
+      "1 cup frozen corn",
+      "1 can chili con carne (or vegetarian chili)",
+      "1 can kidney beans",
+      "1 can black beans",
+      "1 can red beans",
+      "RECOMMENDED TOPPINGS",
+      "Tortilla chips",
+      "Shredded cheddar cheese",
+      "Sour cream"
     ],
     "directions": [
-      "Drain and rinse all beans. Add all ingredients together and let simmer on low, for several hours in a crock pot."
+      "Cook ground meat in a large pot until brown. Pour out excess fat juice.",
+      "Add onion and garlic to pot and cook until onion pieces are barely translucent.",
+      "Add the following to the pot: beans (drained and rinsed), corn, chili, tomatoes, tomato sauce, salt, and seasoning.",
+      "Simmer on low until ready to eat."
+    ],
+    "dearAlyssa": [
+      "I admit, I've modified the recipe quite a bit, but I like the results a lot! Original recipe called for: 2 cans of each beans and 2 cans of chili, 1 can of corn (not drained), 3-4 small cans of tomato sauce + 1 can of water (instead of tomato paste), 1 can chopped green chilies. Would probably make enough for 10 adults.",
+      "Use only one can of beans (total) for a smaller amount of soup.",
+      "Great to make if you have tomatoes that are going bad and are a little mushy. Chop these up and replace the can of diced tomatoes. If you end up doing fresher tomatoes, make sure to cook the soup long enough to soften them.",
+      "Original recipe called for cooking everything in a crockpot for several hours. Not really necessary, since everything is already cooked and seasoned. A crockpot is great for keeping warm, however, especially for a potluck or something.",
+      "This is a great meal to offer to a family with a new baby--it lasts for a long time in the fridge (or freezer), is easy to reheat in the microwave or on the stove, and is a nice and hardy meal.",
+      "And never forget: The World is Your Taco Soup. There's a lot you can do to get rid of stuff in your pantry and make this very tasty!"
     ],
     "dietaryNeeds": [
       "low-carb",
       "gluten-free",
-      "lactose-free"
+      "lactose-free",
+      "vegan",
+      "vegetarian"
     ],
     "timeOfDay": [
       "dinner"
@@ -294,7 +310,7 @@
     "title": "Cherry Pie",
     "tempTimeYield": "Makes 1 pie. 400° for 30 min.",
     "ingredients": [
-      "2 cans Cherries (\"Oregon Cherries, pitted red tart cherries in water\") Save water!!",
+      "2 cans Cherries ('Oregon Cherries, pitted red tart cherries in water') Save water!!",
       "¾ cup sugar",
       "2 ‘heaping’ T of flour",
       "Keep ⅔ cup juice, drain the rest"
@@ -359,7 +375,7 @@
       "3-ish T dijon mustard",
       "1 ½ T - 2T old bay",
       "1 lemon, anaconda squeeezed",
-      "3 or 4 oz. beer (Shiner boch or lager preferred)",
+      "3 or 4 oz beer (Shiner boch or lager preferred)",
       "12 oysters"
     ],
     "directions": [
@@ -387,7 +403,7 @@
     "ingredients": [
       "1 ¼ cup flour",
       "1 tsp salt",
-      "4 oz. cup shortening",
+      "4 oz cup shortening",
       "¼ cup cold water"
     ],
     "directions": [
@@ -448,9 +464,9 @@
       "dessert"
     ]
   },
-  "schnikerdoodles": {
-    "id": "schnikerdoodles",
-    "title": "Schnikerdoodles",
+  "snickerdoodles": {
+    "id": "snickerdoodles",
+    "title": "Snickerdoodles",
     "tempTimeYield": "Makes 3 ½ dozen",
     "ingredients": [
       "1 cup shortening (8 oz)",
@@ -472,7 +488,7 @@
       "lactose-free"
     ],
     "dearAlyssa": [
-      "Isn't it \"Snickerdoodles\" though? I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture."
+      "I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture."
     ],
     "timeOfDay": [
       "dessert"
@@ -484,21 +500,23 @@
     "ingredients": [
       "1 ½ cubes butter",
       "1 ½ 16 oz package of marshmallows",
-      "1 whole box of 15 oz Rice Krispys"
+      "1 whole box of 15 oz Rice Krispies"
     ],
     "directions": [
       "Stir butter and marshmallows together until melted.",
       "Add cereal.",
-      "Mix well and put on pan to cool"
+      "Mix well and put on pan to cool."
     ],
     "dietaryNeeds": [
       "vegetarian"
     ],
     "dearAlyssa": [
-      "Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)"
+      "Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)",
+      "Holiday fun treat: make wreathes! Substitute corn flakes for Rice Krispies, and add green food dye to the marshmallows when melting. Cool in little doughnut shapes, and add Twizzler pull-n-peels that have been shaped into bows, and Red hots if you like (as holly berries)."
     ],
     "timeOfDay": [
-      "dessert"
+      "dessert",
+      "holiday"
     ]
   },
   "ricePilaf": {
@@ -526,7 +544,7 @@
       "text": "Andrea Young"
     },
     "dearAlyssa": [
-      "Your \"rice and beans\" recipe stems from this one. Brown raw rice in oil and soy sauce, then add water to cook rice. Add black beans. Should this get its own recipe? Nah."
+      "Your 'rice and beans' recipe stems from this one. Brown raw rice in oil and soy sauce, then add water to cook rice. Add black beans. Should this get its own recipe? Nah."
     ],
     "timeOfDay": [
       "dinner"
@@ -633,7 +651,7 @@
     "dearAlyssa": [
       "Do this with a team mate or your hand will get so, so, so, so tired.",
       "Have everything ready before you start (especially if you're alone) so you don't get stuck not being able to stir.",
-      "The \"firm ball stage\" is tricky. Stick on the softer side, because a firmer caramel is not as enjoyable to eat, even if it is easier to get out of the pan.",
+      "The 'firm ball stage' is tricky. Stick on the softer side, because a firmer caramel is not as enjoyable to eat, even if it is easier to get out of the pan.",
       "To wrap individual caramels, cut rectangles of wax paper/parchment paper wider than you think it needs to be. Twist each end the *same* direction, so that when you pull, it comes unraveled.",
       "One day, I really ought to try a caramel apple with this recipe."
     ],
@@ -839,7 +857,7 @@
       "1 tsp ground ginger",
       "½ tsp ground cloves",
       "4 large eggs",
-      "1 can Libby’s Pumpkin",
+      "1 29 oz can Libby’s Pumpkin",
       "2 cans evaporated milk"
     ],
     "directions": [
@@ -881,7 +899,7 @@
       "425˚ and 30-45 min"
     ],
     "dearAlyssa": [
-      "Cooking the apples and then adding water into pie always turns the apples into applesauce. Next time, try cooking the skins (instead of the apples themselves) to get \"apple water\" and see if that helps the apple slices' texture.",
+      "Cooking the apples and then adding water into pie always turns the apples into applesauce. Next time, try cooking the skins (instead of the apples themselves) to get 'apple water' and see if that helps the apple slices' texture.",
       "Before you cut, core, and peel all the apples (which is easiest done with a countertop apple spiralizer), put the slices you've made in the empty pie dish until it's full. Now you have enough apples!",
       "Consider trying mixing the apples with the sugar mixture before putting either into the pie. May make the flavor more even."
     ],
@@ -891,7 +909,11 @@
     "dietaryNeeds": [
       "vegetarian",
       "lactose-free"
-    ]
+    ],
+    "credit": {
+      "text": "Better Homes and Gardens Cook Book",
+      "url": "https://www.amazon.com/Better-Homes-Gardens-New-Cookbook/dp/0553577956/ref=asc_df_0553577956/?tag=hyprod-20&linkCode=df0&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594&psc=1&tag=&ref=&adgrpid=58874700621&hvpone=&hvptwo=&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594"
+    }
   },
   "ratatouille": {
     "id": "ratatouille",
@@ -914,10 +936,10 @@
       "Add salt and herbs to flavor, which will likely be quite a bit—at least a tablespoon of each. Stir and lower temperature to low to medium heat. Add lid and simmer until vegetables are as soft as desired. As the veggies cook, they will condense and make more room in the pot."
     ],
     "credit": {
-      "text": "Monia Rivet Bonjean (translated to English by Alyssa Helgason)"
+      "text": "Monia Rivet Bonjean (translated to English by Alyssa Helgabones)"
     },
     "dearAlyssa": [
-      "You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have \"too much lavender\" taste to it? No such thing."
+      "You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have 'too much lavender' taste to it? No such thing."
     ],
     "timeOfDay": [
       "dinner"
@@ -1059,25 +1081,25 @@
   "zucchiniMuffins": {
     "id": "zucchiniMuffins",
     "title": "Zucchini Muffins",
-    "tempTimeYield": "350° for 20-30 min. 1 dozen muffins",
+    "tempTimeYield": "350°. 1 dozen+ muffins 20-30 min. 1 large bread pan + ½ doz muffins for ~40 and ~30 min respectively (when at the same time)",
     "ingredients": [
       "2 large eggs",
       "1⅓ cups sugar",
       "2 tsp vanilla extract",
-      "3 cups (packed) grated fresh zucchini",
+      "3 cups grated fresh zucchini",
       "¾ cups unsalted butter, melted",
       "2¾ cups all-purpose flour",
       "1 tsp baking soda",
       "1 tsp baking powder",
-      "¼ tsp salt",
-      "2 tsp cinnamon",
+      "1 tsp salt",
+      "1 T cinnamon",
       "1 tsp ground ginger",
-      "½ tsp nutmeg",
+      "1 tsp nutmeg",
       "1 cup walnuts (optional)",
       "1 cup raisins or dried cranberries (optional)"
     ],
     "directions": [
-      "Preheat the oven to 350°F and grate zucchini.",
+      "Grate zucchini and preheat the oven to 350°F.",
       "Beat the eggs in a large bowl. Mix in sugar and vanilla extract. Stir in the grated zucchini and the melted butter.",
       "In a separate bowl, mix together flour, baking soda, baking powder, cinnamon, ground ginger, nutmeg, and salt.",
       "Combine wet and dry ingredients. (Do not over-mix!) Stir in walnuts, raisins or cranberries if using.",
@@ -1094,7 +1116,504 @@
       "vegetarian"
     ],
     "dearAlyssa": [
-      "Grate the zucchini first. I use our fine grater, and it makes a lot of juice, so when I add the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."
+      "I've modified the original recipe since each time I make this, I end up adding more salt and spices anyway. 🌰",
+      "Still working on turning it into zucchini bread (current recipe turns out very undercooked).",
+      "If the zucchini is a little older, it's much juicier. So when adding the zucc to the mix, pick it up and let the juice drain a little, but not too much. Trick is to let it stay moist, but don't just add a crap-ton of juice to it."
+    ]
+  },
+  "peachPie": {
+    "id": "peachPie",
+    "title": "Peach Pie",
+    "tempTimeYield": "425° 20-25 min. 1 pie",
+    "ingredients": [
+      "½ cup sugar",
+      "6 T corn starch",
+      "¼ tsp salt",
+      "¼ tsp cinnamon",
+      "1 cup water",
+      "½ cup orange juice",
+      "½ peach crushed",
+      "1 tsp vanilla",
+      "½ tsp lemon juice",
+      "1 T butter",
+      "6 large peaches cut ¼ inches thick."
+    ],
+    "directions": [
+      "Combine in a saucepan and cook over med heat, stirring constantly until thick: sugar, corn starch, salt, cinnamon, water, OJ, and crushed peach.",
+      "Cool sauce.",
+      "Gently combine vanilla, lemon juice, butter, and peaches.",
+      "Pour cooled sauce over peaches mixture and gently stir. Put in unbaked double crust. Bake on flat cookie sheet (so when it overflows into oven you don’t hate your life)."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "timeOfDay": [
+      "dessert"
+    ],
+    "dearAlyssa": [
+      "You've only made this once, and it was a long time ago. Check and make sure this recipe is still good! (The 'bake on cookie sheet' seems awfully suspicious to me that there's too much sauce.)"
+    ]
+  },
+  "stirFryPotatoBellPepper": {
+    "id": "stirFryPotatoBellPepper",
+    "title": "Stir Fry Potato and Bell Pepper",
+    "tempTimeYield": "2 adults",
+    "ingredients": [
+      "2 bell peppers",
+      "2 medium-to-large potatoes",
+      "~1 'splash' of soy sauce",
+      "~1 tsp salt",
+      "~½ tsp. sugar (offsets saltiness; balance sugar and salt to taste)"
+    ],
+    "directions": [
+      "Cut peppers and potatoes into 1x1 pieces, trying to make same size.",
+      "In fry pan on med-high, stir-fry potatoes over a small amount of oil. When the potatoes start to stick, add in a little bit of cold water, just barely enough to make them stop sticking and give them a little moisture to absorb.",
+      "Once potatoes start to become soft, add in the green peppers and mix together.",
+      "Add soy sauce, salt, and sugar to taste (sugar counterbalances the saltiness of everything else).",
+      "Remove from heat when veggies are just soft, but heated through."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free"
+    ],
+    "credit": {
+      "text": "Amia Huang"
+    },
+    "timeOfDay": [
+      "lunch",
+      "dinner"
+    ],
+    "dearAlyssa": [
+      "Careful to not cook the potatoes too much before adding in the bell peppers, or they start to break apart at the end. No one wants stir fry mush!",
+      "This dish always reminds me of Avatar the Last Airbender, because I used to make this meal then watch it."
+    ]
+  },
+  "funeralPotatoes": {
+    "id": "funeralPotatoes",
+    "title": "Funeral Potatoes",
+    "tempTimeYield": "350° for 30 minutes. Feeds 10. 9 x 13 pan",
+    "ingredients": [
+      "4 cups thawed hash browns",
+      "1 can of cream of chicken soup",
+      "1 cup sour cream",
+      "½ cup chopped onion",
+      "½ cube + 2 T melted butter",
+      "½ cup cheese grated",
+      "¾ cups smashed cornflakes"
+    ],
+    "directions": [
+      "Mix hash browns, cream of chicken soup, sour cream, onion, ½ cube of melted butter, and cheese together. Put evenly in a 9x13 pan.",
+      "Top with cornflakes and 2 T melted butter.",
+      "Bake uncovered at 350° for 30 minutes. Feeds 10."
+    ],
+    "dietaryNeeds": [],
+    "timeOfDay": [
+      "dinner",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "I don't think I've ever made this specific recipe, but I know I love Funeral Potatoes. Never actually had them at a funeral, but it's one of the best Mormon casseroles to exist. I mean, who doesn't love cheesy potatoes?"
+    ]
+  },
+  "playDough": {
+    "id": "playDough",
+    "title": "Play Dough",
+    "tempTimeYield": "",
+    "ingredients": [
+      "1 cup water",
+      "¼ cup salt",
+      "1 or 2 drops food coloring",
+      "1 T alum",
+      "1 T baby oil",
+      "1 cup flour"
+    ],
+    "directions": [
+      "Boil water, then add salt, food coloring.",
+      "Add alum, baby oil, and flour.",
+      "Knead until complete."
+    ],
+    "timeOfDay": [
+      "inedible"
+    ],
+    "dearAlyssa": [
+      "I don't have alum in the house (had to look it up what it even was), and it seems a lot of people also use cream of tarter (though I'm not sure if it would work as a direct substitute in this recipe).",
+      "We still have play dough in the house, but when we next run out I'm trying this!"
+    ]
+  },
+  "gak": {
+    "id": "gak",
+    "title": "Gak",
+    "tempTimeYield": "",
+    "ingredients": [
+      "1 level tsp talcum powder (NOT corn starch)",
+      "4 tsp water",
+      "1-2 drops food coloring",
+      "5 tsp Elmer’s white glue",
+      "1-3 tsp borax solution (1 T of borax soap mixed with 1 cup water)"
+    ],
+    "directions": [
+      "Make Borax solution and shake until well dissolved.",
+      "In a separate paper cup (5 oz Dixie cup ok), measure and add Elmer’s glue. Add water, talcum powder, and food coloring. Stir well until lumps are all gone.",
+      "Add Borax mix until one glob is stuck to the stirrer (should be 2-3 tsp, but you may need to add more if all the glue mix isn’t transformed).",
+      "With your hands, pull the glob off the stirrer and squeeze out the excess fluid. Place in a zip-lock baggy or closable container so it will not dry out.",
+      "Be sure to clean up after as lots of ingredients stain!"
+    ],
+    "timeOfDay": [
+      "inedible"
+    ],
+    "dearAlyssa": [
+      "Never tried this! Sounds like a great project for kiddos!"
+    ]
+  },
+  "bathBomb": {
+    "id": "bathBomb",
+    "title": "Bath Bombs",
+    "tempTimeYield": "4 large bath bombs. 24 hrs drying time.",
+    "ingredients": [
+      "1 cup baking soda",
+      "½ cup citric acid",
+      "½ cup epsom salt",
+      "½ cup cornstarch",
+      "Loose leaf tea (optional)",
+      "Color pigment (DIY makeup pigment or food coloring) (optional)",
+      "2½ T almond oil/melted coconut oil",
+      "¾ T water",
+      "12-15 drops essential oil",
+      "Bath bomb molds"
+    ],
+    "directions": [
+      "In a medium bowl, mix together baking soda, citric acid, epsom salt, and corn starch.",
+      "If you want different colors/fragrances, separate into smaller bowls. Add tea and dry color pigment to desired look. Whisk to combine.",
+      "VERY slowly, add oils to dry ingredients, then any food coloring or extra water. (Important! The dry mixture is ready to start fizzing with any liquid added. Water and food coloring will make it fizz more, so do verrrry slowly.) Mix until combined, and the ingredients look like wet sand.",
+      "Molding the bomb: if using mini cupcake pan or ice tray, press mixture into mold and push down with flat surface if possible. Leave in to dry.",
+      "Molding the bomb: if using a global mold, fill each half of the mold, packing the mixture in slightly until it's overflowing. Press the halves together firmly. Let the filled mold sit for one minute. Lightly tap the mold and gently pull it apart to remove the bath bomb.",
+      "Let the bath bombs dry for 24 hours before enjoying in the tub."
+    ],
+    "credit": {
+      "text": "Michael Wurm, Jr.",
+      "url": "https://inspiredbycharm.com/diy-bath-bombs/"
+    },
+    "timeOfDay": [
+      "inedible"
+    ],
+    "dearAlyssa": [
+      "Remember that any water added will take out some of the fizziness in the tub. Add more oil if you want to skip out on liquids (we don't add the water in the ingredients).",
+      "Food coloring will also take out fizziness--don't go crazy. A natural dye is going to be better for your water/skin/tub.",
+      "It's fun to match teas with essential oil fragrances and for purposes (chamomile/lavender for soothing sleep, mint for pain, black teas for energy, etc.). It's especially pretty to add tea to the bottom of the mold to help identify it.",
+      "Enjoy creating! The world is your bath bomb."
+    ]
+  },
+  "coffeeCake": {
+    "id": "coffeeCake",
+    "title": "Coffee 'Breakfast' Cake",
+    "tempTimeYield": "375°, 25-30 min. One 8x8 pan.",
+    "ingredients": [
+      "CAKE",
+      "1 ½ cups flour",
+      "¾ cup sugar",
+      "2 tsp baking powder",
+      "½ tsp salt",
+      "1 egg (beaten)",
+      "½ cup milk",
+      "¼ cup oil (veggie or coconut)",
+      "½ cup raisins (optional)",
+      "-",
+      "CRUMBLE",
+      "¾ cup brown sugar",
+      "¼ cup flour",
+      "¼ cup butter (softened)",
+      "2 - 3 tsp cinnamon",
+      "½ cup chopped nuts (optional)"
+    ],
+    "directions": [
+      "Combine flour, sugar, baking powder, salt in a medium sized bowl.",
+      "Combine egg, milk, and oil in another bowl.",
+      "Add wet and dry ingredients together, don't over stir.",
+      "Grease 9x9 or 8x8 pan and pour batter in.",
+      "Separately, combine topping ingredients, cutting in butter to make a crumble. Pour/sprinkle over batter.",
+      "Bake 25-30 minutes at 375°."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "timeOfDay": [
+      "breakfast",
+      "dessert"
+    ],
+    "dearAlyssa": [
+      "Crumble has already been multiplied, because lets be honest the crumble is the best part. I think last time I doubled the cake and poured it in a 9x13 pan. The crumble I think was still enough (but could have been more..?)",
+      "Heat a slice up and mix with vanilla ice cream for a yummy dessert!"
+    ]
+  },
+  "pumpkinSeeds": {
+    "id": "pumpkinSeeds",
+    "title": "Roasted Pumpkin Seeds",
+    "tempTimeYield": "350° for 10 minutes, then 180° until crispy",
+    "ingredients": [
+      "1 pumpkin's-worth amount of seeds, separated from pumpkin guts",
+      "~1 tsp salt",
+      "~2 T olive oil",
+      "~1 tsp garlic powder",
+      "~1 tsp onion powder"
+    ],
+    "directions": [
+      "Scoop seeds out of a pumpkin, keeping separate from guts when possible. Rinse seeds in a collander.",
+      "Put seeds in bowl and add salt. Let salt dry seeds out for a few minutes.",
+      "Add olive oil, garlic powder, and onion powder. Amounts are undefined since number of seeds are variable. Season until it looks good.",
+      "Mix well until ingredients are evenly distributed. Lay seeds out on a cookie sheet lined with wax/parchment paper.",
+      "Cook at 350° for about 10 minutes.",
+      "'Stir' seeds by shimmying parchment paper and spreading out again. Turn temp down to 180° and cook until crispy, stiring each check so that seeds get flipped."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
+    ],
+    "credit": {
+      "text": "Brendo Helgo"
+    },
+    "timeOfDay": [
+      "dinner",
+      "dessert",
+      "holiday"
+    ]
+  },
+  "peanutButterPretzelTreats": {
+    "id": "peanutButterPretzelTreats",
+    "title": "Peanut Butter Pretzel Treats",
+    "tempTimeYield": "",
+    "ingredients": [
+      "~2 cups powdered sugar",
+      "15 oz creamy peanut butter (refrigerated)",
+      "¼ cup softened butter",
+      "1 tsp vanilla",
+      "1 tsp salt",
+      "1 bag of pretzel rods",
+      "1-2 bags white chocolate chips"
+    ],
+    "directions": [
+      "Mix peanut butter, salt, vanilla, powdered sugar and butter together.",
+      "Once you have a sturdy dough (helped with the fridge/freezer), roll out 1 T chunks and wrap around pretzel rods (leaving a handle). Place on a parchment-lined cookie sheet that will fit in your freezer.",
+      "Use all peanut butter dough and freeze sticks for about 2 hours.",
+      "Double boil white chocolate chips until very melted and liquidy. Do not try to melt twice.",
+      "Hold peanut butter stick over pot and spoon chocolate onto stick, covering peanut butter dough.",
+      "Place stick back on parchment-lined cookie sheet. Add sprinkles or other fun things for decoration. Place back in freezer until chocolate sets. Enjoy!"
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "Original recipe was inspired by Netflix's 'Curious Creations of Christine McConnel' (season 1, episode 1) and calls shaping the sticks into bones. Just didn't work. Dough was too soft and chocolate was always too thick. Consider using literal melting white chocolate. If you try bones again, get creative--besides the default 'dog bone', you can make spine bones, eye balls, teeth, finger bones, wish bones, ribs, etc.",
+      "Still working on the recipe for the peanut butter dough; my first go the dough was too soft and I had to keep the bones in the freezer constantly. Consider removing butter to help make the dough stiffer. May need more powdered sugar.",
+      "I've found a 'no sugar added' peanut butter, and stevia-sweetened white chocolate. Could be made into a relatively low-carb treat!"
+    ]
+  },
+  "royalIcing": {
+    "id": "royalIcing",
+    "title": "Royal Icing",
+    "tempTimeYield": "",
+    "ingredients": [
+      "2 T meringue powder",
+      "6 T water",
+      "2⅔ cups powdered sugar",
+      "Food coloring (optional)",
+      "Additional water for thinning (optional)"
+    ],
+    "directions": [
+      "Place the meringue powder and water in a large mixing bowl, and whip (with the whisk attachment) until foamy (about 3 minutes).",
+      "Add the powdered sugar, and whip on medium speed until very stiff and thick (the royal icing should hold a stiff peak).",
+      "Tint as needed with food coloring. If you use liquid food coloring, be careful, it could change consistency.",
+      "Thin with additional water, a drop at a time, to get the desired consistency."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free",
+      "gluten-free"
+    ],
+    "credit": {
+      "text": "bakingamoment.com",
+      "url": "https://bakingamoment.com/royal-icing/"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "Piping is tricky, and I definitely need more practice. Make sure to pipe and test--you need a slightly stiffer amount for outlining, and a thinner one for 'flooding'.",
+      "Trick to outlining is to hold your bag up higher than the cookie (instead of very close). You get straighter lines that way. Flooding IS easiest if you fill everything evenly. Tiny holes can be filled in with a toothpick, but it can sometimes be noticeably less frosting there.",
+      "I don't remember how long it takes to dry. A few hours at least though?",
+      "Don't add food coloring and use in tandem with Painted Sugar Cookies! (Under 'S' for 'Sugar')"
+    ]
+  },
+  "sugarCookies": {
+    "id": "sugarCookies",
+    "title": "Sugar Cookies",
+    "tempTimeYield": "400° for 7-8 minutes",
+    "ingredients": [
+      "2¾ cups flour",
+      "2 tsp baking powder",
+      "1 tsp salt",
+      "1 cup unsalted butter, softened",
+      "1½ cups powdered sugar",
+      "1 egg",
+      "3 tsp vanilla extract"
+    ],
+    "directions": [
+      "In a bowl, sift together flour, baking powder and salt; set aside. In a small bowl, lightly whisk together egg and vanilla extract; set aside.",
+      "In a large bowl, cream together softened butter and powdered sugar. With mixer running add in egg mixture and beat to combine; then add flour mixture little by little. Beat just until dough sticks to mixer, cookie dough gives slightly when gently pressed and dough does not stick to fingers.",
+      "Roll out dough between two sheets of parchment paper to 1/4 inch thickness. Use preferred cookie cutter and stamp out cookies.",
+      "Bake at 400° for 7-8 minutes."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "credit": {
+      "text": "Naomi Robinson from Bakers Royale",
+      "url": "https://www.bakersroyale.com/hand-painted-sugar-cookies/"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ]
+  },
+  "paintedSugarCookies": {
+    "id": "paintedSugarCookies",
+    "title": "Painted Sugar Cookies",
+    "tempTimeYield": "",
+    "ingredients": [
+      "Food coloring, gel preferred",
+      "Vodka",
+      "Food-safe paint brushes",
+      "Food-safe palette or multiple ramekins"
+    ],
+    "directions": [
+      "Make cookies according to Sugar Cookie recipe.",
+      "Make Royal Icing recipe and apply to cookies. Make sure icing has completely dried before attempting painting.",
+      "Create your colors on your palette, adding vodka to them to make more pastel.",
+      "Keeping brush as dry as possible, paint on the frosting of your cookies. Do not over-paint or frosting will dissolve."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "vegan",
+      "lactose-free"
+    ],
+    "credit": {
+      "text": "Naomi Robinson from Bakers Royale",
+      "url": "https://www.bakersroyale.com/hand-painted-sugar-cookies/"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ]
+  },
+  "roloYoloCookies": {
+    "id": "roloYoloCookies",
+    "title": "Jessi's Yolo Rolo Cookies",
+    "tempTimeYield": "350° 12-14 minutes. Makes as many cookies as rolos (25-28)",
+    "ingredients": [
+      "1 box of devil's food cake",
+      "⅓ cup oil",
+      "2 eggs",
+      "1 small bag of rolos",
+      "~1 cup powered sugar"
+    ],
+    "directions": [
+      "In a medium sized bowl, mix food cake, oil, and eggs. If dough is too dry, add a little bit of water.",
+      "Take small pieces of dough and surround a rolo until it's in the middle.",
+      "Roll dough ball in powdered sugar and place on cookie sheet.",
+      "Put in oven for 350° for 12-14 minutes."
+    ],
+    "dietaryNeeds": [
+      "vegetarian",
+      "lactose-free"
+    ],
+    "credit": {
+      "text": "Jessi McAllister"
+    },
+    "timeOfDay": [
+      "dessert"
+    ],
+    "dearAlyssa": [
+      "Fun fact, these cookies won me a people's choice award at a Starbucks Web Engineering Cookie Bakeoff! They're just that good. And also easy to make!"
+    ]
+  },
+  "spaghetti": {
+    "id": "spaghetti",
+    "title": "Spaghetti Sauce",
+    "tempTimeYield": "~4 adults",
+    "ingredients": [
+      "1 pound of ground beef",
+      "½ onion (or dried minced onions)",
+      "A few good shakes of seasoning salt",
+      "5 small cans of tomato sauce",
+      "~1 tsp onion powder",
+      "~1 tsp garlic powder",
+      "3 leaves of fresh basil or equivalent dried basil",
+      "A modest amount of oregano",
+      "~⅓ cup sugar"
+    ],
+    "directions": [
+      "In a pot on the stove, cook ground beef until brown, with onion and seasoning salt. Consider pouring out some beef fat before next step.",
+      "Add tomato sauce, then onion powser, garlic powder, basil, oregano, and sugar.",
+      "Simmer for as long as possible. Serve with spaghetti noodles (or for gluten free, zucchini noodles or spaghetti squash) and garlic bread."
+    ],
+    "dietaryNeeds": [
+      "lactose-free",
+      "gluten-free",
+      "low-carb"
+    ],
+    "credit": {
+      "text": "Andrea Young"
+    },
+    "timeOfDay": [
+      "dinner"
+    ],
+    "dearAlyssa": [
+      "I don't usually buy tomato sauce, instead I often put in cans of diced tomatoes (or dice up tomatoes that are going soft) and stick it in for content. I also use some tomato paste and water.",
+      "Optional add-ins: thyme, rosemary, olives, mushrooms... The world is your spaghetti sauce!"
+    ]
+  },
+  "sevenLayerBars": {
+    "id": "sevenLayerBars",
+    "title": "Seven Layer Bars",
+    "tempTimeYield": "350° 25-30 min. 13 x 9 pan",
+    "ingredients": [
+      "½ cup butter or margarine",
+      "1½ cups finely crushed graham crackers",
+      "1 6-oz package (1 cup) semisweet chocolate pieces",
+      "1 6-oz package (1 cup) butterscotch pieces",
+      "1 3½-oz can (1⅓ cups) flaked sweetened coconut",
+      "½ cup chopped walnuts",
+      "1 14-oz can (1⅓ cups) sweetened condensed milk"
+    ],
+    "directions": [
+      "Melt butter; stir in crushed graham crackers. Pat crumb mixture evenly in bottom of an uncreased 13x9x2\" baking pan.",
+      "Layer evenly, in order: chocolate pieces, butterscotch pieces, coconut, and walnuts.",
+      "Pour sweetened condensed milk evenly over all.",
+      "Bake at 350° for 30 minutes. Cool and cut into bars."
+    ],
+    "dietaryNeeds": [
+      "vegetarian"
+    ],
+    "credit": {
+      "text": "Better Homes and Gardens Cook Book",
+      "url": "https://www.amazon.com/Better-Homes-Gardens-New-Cookbook/dp/0553577956/ref=asc_df_0553577956/?tag=hyprod-20&linkCode=df0&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594&psc=1&tag=&ref=&adgrpid=58874700621&hvpone=&hvptwo=&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594"
+    },
+    "timeOfDay": [
+      "dessert",
+      "holiday"
+    ],
+    "dearAlyssa": [
+      "Ingredient translation of what to use: 1 package of graham crackers; 1 cube of butter; ½ package of chocolate, butterscotch chips, and coconut flakes; no walnuts (it's only 6 layers! 😱); 1 can sweetened condensed milk.  Only cook it for 25 minutes.",
+      "Great for making with kids! They love crushing the graham crackers in a gallon zip-lock bag with a rolling pin, and they love pouring the chocolate and butterscotch chips. And they love tasting all the things as they go in 😉"
     ]
   },
   "spaghettiSauce": {

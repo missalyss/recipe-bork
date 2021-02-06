@@ -1,13 +1,18 @@
 # TODO:
 
-[ ] - design to be borkier (api no go-- create json for title and nav strings to go into, call up on them when something should be "borked". )
 [ ] - type of dessert: (pie, cookie, cake, other);
-[x] - dietary restrictions (no sugar added/low carb, gluten-free, vegan, vegetarian)
-[x] - find a way to include CNAME file in `npm run build`/script for deployment.
-[x] - nav for each item
-[x] - add more recipes, obviously
-[x] - make manifest.json with icon so it can be added to home screen and look nice and shit
+[ ] - Spices how to section from Brendo
+[ ] - multiplicity in recipe
+[ ] - change taco soup recipe back to original.
 
+## Recipes to add
+* 7 Layer bars
+* gravy?
+* wassail
+* garlic bread
+* harlo vegan chocolate cake https://www.mydarlingvegan.com/vegan-chocolate-hazelnut-zucchini-cake/
+* harlo vegan butternut squash soup https://cookieandkate.com/roasted-butternut-squash-soup/
+* em "Grilled Chicken Thighs with Alaba.." Em text Mon Aug 17th.
 
 # TO DEPLOY:
 
@@ -45,7 +50,8 @@ npm run deploy
       "lunch",
       "dinner",
       "dessert",
-      "holiday"
+      "holiday",
+      "inedible"
     ],
     "dearAlyssa": [
       ""
@@ -66,9 +72,10 @@ eighth ⅛
 cup instead of C
 tsp instead of teaspoon
 T instead of tablespoon
+oz instead of oz.
 
-
-
+# BORKER
+https://funtranslations.com/chef
 
 
 ## Available Scripts
