@@ -57,10 +57,11 @@
       "1 ½ cups milk",
       "2 eggs",
       "1 T cooking oil",
-      "¼ tsp salt"
+      "¼ tsp salt",
+      "Optional: 1 tsp vanilla"
     ],
     "directions": [
-      "Spoon small amount of batter onto lightly greased skillet. Spread batter and wait until there's no wet batter to flip. (Be careful!) Cook until slightly browned. Recommended additives: Banana, Nutella, Coconut, Butter and cinnamon-sugar, maple syrup."
+      "Spoon small amount of batter onto lightly greased skillet. Spread batter and wait until there's no wet batter before flipping. (Be careful!) Cook until slightly browned. Recommended additives: Banana, Nutella, Coconut, Butter and cinnamon-sugar, maple syrup."
     ],
     "dietaryNeeds": [
       "vegetarian"
@@ -330,7 +331,7 @@
       "text": "Barbara Harlan (or Grandma Weber?)"
     },
     "dearAlyssa": [
-      "Instead of stirring cherries in the dough, put it in a different bowl and mix with sugar in there. Just easier and less risk."
+      "Instead of stirring cherries in the dough, put it in a different bowl and mix with sugar in there. Just easier and less risk. Don't add juice, just let the juice in the cherries do the work."
     ],
     "timeOfDay": [
       "dessert"
@@ -434,7 +435,7 @@
   "chocolateChipCookies": {
     "id": "chocolateChipCookies",
     "title": "Chocolate Chip Cookies",
-    "tempTimeYield": "Bake at 350° for 10 minutes on a greased sheet. Makes 24 cookies",
+    "tempTimeYield": "Bake at 350° for 10 minutes on a greased sheet. Makes \"24\" cookies--THIS RECIPE IS DOUBLED",
     "ingredients": [
       "2 cubes (1 cup) margarine softened",
       "1 cup shortening (8 oz)",

@@ -1,9 +1,21 @@
 # TODO:
 
-[ ] - type of dessert: (pie, cookie, cake, other);
-[ ] - Spices how to section from Brendo
-[ ] - multiplicity in recipe
-[ ] - change taco soup recipe back to original.
+- type of dessert: (pie, cookie, cake, other);
+- Spices how to section from Brendo
+- change taco soup recipe back to original.
+- multiplicity in recipe
+  ```json
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "cube",
+      "ingredient": "margarine",
+      "otherNotes": "(aka 1 cup) softened"
+    },
+  ```
+- Make pie recipes link to pie crust
+- consider making
+
 
 ## Recipes to add
 * 7 Layer bars
