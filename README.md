@@ -1,8 +1,10 @@
 # TODO:
-
+- screenshot recipe to share
+- form to email lou recipe suggestions (suggestionBox)
 - type of dessert: (pie, cookie, cake, other);
 - Spices how to section from Brendo
 - change taco soup recipe back to original.
+
 - multiplicity in recipe
   ```json
   "ingredients": [

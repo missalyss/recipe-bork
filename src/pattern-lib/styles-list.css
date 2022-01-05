@@ -59,6 +59,18 @@
   font-size: 12px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
 .text-left {
   text-align: left;
 }

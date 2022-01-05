@@ -23,9 +23,9 @@ const Recipe = ({ recipe: { title, ingredients, directions, tempTimeYield, credi
 
   return (
     <div className='container recipe-container bg-cream' id={id}>
-      <h1 className='text-soft-black r-title'>
+      <a href={`#${id}`}className='text-soft-black r-title bold'>
         {title.toUpperCase()}
-      </h1>
+      </a>
       {tempTimeYield && (<p>{tempTimeYield}</p>)}
       <Ingredients ingredients={ingredients} />
       {directions[1] ? directionsOrderedList : (

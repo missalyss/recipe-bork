@@ -470,13 +470,13 @@
     "title": "Snickerdoodles",
     "tempTimeYield": "Makes 3 ½ dozen",
     "ingredients": [
-      "1 cup shortening (8 oz)",
-      "1 ½ cups sugar",
-      "2 eggs",
-      "2 ¾ cup flour",
-      "2 tsp cream of tarter",
-      "1 tsp baking soda",
-      "1 tsp salt"
+      {"qty": "1", "unit": "cup", "name": "shortening", "altName": "butter", "notes": "(8 oz)"},
+      {"qty": "1.5", "unit": "cup", "name": "sugar"},
+      {"qty": "2", "name": "eggs"},
+      {"qty": "2.7", "unit": "cup", "name": "flour"},
+      {"qty": "2", "unit": "tsp", "name": "cream of tarter"},
+      {"qty": "1", "unit": "tsp", "name": "baking soda"},
+      {"qty": "1", "unit": "tsp", "name": "salt"}
     ],
     "directions": [
       "Cream shortening, sugar, and eggs.",
@@ -499,9 +499,9 @@
     "id": "riceKrispieTreats",
     "title": "Rice Krispy Treats",
     "ingredients": [
-      "1 ½ cubes butter",
-      "1 ½ 16 oz package of marshmallows",
-      "1 whole box of 15 oz Rice Krispies"
+      { "qty": "1.5", "unit": "cube", "name": "butter"},
+      { "qty": "1.5", "name": "16 oz package of marshmallows"},
+      { "qty": "1", "name": "whole box of 15 oz Rice Krispies"}
     ],
     "directions": [
       "Stir butter and marshmallows together until melted.",
@@ -820,15 +820,15 @@
     "title": "Pepperkaker",
     "tempTimeYield": "(Swedish Gingersnaps) “Makes Children Kind and Dear” 350° for 8-10 min",
     "ingredients": [
-      "⅔ cup shortening",
-      "¾ cup brown sugar",
-      "2 T molasses",
-      "3 T water",
-      "2 ¼ cup sifted flour",
-      "1 tsp baking soda",
-      "2 tsp cinnamon",
-      "1 ½ tsp cloves",
-      "1 tsp cardamom"
+      { "qty": ".6", "unit": "cup", "name": "shortening"},
+      {"qty": ".7", "unit":"cup", "name": "brown sugar"},
+      {"qty": "2", "unit":"T", "name": "molasses"},
+      {"qty": "3", "unit":"T", "name": "water"},
+      {"qty": "2.2", "unit": "cup", "name": "sifted flour"},
+      { "qty": "1", "unit": "tsp", "name": "baking soda"},
+      { "qty": "2", "unit": "tsp", "name": "cinnamon"},
+      { "qty": "1.5", "unit": "tsp", "name": "cloves"},
+      { "qty": "1", "unit": "tsp", "name": "cardamom"}
     ],
     "directions": [
       "Cream shortening, sugar, molasses and water together.",
