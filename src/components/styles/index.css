@@ -1,5 +1,5 @@
 .rootBody {
-  padding: 24px;
+  padding: 12px;
 }
 
 .search-box {
@@ -11,4 +11,10 @@
 .bork-box {
   right: 4px;
   top: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .rootBody {
+    padding: 24px;
+  }
 }

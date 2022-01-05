@@ -24,7 +24,7 @@ const Ingredients = ({ ingredients }) => (
           {unit && <UnitOfMeasure unit={unit} qty={qty} />}
           <span className='mr2'>{name}</span>
           <AltName altName={altName} />
-          {notes}
+          <span>{notes}</span>
       </p>
       )
     }
