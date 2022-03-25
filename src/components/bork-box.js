@@ -3,15 +3,13 @@ import './styles/index.css';
 
 const BorkBox = ({ setBorked, isBorked }) => {
   return (
-    <div className="relative">
-      <div className="bork-box absolute">
-        <input type="checkbox" id="borked" name="borked" onChange={() => setBorked(!isBorked)}>
-        </input>
-        <label className="text-cream xs-font" htmlFor="borked">
+      <div className="checkbox">
+        <label className="text-cream md-font cursor-pointer" htmlFor="borked">
           Börk börk börk!
       </label>
+        <input type="checkbox" id="borked" name="borked" onChange={() => setBorked(!isBorked)}>
+        </input>
       </div>
-    </div>
   );
 }
 

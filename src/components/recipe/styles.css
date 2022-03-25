@@ -1,6 +1,6 @@
 .container {
   border-radius: 8px;
-  padding: 24px;
+  padding: 12px;
   margin-bottom: 12px;
 }
 
@@ -12,8 +12,7 @@
 }
 
 .recipe-container {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 16px;
 }
 
 .ingredients {
@@ -36,48 +35,23 @@
   padding-bottom: 8px;
 }
 
-
-
-@media screen and (max-width: 700px) {
-  .recipe-container {
-    padding: 16px;
-  }
-
-  .ingredient-line {
-    margin: 10px 0;
-  }
-
-  .container {
-    padding: 12px;
-  }
-
-  /* .directionsForOL {
-    padding: 4px 8px;
-    margin-left: 20px;
-  }
-
-  .singleDirections {
-    padding: 4px 16px;
-  }
-
-
-  .ingredients {
-    padding: 4px 16px;
-  } */
-}
-@media screen and (max-width: 400px) {
-  .recipe-container {
-    padding: 12px;
-  }
-  .container {
-    padding: 0;
-  }
-}
 .scroll-link {
   text-decoration: none;
 }
 
+.ingredient-line {
+  margin: 10px 0;
+}
+
 @media screen and (min-width: 700px) {
+  .container {
+    padding: 24px;
+  }
+
+  .recipe-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
   .r-title {
     font-size: 33px;
     margin: 30px 0 20px;

@@ -8,9 +8,18 @@
   border: none;
 }
 
-.bork-box {
+.checkbox {
   right: 4px;
   top: 0;
+}
+
+.piebox {
+  top: 20px;
+}
+
+.border {
+  border: 1px black solid;
+  border-radius: 8px;
 }
 
 @media screen and (min-width: 700px) {

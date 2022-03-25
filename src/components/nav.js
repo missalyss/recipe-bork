@@ -8,13 +8,13 @@ const Nav = ({ recipes }) => {
   //  TODO: Check length of alphabet and adjust CSS so mobile nav isn't too cramped.
     return (
       <li className='nav-li' key={index} >
-        <a className='link' href={`#${letter}`}>{letter.toUpperCase()}</a>
+        <a className='link p2' href={`#${letter}`}>{letter.toUpperCase()}</a>
       </li>
     )
   });
 
   return (
-    <ul className='nav-ul flex'>
+    <ul className='nav-ul mt7 mb0 flex flex-wrap'>
       {list}
     </ul>
   )
