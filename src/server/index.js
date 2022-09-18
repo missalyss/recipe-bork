@@ -3,12 +3,14 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-app.use("/signin", (req, res) => {
+app.use("/bff/signin", (req, res) => {
   res.json({ status: 200, message: "Hello from server!" });
 });
 
 app.listen(PORT, () => {
-  console.log(`==================== Server listening on ${PORT} ====================`);
+  console.log(
+    `==================== Server listening on ${PORT} ====================`
+  );
 });
 
 // const express = require('express');
@@ -19,13 +21,13 @@ app.listen(PORT, () => {
 //
 //
 // app.get('/', (req, res) => {
-  // THIS DOESN'T WORK BUT OH WELL.
-  //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
-  // });
+// THIS DOESN'T WORK BUT OH WELL.
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
 
-  // app.get('/ping', (req, res) => {
-  //  return res.send('pong');
-  // });
+// app.get('/ping', (req, res) => {
+//  return res.send('pong');
+// });
 // const port = process.env.PORT || 8080;
 // app.listen(port, () => console.log(`Listening on port ${port}`));
 
@@ -36,7 +38,6 @@ app.listen(PORT, () => {
 //     `I received your POST request. This is what you sent me: ${req.body.post}`,
 //   );
 // })
-
 
 // THIS IS A CLIENTSIDE FETCH
 // fetch('https://api.funtranslations.com/translate/chef.json')

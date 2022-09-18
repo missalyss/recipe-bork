@@ -18,12 +18,8 @@
     "directions": [
       "Mix dry and liquid ingredients in separate bowls.Then combine and mix gently. Don’t overmix."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
-    "timeOfDay": [
-      "breakfast"
-    ]
+    "dietaryNeeds": ["vegetarian"],
+    "timeOfDay": ["breakfast"]
   },
   "ableskivers": {
     "id": "ableskivers",
@@ -44,9 +40,7 @@
       "One day you'll get that special cast-iron skillet required to make these. I don't even know if I could do it without Mom's help though, if I did have one. All I remember is you flip them with the use of a tooth pick.",
       "And that they taste great with butter, cinnamon-sugar, maple syrup, jam, and powdered sugar."
     ],
-    "timeOfDay": [
-      "breakfast"
-    ]
+    "timeOfDay": ["breakfast"]
   },
   "crepes": {
     "id": "crepes",
@@ -63,12 +57,8 @@
     "directions": [
       "Spoon small amount of batter onto lightly greased skillet. Spread batter and wait until there's no wet batter before flipping. (Be careful!) Cook until slightly browned. Recommended additives: Banana, Nutella, Coconut, Butter and cinnamon-sugar, maple syrup."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
-    "timeOfDay": [
-      "breakfast"
-    ]
+    "dietaryNeeds": ["vegetarian"],
+    "timeOfDay": ["breakfast"]
   },
   "quiche": {
     "id": "quiche",
@@ -94,13 +84,9 @@
       "Egg mixture: Combine eggs, milk, butter, and flour in a bowl and whisk until flour is not *very* lumpy.",
       "Layer all ingredients over crust. Bake for 45 minutes at 350°"
     ],
-    "dearAlyssa":[
-      "Follow your heart! ✨"
-    ],
+    "dearAlyssa": ["Follow your heart! ✨"],
     "dietaryNeeds": [],
-    "timeOfDay": [
-      "breakfast"
-    ],
+    "timeOfDay": ["breakfast"],
     "isPie": "true"
   },
   "cornBread": {
@@ -122,12 +108,8 @@
       "Add flour, cornmeal, sugar, salt, and baking powder all at once. Mix until just moistened.",
       "Pour into a greasted 9x9 pan and bake at 425° for 20 - 25 min, or until golden on top."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
-    "timeOfDay": [
-      "dinner"
-    ]
+    "dietaryNeeds": ["vegetarian"],
+    "timeOfDay": ["dinner"]
   },
   "chickenEnchiladas": {
     "id": "chickenEnchiladas",
@@ -152,16 +134,12 @@
       "Garnish with guacamole, lettuce, olives, sour cream, tomatoes, cheese, salsa, tortilla chips.",
       "For guests add: hot sauce, green onions, chiles"
     ],
-    "dietaryNeeds": [
-      "gluten-free"
-    ],
+    "dietaryNeeds": ["gluten-free"],
     "dearAlyssa": [
       "You are lazy, so instead of making the sauce yourself, use a mild red sauce in a can from the store. I think one big one does it.",
       "Don't forget that spooning the mixture into the tortillas and putting them in the dish is a very messy process."
     ],
-    "timeOfDay": [
-      "dinner"
-    ]
+    "timeOfDay": ["dinner"]
   },
   "candiedYams": {
     "id": "candiedYams",
@@ -181,20 +159,14 @@
       "In fry pan, melt butter, sugar, salt, and water to make thick syrup.",
       "Turn Yams in syrup, watch closely that they don’t burn."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "gluten-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "gluten-free"],
     "credit": {
       "text": "June Evans"
     },
     "dearAlyssa": [
       "Wear long-sleeve shirt or at least be careful for your arms in this one. Spitting hot sugar, ouch."
     ],
-    "timeOfDay": [
-      "dinner",
-      "holiday"
-    ]
+    "timeOfDay": ["dinner", "holiday"]
   },
   "biscuits": {
     "id": "biscuits",
@@ -217,18 +189,12 @@
       "Roll out, cut with cookie cutter.",
       "Place on greased pan. 425° for 15 min"
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "dietaryNeeds": ["vegetarian"],
     "credit": {
       "text": "'Mom E'"
     },
-    "dearAlyssa": [
-      "Jessi is the queen of these, go to her for questions."
-    ],
-    "timeOfDay": [
-      "dinner"
-    ]
+    "dearAlyssa": ["Jessi is the queen of these, go to her for questions."],
+    "timeOfDay": ["dinner"]
   },
   "tacoSoup": {
     "id": "tacoSoup",
@@ -273,9 +239,7 @@
       "vegan",
       "vegetarian"
     ],
-    "timeOfDay": [
-      "dinner"
-    ]
+    "timeOfDay": ["dinner"]
   },
   "bananaBread": {
     "id": "bananaBread",
@@ -299,9 +263,7 @@
       "Add dry ingredients (flour, soda, powder, salt)",
       "Check with toothpick for doneness."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "dietaryNeeds": ["vegetarian"],
     "credit": {
       "text": "Julie Price"
     },
@@ -309,10 +271,7 @@
       "Jessi says there's something wrong with this recipe. It was way too much flour for her? I think last time I made it, it took a lot longer to cook or something. PROCEED WITH CAUTION!!!",
       "Also: Isn't it nice to be a grownup and get to keep all the banana bread? When no one is going to give a loaf away as a gift without your okay?"
     ],
-    "timeOfDay": [
-      "breakfast",
-      "dessert"
-    ]
+    "timeOfDay": ["breakfast", "dessert"]
   },
   "cherryPie": {
     "id": "cherryPie",
@@ -330,20 +289,14 @@
       "Pour in juice, cover with top crust.",
       "Bake at 400° for 30 min"
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "vegan",
-      "lactose-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "vegan", "lactose-free"],
     "credit": {
       "text": "Barbara Harlan (or Grandma Weber?)"
     },
     "dearAlyssa": [
       "Instead of stirring cherries in the dough, put it in a different bowl and mix with sugar in there. Just easier and less risk. Don't add juice, just let the juice in the cherries do the work."
     ],
-    "timeOfDay": [
-      "dessert"
-    ],
+    "timeOfDay": ["dessert"],
     "isPie": "true"
   },
   "wings": {
@@ -365,16 +318,11 @@
       "Refrigerate for 2+ hours. (Overnight is best)",
       "Bake at 350° for 1½ hours."
     ],
-    "dietaryNeeds": [
-      "lactose-free"
-    ],
+    "dietaryNeeds": ["lactose-free"],
     "credit": {
       "text": "Keri Evans"
     },
-    "timeOfDay": [
-      "dinner",
-      "lunch"
-    ]
+    "timeOfDay": ["dinner", "lunch"]
   },
   "oysters": {
     "id": "oysters",
@@ -395,16 +343,11 @@
       "Thoroughly mix the sauce repeatedly and sauce them oysters.",
       "Once sauce is bubbling, carefully remove that hot little cup of sea juice. Serve!"
     ],
-    "dietaryNeeds": [
-      "low-carb"
-    ],
+    "dietaryNeeds": ["low-carb"],
     "credit": {
       "text": "Brendo Helgo"
     },
-    "timeOfDay": [
-      "lunch",
-      "dinner"
-    ]
+    "timeOfDay": ["lunch", "dinner"]
   },
   "pieCrustGrandma": {
     "id": "pieCrustGrandma",
@@ -425,11 +368,7 @@
     "credit": {
       "text": "Grandma (Harlan? Weber?)"
     },
-    "dietaryNeeds": [
-      "vegetarian",
-      "vegan",
-      "lactose-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "vegan", "lactose-free"],
     "dearAlyssa": [
       "This never seems enough for one full pie, let alone two bottoms.",
       "For a full pie, do 1 ½ cups flour, and a heaping ½ cups of shortening (since 4oz = ½ cup). Add just a little more salt, but water can stay about the same.",
@@ -437,9 +376,7 @@
       "Chill before rolling!!",
       "Don't forget about Andrea Young's special extra dessert: any extra crust, cut off with scissors, then put on a tin and top with cinnamon sugar."
     ],
-    "timeOfDay": [
-      "dessert"
-    ],
+    "timeOfDay": ["dessert"],
     "isPie": "true"
   },
   "pieCrustLou": {
@@ -463,19 +400,11 @@
     "credit": {
       "text": "Aunt Lou 😉"
     },
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "dietaryNeeds": ["vegetarian"],
     "dearAlyssa": [
       "Still getting used to the butter. It rolls SO much easier, but doesn't seem as flaky as the crisco. If it chills too long, I don't care what the bakers say, it seems near impossible to roll."
     ],
-    "timeOfDay": [
-      "dessert",
-      "breakfast",
-      "lunch",
-      "dinner",
-      "holiday"
-    ],
+    "timeOfDay": ["dessert", "breakfast", "lunch", "dinner", "holiday"],
     "isPie": "true"
   },
   "chocolateChipCookies": {
@@ -500,29 +429,30 @@
       "Add flour, soda, salt, chocolate chips.",
       "Bake at 350° for 10 minutes on a greased sheet"
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "lactose-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "lactose-free"],
     "dearAlyssa": [
       "Jessi is also the queen of these too, I think the doubling quantities all come from her."
     ],
-    "timeOfDay": [
-      "dessert"
-    ]
+    "timeOfDay": ["dessert"]
   },
   "snickerdoodles": {
     "id": "snickerdoodles",
     "title": "Snickerdoodles",
     "tempTimeYield": "Makes 3 ½ dozen",
     "ingredients": [
-      {"qty": "1", "unit": "cup", "name": "shortening", "altName": "butter", "notes": "(8 oz)"},
-      {"qty": "1.5", "unit": "cup", "name": "sugar"},
-      {"qty": "2", "name": "eggs"},
-      {"qty": "2.7", "unit": "cup", "name": "flour"},
-      {"qty": "2", "unit": "tsp", "name": "cream of tarter"},
-      {"qty": "1", "unit": "tsp", "name": "baking soda"},
-      {"qty": "1", "unit": "tsp", "name": "salt"}
+      {
+        "qty": "1",
+        "unit": "cup",
+        "name": "shortening",
+        "altName": "butter",
+        "notes": "(8 oz)"
+      },
+      { "qty": "1.5", "unit": "cup", "name": "sugar" },
+      { "qty": "2", "name": "eggs" },
+      { "qty": "2.7", "unit": "cup", "name": "flour" },
+      { "qty": "2", "unit": "tsp", "name": "cream of tarter" },
+      { "qty": "1", "unit": "tsp", "name": "baking soda" },
+      { "qty": "1", "unit": "tsp", "name": "salt" }
     ],
     "directions": [
       "Cream shortening, sugar, and eggs.",
@@ -530,41 +460,31 @@
       "Roll dough in quarter size balls and cover in a sugar & cinnamon mixture.",
       "Bake at 375° for 10-12 minute"
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "lactose-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "lactose-free"],
     "dearAlyssa": [
       "I do specifically remember making these with Grandma Harlan in the first house I remember her living in. My favorite was rolling the balls in the cinnamon-sugar mixture."
     ],
-    "timeOfDay": [
-      "dessert"
-    ]
+    "timeOfDay": ["dessert"]
   },
   "riceKrispieTreats": {
     "id": "riceKrispieTreats",
     "title": "Rice Krispy Treats",
     "ingredients": [
-      { "qty": "1.5", "unit": "cube", "name": "butter"},
-      { "qty": "1.5", "name": "16 oz package of marshmallows"},
-      { "qty": "1", "name": "whole box of 15 oz Rice Krispies"}
+      { "qty": "1.5", "unit": "cube", "name": "butter" },
+      { "qty": "1.5", "name": "16 oz package of marshmallows" },
+      { "qty": "1", "name": "whole box of 15 oz Rice Krispies" }
     ],
     "directions": [
       "Stir butter and marshmallows together until melted.",
       "Add cereal.",
       "Mix well and put on pan to cool."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "dietaryNeeds": ["vegetarian"],
     "dearAlyssa": [
       "Don't forget Mom's special trick of shaping the treats into the number of year you were turning, or something artistic like that. (Also don't forget that they're hot when you take them out of the pot.)",
       "Holiday fun treat: make wreathes! Substitute corn flakes for Rice Krispies, and add green food dye to the marshmallows when melting. Cool in little doughnut shapes, and add Twizzler pull-n-peels that have been shaped into bows, and Red hots if you like (as holly berries)."
     ],
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ]
+    "timeOfDay": ["dessert", "holiday"]
   },
   "ricePilaf": {
     "id": "ricePilaf",
@@ -583,19 +503,14 @@
       "Add bullion, carrots, and water. Stir.",
       "Put lid on when on medium heat for 15-20 min."
     ],
-    "dietaryNeeds": [
-      "lactose-free",
-      "gluten-free"
-    ],
+    "dietaryNeeds": ["lactose-free", "gluten-free"],
     "credit": {
       "text": "Andrea Young"
     },
     "dearAlyssa": [
       "Your 'rice and beans' recipe stems from this one. Brown raw rice in oil and soy sauce, then add water to cook rice. Add black beans. Should this get its own recipe? Nah."
     ],
-    "timeOfDay": [
-      "dinner"
-    ]
+    "timeOfDay": ["dinner"]
   },
   "haystacks": {
     "id": "haystacks",
@@ -618,17 +533,12 @@
       "Scoop out with a spoon and drop onto cookie sheet.",
       "Let them cool completely."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "gluten-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "gluten-free"],
     "dearAlyssa": [
       "Make drop cookies very small so they're easier to pick up once they're dried.",
       "This one can burn, esp at the beginning because your butter probably hasn't melted yet and your milk is trying to save the cocoa and sugar. Don't let it burn."
     ],
-    "timeOfDay": [
-      "dessert"
-    ]
+    "timeOfDay": ["dessert"]
   },
   "oatmealCake": {
     "id": "oatmealCake",
@@ -660,15 +570,11 @@
       "Bake cake for 35 min at 350°.",
       "Frosting: Melt ingredients in a saucepan. Spread on cake and broil for 1-3 minutes. Watch carefully."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "dietaryNeeds": ["vegetarian"],
     "credit": {
       "text": "Andrea Young"
     },
-    "timeOfDay": [
-      "dessert"
-    ]
+    "timeOfDay": ["dessert"]
   },
   "caramels": {
     "id": "caramels",
@@ -702,14 +608,8 @@
       "To wrap individual caramels, cut rectangles of wax paper/parchment paper wider than you think it needs to be. Twist each end the *same* direction, so that when you pull, it comes unraveled.",
       "One day, I really ought to try a caramel apple with this recipe."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "gluten-free"
-    ],
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ]
+    "dietaryNeeds": ["vegetarian", "gluten-free"],
+    "timeOfDay": ["dessert", "holiday"]
   },
   "redOnionMushroomSalad": {
     "id": "redOnionMushroomSalad",
@@ -737,16 +637,11 @@
       "Marinate dressing ingredients for a day",
       "Mix salad ingredients, but hold cottage cheese and dressing to add before serving. May be too much dressing for salad so don’t pour all in."
     ],
-    "dietaryNeeds": [
-      "gluten-free"
-    ],
+    "dietaryNeeds": ["gluten-free"],
     "credit": {
       "text": "Gena Marcum"
     },
-    "timeOfDay": [
-      "lunch",
-      "dinner"
-    ]
+    "timeOfDay": ["lunch", "dinner"]
   },
   "creamyChickenSoup": {
     "id": "creamyChickenSoup",
@@ -776,13 +671,8 @@
       "Bring to a boil.",
       "Then add egg yolks and cream, stirring often. Do not boil after egg and cream are added."
     ],
-    "dietaryNeeds": [
-      "low-carb"
-    ],
-    "timeOfDay": [
-      "dinner",
-      "lunch"
-    ]
+    "dietaryNeeds": ["low-carb"],
+    "timeOfDay": ["dinner", "lunch"]
   },
   "strawberrySpinachSaladDressing": {
     "id": "strawberrySpinachSaladDressing",
@@ -794,19 +684,9 @@
       "2-3 T sugar",
       "1 T poppy seeds"
     ],
-    "directions": [
-      "Add to salad right before eating"
-    ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "vegan",
-      "lactose-free",
-      "gluten-free"
-    ],
-    "timeOfDay": [
-      "dinner",
-      "lunch"
-    ]
+    "directions": ["Add to salad right before eating"],
+    "dietaryNeeds": ["vegetarian", "vegan", "lactose-free", "gluten-free"],
+    "timeOfDay": ["dinner", "lunch"]
   },
   "honeyButteredPopcorn": {
     "id": "honeyButteredPopcorn",
@@ -822,13 +702,8 @@
       "Pour over popcorn in roasting pan or large deep pan. Stir to cover all kernels.",
       "Put in oven at 275° for about 6 minutes or until caramelized, stirring often."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "gluten-free"
-    ],
-    "timeOfDay": [
-      "dessert"
-    ]
+    "dietaryNeeds": ["vegetarian", "gluten-free"],
+    "timeOfDay": ["dessert"]
   },
   "bakedBeans": {
     "id": "bakedBeans",
@@ -851,30 +726,23 @@
     "credit": {
       "text": "Brenda Evans"
     },
-    "dietaryNeeds": [
-      "lactose-free",
-      "gluten-free"
-    ],
-    "timeOfDay": [
-      "dinner",
-      "lunch",
-      "breakfast"
-    ]
+    "dietaryNeeds": ["lactose-free", "gluten-free"],
+    "timeOfDay": ["dinner", "lunch", "breakfast"]
   },
   "pepperkaker": {
     "id": "pepperkaker",
     "title": "Pepperkaker",
     "tempTimeYield": "(Swedish Gingersnaps) “Makes Children Kind and Dear” 350° for 8-10 min",
     "ingredients": [
-      { "qty": ".6", "unit": "cup", "name": "shortening"},
-      {"qty": ".7", "unit":"cup", "name": "brown sugar"},
-      {"qty": "2", "unit":"T", "name": "molasses"},
-      {"qty": "3", "unit":"T", "name": "water"},
-      {"qty": "2.2", "unit": "cup", "name": "sifted flour"},
-      { "qty": "1", "unit": "tsp", "name": "baking soda"},
-      { "qty": "2", "unit": "tsp", "name": "cinnamon"},
-      { "qty": "1.5", "unit": "tsp", "name": "cloves"},
-      { "qty": "1", "unit": "tsp", "name": "cardamom"}
+      { "qty": ".6", "unit": "cup", "name": "shortening" },
+      { "qty": ".7", "unit": "cup", "name": "brown sugar" },
+      { "qty": "2", "unit": "T", "name": "molasses" },
+      { "qty": "3", "unit": "T", "name": "water" },
+      { "qty": "2.2", "unit": "cup", "name": "sifted flour" },
+      { "qty": "1", "unit": "tsp", "name": "baking soda" },
+      { "qty": "2", "unit": "tsp", "name": "cinnamon" },
+      { "qty": "1.5", "unit": "tsp", "name": "cloves" },
+      { "qty": "1", "unit": "tsp", "name": "cardamom" }
     ],
     "directions": [
       "Cream shortening, sugar, molasses and water together.",
@@ -883,15 +751,8 @@
       "Bake at 350° for 8-10 min on a greased cookie sheet.",
       "Hold the pepperkaker in your hand. Make a wish, and then hit the center of the cookie with your knuckle. If it breaks into 3 pieces, give on piece to someone you love and eat the rest. Your wish will come true!"
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "vegan",
-      "lactose-free"
-    ],
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ]
+    "dietaryNeeds": ["vegetarian", "vegan", "lactose-free"],
+    "timeOfDay": ["dessert", "holiday"]
   },
   "pumpkinPie": {
     "id": "pumpkinPie",
@@ -915,13 +776,8 @@
       "Bake in oven at 425° for 15 minutes. Reduce temperature to 350°, bake 40-50 minutes or until knife comes out clean.",
       "Cool on wire rack for two hours."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ],
+    "dietaryNeeds": ["vegetarian"],
+    "timeOfDay": ["dessert", "holiday"],
     "isPie": "true"
   },
   "applePie": {
@@ -951,13 +807,8 @@
       "Before you cut, core, and peel all the apples (which is easiest done with a countertop apple spiralizer), put the slices you've made in the empty pie dish until it's full. Now you have enough apples!",
       "Consider trying mixing the apples with the sugar mixture before putting either into the pie. May make the flavor more even."
     ],
-    "timeOfDay": [
-      "dessert"
-    ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "lactose-free"
-    ],
+    "timeOfDay": ["dessert"],
+    "dietaryNeeds": ["vegetarian", "lactose-free"],
     "credit": {
       "text": "Better Homes and Gardens Cook Book",
       "url": "https://www.amazon.com/Better-Homes-Gardens-New-Cookbook/dp/0553577956/ref=asc_df_0553577956/?tag=hyprod-20&linkCode=df0&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594&psc=1&tag=&ref=&adgrpid=58874700621&hvpone=&hvptwo=&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594"
@@ -990,9 +841,7 @@
     "dearAlyssa": [
       "You always think that you should do just a little bit of herbes de provence, but you should do more than you think you should. Really give it a good shake. What, you think it's going to have 'too much lavender' taste to it? No such thing."
     ],
-    "timeOfDay": [
-      "dinner"
-    ],
+    "timeOfDay": ["dinner"],
     "dietaryNeeds": [
       "vegetarian",
       "vegan",
@@ -1033,13 +882,8 @@
       "text": "Miss On (who is never off!)",
       "url": "https://www.facebook.com/OnsThaiIssan"
     },
-    "timeOfDay": [
-      "dinner"
-    ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "lactose-free"
-    ],
+    "timeOfDay": ["dinner"],
+    "dietaryNeeds": ["vegetarian", "lactose-free"],
     "dearAlyssa": [
       "Honestly, half of this recipe is your own reminders and instructions. Don't forget to take it REAL easy with the sauces--you often go overboard. Start small, you can always add more.",
       "Recommend waiting until all food is prepared before starting the wok!!",
@@ -1071,9 +915,7 @@
       "Add soy sauce, mushroom/oyster sauce, sugar, and lime juice. Remove from heat",
       "Before serving, top with 1 T of coconut milk and roasted peanuts. Great with side of rice."
     ],
-    "timeOfDay": [
-      "dinner"
-    ],
+    "timeOfDay": ["dinner"],
     "credit": {
       "text": "Miss On (who is never off!)",
       "url": "https://www.facebook.com/OnsThaiIssan"
@@ -1114,14 +956,8 @@
     "credit": {
       "text": "Brendo Helgo"
     },
-    "timeOfDay": [
-      "breakfast",
-      "lunch",
-      "dinner"
-    ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "timeOfDay": ["breakfast", "lunch", "dinner"],
+    "dietaryNeeds": ["vegetarian"],
     "dearAlyssa": [
       "Just always have Brendon make these, because the way he fries the pancakes is just d e l i c i o u s.",
       "And never forget: The World is Your Pancake."
@@ -1158,12 +994,8 @@
       "text": "Elise Bauer from simplyrecipes.com",
       "url": "https://www.simplyrecipes.com/recipes/zucchini_muffins/"
     },
-    "timeOfDay": [
-      "breakfast"
-    ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "timeOfDay": ["breakfast"],
+    "dietaryNeeds": ["vegetarian"],
     "dearAlyssa": [
       "I've modified the original recipe since each time I make this, I end up adding more salt and spices anyway. 🌰",
       "Still working on turning it into zucchini bread (current recipe turns out very undercooked).",
@@ -1193,12 +1025,8 @@
       "Gently combine vanilla, lemon juice, butter, and peaches.",
       "Pour cooled sauce over peaches mixture and gently stir. Put in unbaked double crust. Bake on flat cookie sheet (so when it overflows into oven you don’t hate your life)."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
-    "timeOfDay": [
-      "dessert"
-    ],
+    "dietaryNeeds": ["vegetarian"],
+    "timeOfDay": ["dessert"],
     "dearAlyssa": [
       "You've only made this once, and it was a long time ago. Check and make sure this recipe is still good! (The 'bake on cookie sheet' seems awfully suspicious to me that there's too much sauce.)"
     ]
@@ -1221,19 +1049,11 @@
       "Add soy sauce, salt, and sugar to taste (sugar counterbalances the saltiness of everything else).",
       "Remove from heat when veggies are just soft, but heated through."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "vegan",
-      "lactose-free",
-      "gluten-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "vegan", "lactose-free", "gluten-free"],
     "credit": {
       "text": "Amia Huang"
     },
-    "timeOfDay": [
-      "lunch",
-      "dinner"
-    ],
+    "timeOfDay": ["lunch", "dinner"],
     "dearAlyssa": [
       "Careful to not cook the potatoes too much before adding in the bell peppers, or they start to break apart at the end. No one wants stir fry mush!",
       "This dish always reminds me of Avatar the Last Airbender, because I used to make this meal then watch it."
@@ -1258,10 +1078,7 @@
       "Bake uncovered at 350° for 30 minutes. Feeds 10."
     ],
     "dietaryNeeds": [],
-    "timeOfDay": [
-      "dinner",
-      "holiday"
-    ],
+    "timeOfDay": ["dinner", "holiday"],
     "dearAlyssa": [
       "I don't think I've ever made this specific recipe, but I know I love Funeral Potatoes. Never actually had them at a funeral, but it's one of the best Mormon casseroles to exist. I mean, who doesn't love cheesy potatoes?"
     ]
@@ -1283,9 +1100,7 @@
       "Add alum, baby oil, and flour.",
       "Knead until complete."
     ],
-    "timeOfDay": [
-      "inedible"
-    ],
+    "timeOfDay": ["inedible"],
     "dearAlyssa": [
       "I don't have alum in the house (had to look it up what it even was), and it seems a lot of people also use cream of tarter (though I'm not sure if it would work as a direct substitute in this recipe).",
       "We still have play dough in the house, but when we next run out I'm trying this!"
@@ -1309,12 +1124,8 @@
       "With your hands, pull the glob off the stirrer and squeeze out the excess fluid. Place in a zip-lock baggy or closable container so it will not dry out.",
       "Be sure to clean up after as lots of ingredients stain!"
     ],
-    "timeOfDay": [
-      "inedible"
-    ],
-    "dearAlyssa": [
-      "Never tried this! Sounds like a great project for kiddos!"
-    ]
+    "timeOfDay": ["inedible"],
+    "dearAlyssa": ["Never tried this! Sounds like a great project for kiddos!"]
   },
   "bathBomb": {
     "id": "bathBomb",
@@ -1344,9 +1155,7 @@
       "text": "Michael Wurm, Jr.",
       "url": "https://inspiredbycharm.com/diy-bath-bombs/"
     },
-    "timeOfDay": [
-      "inedible"
-    ],
+    "timeOfDay": ["inedible"],
     "dearAlyssa": [
       "Remember that any water added will take out some of the fizziness in the tub. Add more oil if you want to skip out on liquids (we don't add the water in the ingredients).",
       "Food coloring will also take out fizziness--don't go crazy. A natural dye is going to be better for your water/skin/tub.",
@@ -1384,13 +1193,8 @@
       "Separately, combine topping ingredients, cutting in butter to make a crumble. Pour/sprinkle over batter.",
       "Bake 25-30 minutes at 375°."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
-    "timeOfDay": [
-      "breakfast",
-      "dessert"
-    ],
+    "dietaryNeeds": ["vegetarian"],
+    "timeOfDay": ["breakfast", "dessert"],
     "dearAlyssa": [
       "Crumble has already been multiplied, because lets be honest the crumble is the best part. I think last time I doubled the cake and poured it in a 9x13 pan. The crumble I think was still enough (but could have been more..?)",
       "Heat a slice up and mix with vanilla ice cream for a yummy dessert!"
@@ -1425,11 +1229,7 @@
     "credit": {
       "text": "Brendo Helgo"
     },
-    "timeOfDay": [
-      "dinner",
-      "dessert",
-      "holiday"
-    ]
+    "timeOfDay": ["dinner", "dessert", "holiday"]
   },
   "peanutButterPretzelTreats": {
     "id": "peanutButterPretzelTreats",
@@ -1452,13 +1252,8 @@
       "Hold peanut butter stick over pot and spoon chocolate onto stick, covering peanut butter dough.",
       "Place stick back on parchment-lined cookie sheet. Add sprinkles or other fun things for decoration. Place back in freezer until chocolate sets. Enjoy!"
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ],
+    "dietaryNeeds": ["vegetarian"],
+    "timeOfDay": ["dessert", "holiday"],
     "dearAlyssa": [
       "Original recipe was inspired by Netflix's 'Curious Creations of Christine McConnel' (season 1, episode 1) and calls shaping the sticks into bones. Just didn't work. Dough was too soft and chocolate was always too thick. Consider using literal melting white chocolate. If you try bones again, get creative--besides the default 'dog bone', you can make spine bones, eye balls, teeth, finger bones, wish bones, ribs, etc.",
       "Still working on the recipe for the peanut butter dough; my first go the dough was too soft and I had to keep the bones in the freezer constantly. Consider removing butter to help make the dough stiffer. May need more powdered sugar.",
@@ -1482,19 +1277,12 @@
       "Tint as needed with food coloring. If you use liquid food coloring, be careful, it could change consistency.",
       "Thin with additional water, a drop at a time, to get the desired consistency."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "lactose-free",
-      "gluten-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "lactose-free", "gluten-free"],
     "credit": {
       "text": "bakingamoment.com",
       "url": "https://bakingamoment.com/royal-icing/"
     },
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ],
+    "timeOfDay": ["dessert", "holiday"],
     "dearAlyssa": [
       "Piping is tricky, and I definitely need more practice. Make sure to pipe and test--you need a slightly stiffer amount for outlining, and a thinner one for 'flooding'.",
       "Trick to outlining is to hold your bag up higher than the cookie (instead of very close). You get straighter lines that way. Flooding IS easiest if you fill everything evenly. Tiny holes can be filled in with a toothpick, but it can sometimes be noticeably less frosting there.",
@@ -1521,17 +1309,12 @@
       "Roll out dough between two sheets of parchment paper to 1/4 inch thickness. Use preferred cookie cutter and stamp out cookies.",
       "Bake at 400° for 7-8 minutes."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "dietaryNeeds": ["vegetarian"],
     "credit": {
       "text": "Naomi Robinson from Bakers Royale",
       "url": "https://www.bakersroyale.com/hand-painted-sugar-cookies/"
     },
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ]
+    "timeOfDay": ["dessert", "holiday"]
   },
   "paintedSugarCookies": {
     "id": "paintedSugarCookies",
@@ -1549,19 +1332,12 @@
       "Create your colors on your palette, adding vodka to them to make more pastel.",
       "Keeping brush as dry as possible, paint on the frosting of your cookies. Do not over-paint or frosting will dissolve."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "vegan",
-      "lactose-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "vegan", "lactose-free"],
     "credit": {
       "text": "Naomi Robinson from Bakers Royale",
       "url": "https://www.bakersroyale.com/hand-painted-sugar-cookies/"
     },
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ]
+    "timeOfDay": ["dessert", "holiday"]
   },
   "roloYoloCookies": {
     "id": "roloYoloCookies",
@@ -1580,16 +1356,11 @@
       "Roll dough ball in powdered sugar and place on cookie sheet.",
       "Put in oven for 350° for 12-14 minutes."
     ],
-    "dietaryNeeds": [
-      "vegetarian",
-      "lactose-free"
-    ],
+    "dietaryNeeds": ["vegetarian", "lactose-free"],
     "credit": {
       "text": "Jessi McAllister"
     },
-    "timeOfDay": [
-      "dessert"
-    ],
+    "timeOfDay": ["dessert"],
     "dearAlyssa": [
       "Fun fact, these cookies won me a people's choice award at a Starbucks Web Engineering Cookie Bakeoff! They're just that good. And also easy to make!"
     ]
@@ -1614,17 +1385,11 @@
       "Add tomato sauce, then onion powser, garlic powder, basil, oregano, and sugar.",
       "Simmer for as long as possible. Serve with spaghetti noodles (or for gluten free, zucchini noodles or spaghetti squash) and garlic bread."
     ],
-    "dietaryNeeds": [
-      "lactose-free",
-      "gluten-free",
-      "low-carb"
-    ],
+    "dietaryNeeds": ["lactose-free", "gluten-free", "low-carb"],
     "credit": {
       "text": "Andrea Young"
     },
-    "timeOfDay": [
-      "dinner"
-    ],
+    "timeOfDay": ["dinner"],
     "dearAlyssa": [
       "I don't usually buy tomato sauce, instead I often put in cans of diced tomatoes (or dice up tomatoes that are going soft) and stick it in for content. I also use some tomato paste and water.",
       "Optional add-ins: thyme, rosemary, olives, mushrooms... The world is your spaghetti sauce!"
@@ -1649,17 +1414,12 @@
       "Pour sweetened condensed milk evenly over all.",
       "Bake at 350° for 30 minutes. Cool and cut into bars."
     ],
-    "dietaryNeeds": [
-      "vegetarian"
-    ],
+    "dietaryNeeds": ["vegetarian"],
     "credit": {
       "text": "Better Homes and Gardens Cook Book",
       "url": "https://www.amazon.com/Better-Homes-Gardens-New-Cookbook/dp/0553577956/ref=asc_df_0553577956/?tag=hyprod-20&linkCode=df0&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594&psc=1&tag=&ref=&adgrpid=58874700621&hvpone=&hvptwo=&hvadid=312069235624&hvpos=&hvnetw=g&hvrand=14500361190438339577&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033329&hvtargid=pla-516911049594"
     },
-    "timeOfDay": [
-      "dessert",
-      "holiday"
-    ],
+    "timeOfDay": ["dessert", "holiday"],
     "dearAlyssa": [
       "Ingredient translation of what to use: 1 package of graham crackers; 1 cube of butter; ½ package of chocolate, butterscotch chips, and coconut flakes; no walnuts (it's only 6 layers! 😱); 1 can sweetened condensed milk.  Only cook it for 25 minutes.",
       "Great for making with kids! They love crushing the graham crackers in a gallon zip-lock bag with a rolling pin, and they love pouring the chocolate and butterscotch chips. And they love tasting all the things as they go in 😉"
@@ -1686,17 +1446,11 @@
       "Add tomato sauce and herbs. Make sure to go easy on the oregano.",
       "Let simmer for as long as you can so spices can take flavor in the sauce."
     ],
-    "dietaryNeeds": [
-      "lactose-free",
-      "gluten-free",
-      "low-carb"
-    ],
+    "dietaryNeeds": ["lactose-free", "gluten-free", "low-carb"],
     "credit": {
       "text": "Andrea Young"
     },
-    "timeOfDay": [
-      "dinner"
-    ],
+    "timeOfDay": ["dinner"],
     "dearAlyssa": [
       "The can of diced tomatoes is pretty good, but not quite the same as Nana's recipe. Still, sauce is flexible--the world is your spaghetti sauce! It's nice to use what you have on hand.",
       "Always do more noodles than you think you'll need.",
