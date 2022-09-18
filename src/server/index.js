@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-app.use("/lou", (req, res) => {
+app.use("/signin", (req, res) => {
   res.json({ status: 200, message: "Hello from server!" });
 });
 
@@ -52,7 +52,7 @@ app.listen(PORT, () => {
 //     credentials: 'same-origin', // 'include', default: 'omit'
 //     method: 'POST', // 'GET', 'PUT', 'DELETE', etc.
 //     body: JSON.stringify(text), // Coordinate the body type with 'Content-Type'
-//     headers: new Headers({
+//     headers: new Heros({
 //       'Content-Type': 'application/json'
 //     }),
 //   })

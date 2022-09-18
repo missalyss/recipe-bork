@@ -1,6 +1,5 @@
 import React from 'react';
-import './styles/index.css';
-
+import '../styles/index.css';
 const Search = ({ setSearchQuery, searchQuery, numberOfResults, isBorked, setMealTypeFilter, setDietaryNeedsFilter, setShowPie }) => {
   return (
     <div className="flex align-center justify-evenly mt2">

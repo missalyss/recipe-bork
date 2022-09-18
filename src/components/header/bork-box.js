@@ -1,6 +1,5 @@
 import React from 'react';
-import './styles/index.css';
-
+import '../styles/index.css';
 const BorkBox = ({ setBorked, isBorked }) => {
   return (
       <div className="checkbox">

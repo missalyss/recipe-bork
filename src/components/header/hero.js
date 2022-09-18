@@ -1,16 +1,9 @@
 import React from 'react';
-import headerImage from '../images/cherf.jpg'
-import './styles/header.css';
+import headerImage from '../../images/cherf.jpg'
+import '../styles/header.css';
 
-const Header = ({ isBorked }) => {
-  const fetchAlyssa = () => {
-console.log('FETCHED: ', );
-  fetch('/lou')
-  .then(response => response.json())
-  }
+const Hero = ({ isBorked }) => {
   return (
-    <>
-        <button  onClick={() => fetchAlyssa()}>CLICK ME</button>
     <a href="/">
       <div className="flex justify-center align-center height-100">
         <img
@@ -23,8 +16,7 @@ console.log('FETCHED: ', );
         </h1>
       </div>
     </a>
-          </>
   );
 }
 
-export default Header;
+export default Hero;

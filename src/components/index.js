@@ -2,13 +2,9 @@ import React, { useState } from 'react';
 import rawData from '../data.json';
 import alphabetize from './util/alphabetize';
 import RecipeList from './recipe/recipe-list.js';
-import Nav from './nav';
-import Search from './search';
-import Header from './header';
-import Filters from './filters';
-import BorkBox from './bork-box';
+import Hero from './header/hero';
+import Header from './header/index';
 import Footer from './footer';
-import PieBox from './pie-box';
 import './styles/index.css';
 
 const data = alphabetize(rawData);
@@ -56,29 +52,19 @@ const Root = () => {
 
   return (
     <div className="Root">
-      <Header isBorked={isBorked} />
-      <div className='rootBody'>
-      <div className='flex justify-evenly'>
-        <BorkBox setBorked={setBorked} isBorked={isBorked} />
-        <PieBox setShowPie={setShowPie} showPie={showPie} />
-      </div>
-        <Search
-          searchQuery={searchQuery}
-          numberOfResults={filteredResultCount}
-          isBorked={isBorked}
-          setSearchQuery={setSearchQuery}
-          setMealTypeFilter={setMealTypeFilter}
-          setDietaryNeedsFilter={setDietaryNeedsFilter}
-          setShowPie={setShowPie}
-        />
-        <Filters
-          setMealTypeFilter={setMealTypeFilter}
+      <Hero isBorked={isBorked} />
+      <Header isBorked={isBorked}
+      setBorked={setBorked}
+      setShowPie={setShowPie} showPie={showPie}
+      setMealTypeFilter={setMealTypeFilter}
+      searchQuery={searchQuery}
           setDietaryNeedsFilter={setDietaryNeedsFilter}
           mealTypeFilter={mealTypeFilter}
           dietaryNeedsFilter={dietaryNeedsFilter}
-          isBorked={isBorked}
-        />
-        <Nav recipes={filteredRecipes}/>
+          filteredResultCount={filteredResultCount}
+          filteredRecipes={filterRecipes} setSearchQuery={setSearchQuery}
+          />
+      <div className='rootBody'>
         <RecipeList recipes={filteredRecipes} isBorked={isBorked}/>
         <Footer isBorked={isBorked} />
       </div>

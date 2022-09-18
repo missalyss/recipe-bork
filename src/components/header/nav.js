@@ -1,6 +1,6 @@
 import React from 'react';
-import alphadividerUtil from './util/alphadivider';
-import './styles/nav.css';
+import alphadividerUtil from '../util/alphadivider';
+import '../styles/nav.css';
 
 const Nav = ({ recipes }) => {
   const alphabet = alphadividerUtil({recipes, withRecipe: false});
