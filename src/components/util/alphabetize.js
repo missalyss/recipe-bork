@@ -1,7 +1,9 @@
 export default (recipes) => {
   const alphebetizedRecipes = {};
-  Object.keys(recipes).sort().forEach(function(key) {
-  alphebetizedRecipes[key] = recipes[key];
-});
-  return alphebetizedRecipes
+  Object.keys(recipes)
+    .sort()
+    .forEach((key) => {
+      alphebetizedRecipes[key] = recipes[key];
+    });
+  return alphebetizedRecipes;
 };

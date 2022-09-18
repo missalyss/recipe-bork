@@ -8,7 +8,7 @@
 - multiplicity in recipe
 - Make pie recipes link to pie crust
 
-- consider making
+- make alphanav verticle so you can just tap any letter. include all all letters, they're disabled when filtered out
 
 
 ## Recipes to add
