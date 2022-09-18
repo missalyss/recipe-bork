@@ -1,7 +1,6 @@
 {
   "name": "recipe-bork",
   "version": "0.1.0",
-  "proxy": "http://localhost:3001",
   "homepage": "https://recipe-bork.surge.sh",
   "private": true,
   "dependencies": {
