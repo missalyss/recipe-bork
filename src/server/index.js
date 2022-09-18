@@ -1,10 +1,20 @@
 const express = require("express");
 const app = express();
+const bodyParser = require('body-parser');
 
 const PORT = process.env.PORT || 3001;
 
-app.use("/bff/signin", (req, res) => {
-  res.json({ status: 200, message: "Hello from server!" });
+app.set('x-powered-by', false);
+app.use(bodyParser.json());
+
+app.post("/bff/signin", (req, res, next) => {
+  console.log('req: ', req.body);
+  if (req?.body?.pw) {
+    res.json({ status: 200, message: "Hello from server!", body: req.body })
+  } else {
+    res.json({ status: 400, message: "Womp womp" })
+  }
+ next()
 });
 
 app.listen(PORT, () => {

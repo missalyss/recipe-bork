@@ -6,6 +6,7 @@ import Hero from "./hero";
 import Filters from "./filters/index";
 import Footer from "./footer";
 import "./styles/index.css";
+
 import SignIn from "./sign-in";
 
 const data = alphabetize(rawData);

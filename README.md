@@ -8,8 +8,16 @@
 - multiplicity in recipe
 - Make pie recipes link to pie crust
 
-- make alphanav verticle so you can just tap any letter. include all all letters, they're disabled when filtered out
+- consider making alphanav verticle so you can just tap any letter. include all all letters, they're disabled when filtered out
 
+- authenication
+  : one (long) password that is passed around with word of mouth
+  : before I can disable recipes, I need to put them in the server (css would not make it secure)
+    - is it time to make an api? no
+    1. make a route that returns data.json
+    1. Add to data `requiresAuth`
+    1. Do Javascript to filter them out in the server before sending the JSON.
+    1. (All other filters should remain front end. The data isn't so big anyway, it's just text)
 
 ## Recipes to add
 * gravy?

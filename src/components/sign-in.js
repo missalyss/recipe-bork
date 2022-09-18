@@ -3,9 +3,17 @@ import React, { useState } from "react";
 const SignIn = ({ isBorked }) => {
   const [inputVal, setInputVal] = useState("");
   const signIn = () => {
-    fetch("/bff/signin", { method: "POST", body: inputVal }).then((response) =>
+    console.log('inputVal: ', inputVal);
+    const data = JSON.stringify({pw: inputVal});
+    fetch("/bff/signin", { method: "POST", body: data, credentials: 'same-origin', headers: { 'Content-Length': data.length,
+    'Content-Type': 'application/json' }}).then((response) =>
       response.json()
-    );
+    ).then((data) => {
+    console.log('Success:', data);
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
   };
   return (
     <div>
