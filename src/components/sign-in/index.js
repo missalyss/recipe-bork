@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SuggestionBox = ({}) => {
+const SignIn = ({}) => {
     return (
       <form>
 
@@ -8,5 +8,5 @@ const SuggestionBox = ({}) => {
     )
 }
 
-export default SuggestionBox;
+export default SignIn;
 
