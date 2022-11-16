@@ -5,9 +5,9 @@ import RecipeList from "./recipe/recipe-list.js";
 import Hero from "./hero";
 import Filters from "./filters/index";
 import Footer from "./footer";
+// import SignIn from "./sign-in";
 import "./styles/index.css";
 
-import SignIn from "./sign-in";
 
 const data = alphabetize(rawData);
 
@@ -70,7 +70,7 @@ const Root = () => {
 
   return (
     <div className="">
-      <SignIn isBorked={isBorked} />
+      {/* <SignIn isBorked={isBorked} /> */}
       <Hero isBorked={isBorked} />
       <div className="rootBody">
         <Filters

@@ -299,6 +299,40 @@
     "timeOfDay": ["dessert"],
     "isPie": "true"
   },
+    "pecanPie": {
+    "id": "pecanPie",
+    "title": "Pecan Pie",
+    "tempTimeYield": "Makes 1 pie. 350° for 50 min (30 with tin tent).",
+    "ingredients": [
+      "2+ cups pecans (fill up dish)",
+      "3 eggs",
+      "½ cup brown sugar (packed)",
+      "1 cup corn syrup",
+      "1 T maple syrup",
+      "1 tsp cinnamon/nutmeg",
+      "1 tsp vanilla",
+      "¼ melted butter",
+      "1 tsp salt"
+    ],
+    "directions": [
+      "Crush pecans (save whole pieces for decoration) and put inside unbaked bottm crust",
+      "For filling: beat eggs, then mix all other ingredients in bowl.",
+      "Pour filling over pecans. Apply decorative whole pecans",
+      "Bake at 350° for 20 min. Then apply a tin-foil tent to prevent crust burning. Bake for another 30 minutes. Filling will settle as it cools."
+    ],
+    "dietaryNeeds": ["vegetarian"],
+    "credit": {
+      "text": "Sally",
+      "url": "https://sallysbakingaddiction.com/my-favorite-pecan-pie-recipe/"
+    },
+    "dearAlyssa": [
+      "This is actually my rendition of Sally's Pecan Pie but no need to split hairs.",
+      "Consider adding some bourbon for extra zing!"
+    ],
+    "timeOfDay": ["dessert", "holiday"],
+    "isPie": "true"
+  },
+
   "wings": {
     "id": "wings",
     "title": "Wings",
