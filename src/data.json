@@ -40,7 +40,8 @@
       "One day you'll get that special cast-iron skillet required to make these. I don't even know if I could do it without Mom's help though, if I did have one. All I remember is you flip them with the use of a tooth pick.",
       "And that they taste great with butter, cinnamon-sugar, maple syrup, jam, and powdered sugar."
     ],
-    "timeOfDay": ["breakfast"]
+    "timeOfDay": ["breakfast"],
+    "familySecret": "true"
   },
   "crepes": {
     "id": "crepes",
@@ -297,7 +298,8 @@
       "Instead of stirring cherries in the dough, put it in a different bowl and mix with sugar in there. Just easier and less risk. Don't add juice, just let the juice in the cherries do the work."
     ],
     "timeOfDay": ["dessert"],
-    "isPie": "true"
+    "isPie": "true",
+    "familySecret": "true"
   },
     "pecanPie": {
     "id": "pecanPie",
@@ -411,7 +413,8 @@
       "Don't forget about Andrea Young's special extra dessert: any extra crust, cut off with scissors, then put on a tin and top with cinnamon sugar."
     ],
     "timeOfDay": ["dessert"],
-    "isPie": "true"
+    "isPie": "true",
+    "familySecret": "true"
   },
   "pieCrustLou": {
     "id": "pieCrustLou",
@@ -420,7 +423,7 @@
     "ingredients": [
       "1 ½ cup flour at least",
       "1 tsp salt",
-      "4 oz butter, softened",
+      "½ cup butter, softened (or cut with crisco)",
       "⅛ cup cold water"
     ],
     "directions": [
@@ -643,7 +646,8 @@
       "One day, I really ought to try a caramel apple with this recipe."
     ],
     "dietaryNeeds": ["vegetarian", "gluten-free"],
-    "timeOfDay": ["dessert", "holiday"]
+    "timeOfDay": ["dessert", "holiday"],
+    "familySecret": "true"
   },
   "redOnionMushroomSalad": {
     "id": "redOnionMushroomSalad",

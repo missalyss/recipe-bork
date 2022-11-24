@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import rawData from "../data.json";
 import alphabetize from "./util/alphabetize";
-import RecipeList from "./recipe/recipe-list.js";
+import RecipeList from "./recipe-list.js";
 import Hero from "./hero";
 import Filters from "./filters/index";
 import Footer from "./footer";
-// import SignIn from "./sign-in";
+import SignIn from "./sign-in";
 import "./styles/index.css";
 
 
@@ -70,7 +70,7 @@ const Root = () => {
 
   return (
     <div className="">
-      {/* <SignIn isBorked={isBorked} /> */}
+      <SignIn isBorked={isBorked} />
       <Hero isBorked={isBorked} />
       <div className="rootBody">
         <Filters

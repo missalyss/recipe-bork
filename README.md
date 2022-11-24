@@ -69,7 +69,8 @@ npm run deploy
     "dearAlyssa": [
       ""
     ],
-    "isPie": "true"
+    "isPie": "true",
+    "familySecret": "false"
   }
 ```
 
