@@ -3,7 +3,7 @@ const alphadividerUtil = ({ recipes, withRecipe }) => {
   const recipesWithAlphadivider = [];
   const alphadividersOnly = [];
 
-  recipeKeys.map((recipeName) => {
+  recipeKeys.forEach((recipeName) => {
     const beginningLetter = recipeName[0];
     if (recipesWithAlphadivider.indexOf(beginningLetter) === -1) {
       recipesWithAlphadivider.push(beginningLetter);

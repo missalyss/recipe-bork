@@ -28,7 +28,7 @@ console.log('familySecret && !isSignedIn : ', familySecret, !isSignedIn);
         <DearAlyssa dearAlyssa={dearAlyssa}/>
       )}
       <Credit credit={credit} dearAlyssa={dearAlyssa}/>
-      <a href="#" className="scroll-link text-blue">
+      <a href="#topOfPage" className="scroll-link text-blue">
         Scroll to top
       </a>
     </div>
