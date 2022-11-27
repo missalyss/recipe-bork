@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   padding: 0 !important;
+  background-color: var(--white);
 }
 
 .heading-text {
@@ -9,7 +10,7 @@
   position: absolute;
   text-decoration: none;
   font-size: 60px;
-  text-shadow: 3px 3px var(--soft-black);
+  text-shadow: 3px 3px var(--black);
 }
 
 @media screen and (max-width: 700px) {

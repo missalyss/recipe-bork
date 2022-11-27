@@ -20,7 +20,7 @@ const Ingredients = ({ ingredients }) => (
       if (ingredient.qty) {
         const { qty, unit, name, altName, notes } = ingredient;
         return (
-          <p className="text-soft-black ingredient-line" key={i}>
+          <p className="text-black ingredient-line" key={i}>
             <Quantity qty={qty} />
             {unit && <UnitOfMeasure unit={unit} qty={qty} />}
             <span className="mr2">{name}</span>
@@ -30,7 +30,7 @@ const Ingredients = ({ ingredients }) => (
         );
       }
       return (
-        <p className="text-soft-black ingredient-line" key={i}>
+        <p className="text-black ingredient-line" key={i}>
           {ingredient}
         </p>
       );

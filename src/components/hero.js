@@ -9,7 +9,7 @@ const Hero = ({ isBorked }) => {
         <img className="banner" src={headerImage} alt="head chef banner" />
         <h1
         id="topOfPage"
-          className={`heading-text text-cream pl2 pr2 ${
+          className={`heading-text text-white pl2 pr2 ${
             isBorked ? "borked-text" : ""
           }`}
         >

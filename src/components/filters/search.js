@@ -10,7 +10,7 @@ const Search = ({
   setShowPie,
 }) => {
   return (
-    <div className="flex align-center justify-evenly mt2">
+    <div className="flex align-center mt2">
       <input
         className="search-box"
         name="search"
@@ -20,8 +20,8 @@ const Search = ({
         onChange={(e) => setSearchQuery(e.target.value)}
       />
 
-      <p className="text-cream ml4 md-font">
-        {isBorked ? "Nuomber ouff receepes:" : "Number of recipes:"}{" "}
+      <p className="text-white ml4 md-font">
+        {isBorked ? "Nuomber ouff receepes: " : "Number of recipes: "}
         {numberOfResults}
       </p>
 
@@ -32,9 +32,9 @@ const Search = ({
           setDietaryNeedsFilter("");
           setShowPie(false);
         }}
-        className="border p2 cursor-pointer"
+        className="border m3 p2 cursor-pointer"
       >
-        X
+        Clear all filters
       </button>
     </div>
   );

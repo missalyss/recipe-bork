@@ -28,7 +28,7 @@ const FoodFilters = ({
   };
 
   return (
-    <div className="flex align-center justify-evenly mt2">
+    <div className="flex align-center mt2">
       <select
         className="search-box cursor-pointer mr3"
         name="time-of-day"

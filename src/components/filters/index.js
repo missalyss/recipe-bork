@@ -22,7 +22,7 @@ const Filters = ({
 }) => {
   return (
     <>
-      <div className="flex justify-evenly">
+      <div className="flex">
         <BorkBox setBorked={setBorked} isBorked={isBorked} />
         <PieBox setShowPie={setShowPie} showPie={showPie} />
       </div>

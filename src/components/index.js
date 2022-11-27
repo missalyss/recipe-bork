@@ -11,7 +11,7 @@ import "./styles/index.css";
 
 const data = alphabetize(rawData);
 
-const Root = () => {
+const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [mealTypeFilter, setMealTypeFilter] = useState("");
   const [dietaryNeedsFilter, setDietaryNeedsFilter] = useState("");
@@ -95,4 +95,4 @@ const Root = () => {
   );
 };
 
-export default Root;
+export default HomePage;

@@ -1,9 +1,11 @@
 import React from "react";
 import { isEmpty } from "lodash";
+
 import Ingredients from "./ingredients";
 import Credit from "./credit";
 import DearAlyssa from "./dear-alyssa";
 import Directions from "./directions";
+import SecretRecipe from "./secret-recipe";
 
 import "./styles.css";
 
@@ -13,11 +15,10 @@ const Recipe = ({
   const includeDearAlyssa = !isEmpty(dearAlyssa);
   const titlea = title.toLowerCase();
   const id = titlea.replace(/\s+/g, "-");
-console.log('familySecret && !isSignedIn : ', familySecret, !isSignedIn);
 
-  return familySecret && !isSignedIn ? <h1>Shhh! Eets fermily receepes!</h1> :  (
-    <div className="container recipe-container bg-cream" id={id}>
-      <a href={`#${id}`} className="text-soft-black r-title bold">
+  return Boolean(familySecret) && !isSignedIn ? <SecretRecipe /> :  (
+    <div className="container recipe-container bg-white" id={id}>
+      <a href={`#${id}`} className="text-black r-title bold">
         {title.toUpperCase()}
       </a>
       {tempTimeYield && <p>{tempTimeYield}</p>}
