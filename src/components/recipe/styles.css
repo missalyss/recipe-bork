@@ -9,11 +9,9 @@
   padding: 16px;
 }
 
-
 .scroll-link {
   text-decoration: none;
 }
-
 
 @media screen and (min-width: 700px) {
   .container {

@@ -39,6 +39,7 @@
 ```
 
 ### CHEATS
+
 DEGREE \u00B0 °
 half ½
 1third ⅓
@@ -48,8 +49,8 @@ fourth ¼
 eighth ⅛
 
 ### USE
+
 cup instead of C
 tsp instead of teaspoon
 T instead of tablespoon
 oz instead of oz.
-

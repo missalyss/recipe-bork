@@ -5,9 +5,8 @@ import RecipeList from "./recipe-list.js";
 import Hero from "./hero";
 import Filters from "./filters/index";
 import Footer from "./footer";
-import SignIn from "./sign-in";
-import "./styles/index.css";
 
+import "./styles/index.css";
 
 const data = alphabetize(rawData);
 
@@ -71,7 +70,6 @@ const HomePage = () => {
 
   return (
     <div className="">
-      <SignIn isBorked={isBorked} />
       <Hero isBorked={isBorked} />
       <div className="rootBody">
         <Filters

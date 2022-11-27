@@ -8,7 +8,7 @@ const Hero = ({ isBorked }) => {
       <div className="flex justify-center align-center height-100">
         <img className="banner" src={headerImage} alt="head chef banner" />
         <h1
-        id="topOfPage"
+          id="topOfPage"
           className={`heading-text text-white text-center pl2 pr2 ${
             isBorked ? "borked-text" : ""
           }`}
