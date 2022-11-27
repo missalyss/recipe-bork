@@ -29,7 +29,7 @@ const RecipeList = ({ recipes, isBorked }) => {
     if (heading.length === 1) {
       return (
         <h2
-          className="bg-dark-blue text-white"
+          className="bg-dark-blue text-white text-center"
           id={heading}
           key={index}
         >

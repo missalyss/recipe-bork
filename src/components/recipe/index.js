@@ -18,7 +18,7 @@ const Recipe = ({
 
   return Boolean(familySecret) && !isSignedIn ? <SecretRecipe /> :  (
     <div className="container recipe-container bg-white" id={id}>
-      <a href={`#${id}`} className="text-black r-title bold">
+      <a href={`#${id}`} className="text-black text-center r-title bold">
         {title.toUpperCase()}
       </a>
       {tempTimeYield && <p>{tempTimeYield}</p>}
@@ -29,7 +29,7 @@ const Recipe = ({
         <DearAlyssa dearAlyssa={dearAlyssa}/>
       )}
       <Credit credit={credit} dearAlyssa={dearAlyssa}/>
-      <a href="#topOfPage" className="scroll-link text-blue">
+      <a href="#topOfPage" className="scroll-link text-blue text-center">
         Scroll to top
       </a>
     </div>
