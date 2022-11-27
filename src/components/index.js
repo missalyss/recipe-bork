@@ -36,7 +36,7 @@ const HomePage = () => {
       if (filterType === "showPie" && recipe.isPie) {
         return recipe;
       }
-      return;
+      return {};
     });
     const filteredObj = {};
     filteredRecipeList.map((recipe) => (filteredObj[recipe.id] = recipe));
