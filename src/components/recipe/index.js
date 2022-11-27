@@ -17,11 +17,14 @@ const Recipe = ({
   const id = titlea.replace(/\s+/g, "-");
 
   return Boolean(familySecret) && !isSignedIn ? <SecretRecipe /> :  (
-    <div className="container recipe-container bg-white" id={id}>
+    <div className="radius-2 p3 mb3 recipe-container bg-white" id={id}>
+      <h3>
+
       <a href={`#${id}`} className="text-black block text-center r-title bold">
         {title.toUpperCase()}
       </a>
-      {tempTimeYield && <p>{tempTimeYield}</p>}
+      </h3>
+      {tempTimeYield && <p className="text-center">{tempTimeYield}</p>}
       <Ingredients ingredients={ingredients} />
 
      <Directions directions={directions} />

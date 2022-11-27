@@ -15,12 +15,14 @@ const AltName = ({ altName }) => {
 };
 
 const Ingredients = ({ ingredients }) => (
-  <div className="ingredients">
+  // use padding because margin collapses
+  <div className="pt3 pb3">
+    <h4>Ingredients</h4>
     {ingredients.map((ingredient, i) => {
       if (ingredient.qty) {
         const { qty, unit, name, altName, notes } = ingredient;
         return (
-          <p className="text-black ingredient-line" key={i}>
+          <p className="text-black mt3 mb3" key={i}>
             <Quantity qty={qty} />
             {unit && <UnitOfMeasure unit={unit} qty={qty} />}
             <span className="mr2">{name}</span>
@@ -30,7 +32,7 @@ const Ingredients = ({ ingredients }) => (
         );
       }
       return (
-        <p className="text-black ingredient-line" key={i}>
+        <p className="text-black mt3 mb3" key={i}>
           {ingredient}
         </p>
       );

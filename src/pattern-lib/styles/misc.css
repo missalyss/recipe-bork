@@ -38,3 +38,11 @@
 .cursor-pointer {
   cursor: pointer;
 }
+
+.radius-1 {
+  border-radius: 8px;
+}
+
+.radius-2 {
+  border-radius: 16px;
+}

@@ -2,20 +2,20 @@ import React from "react";
 import "./styles.css";
 
 const Directions = ({directions}) => {
-/* logic until all directions written into are arrays */
-  return directions[1] ? (
-    <ol className="directionsForOL">
+return (
+  <React.Fragment>
+    <h4>Directions</h4>
+    <ol className="pt3 pb6 pl5">
       {directions.map((direction, index) => {
         return (
-          <li className="direction-li" key={index}>
+          <li className="pb2" key={index}>
             {direction}
           </li>
         );
       })}
     </ol>
-  ) : (
-      <p className="singleDirections">{directions[0]}</p>
-    )
+      </React.Fragment>
+  );
 };
 
 export default Directions;
