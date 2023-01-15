@@ -8,6 +8,7 @@ import Directions from "./directions";
 import SecretRecipe from "./secret-recipe";
 import RecipeHeading from "./heading";
 import "./styles.css";
+import Expander from "../../pattern-lib/components/expander";
 
 const Recipe = ({
   recipe: {
@@ -31,11 +32,13 @@ const Recipe = ({
     <div className="radius-2 p3 mb3 recipe-container bg-white" id={id}>
       <RecipeHeading id={id} title={title} />
       {tempTimeYield && <p className="text-center">{tempTimeYield}</p>}
-      <Ingredients ingredients={ingredients} />
+      <Expander>
+        <Ingredients ingredients={ingredients} />
 
-      <Directions directions={directions} />
-      {includeDearAlyssa && <DearAlyssa dearAlyssa={dearAlyssa} />}
-      <Credit credit={credit} dearAlyssa={dearAlyssa} />
+        <Directions directions={directions} />
+        {includeDearAlyssa && <DearAlyssa dearAlyssa={dearAlyssa} />}
+        <Credit credit={credit} dearAlyssa={dearAlyssa} />
+      </Expander>
       <a href="#topOfPage" className="scroll-link text-blue block text-center">
         Scroll to top
       </a>
