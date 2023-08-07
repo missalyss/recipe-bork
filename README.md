@@ -1,3 +1,5 @@
+// middle of migrating pattern library to package. got the package working yay! quite a few conflicts, package is async currently when compiling CSS
+
 # TODO:
 - screenshot recipe to share
 - form to email lou recipe suggestions (suggestionBox)
