@@ -4,7 +4,7 @@
 - screenshot recipe to share
 - form to email lou recipe suggestions (suggestionBox)
 - type of dessert: (pie, cookie, cake, other);
-- Spices how to section from Brendo
+- Spices how to section
 - change taco soup recipe back to original.
 -"meal" where you add multiple recipes to a stage to look only at those (ie: pie crust & filling)
 - multiplicity in recipe

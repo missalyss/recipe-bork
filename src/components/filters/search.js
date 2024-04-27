@@ -1,16 +1,8 @@
 import React from "react";
 import "../styles/index.css";
-const Search = ({
-  setSearchQuery,
-  searchQuery,
-  numberOfResults,
-  isBorked,
-  setMealTypeFilter,
-  setDietaryNeedsFilter,
-  setShowPie,
-}) => {
+const Search = ({ setSearchQuery, searchQuery, numberOfResults, isBorked }) => {
   return (
-    <div className="flex align-center mt2">
+    <div className="flex align-center mt2 width-100 lg-width-33">
       <input
         className="search-box"
         name="search"
@@ -24,18 +16,6 @@ const Search = ({
         {isBorked ? "Nuomber ouff receepes: " : "Number of recipes: "}
         {numberOfResults}
       </p>
-
-      <button
-        onClick={() => {
-          setSearchQuery("");
-          setMealTypeFilter("");
-          setDietaryNeedsFilter("");
-          setShowPie(false);
-        }}
-        className="border m3 p2 cursor-pointer"
-      >
-        Clear all filters
-      </button>
     </div>
   );
 };

@@ -4,7 +4,7 @@ const BorkBox = ({ setBorked, isBorked }) => {
   return (
     <div className="checkbox">
       <label className="text-white md-font cursor-pointer" htmlFor="borked">
-        Börk börk börk!
+        Börk börk!
       </label>
       <input
         type="checkbox"

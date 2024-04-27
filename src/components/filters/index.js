@@ -5,6 +5,7 @@ import Search from "./search";
 import FoodFilters from "./food-filters";
 import BorkBox from "./bork-box";
 import PieBox from "./pie-box";
+import ClearFilters from "./clear-filters";
 
 const Filters = ({
   isBorked,
@@ -22,9 +23,18 @@ const Filters = ({
 }) => {
   return (
     <>
-      <div className="flex">
-        <BorkBox setBorked={setBorked} isBorked={isBorked} />
-        <PieBox setShowPie={setShowPie} showPie={showPie} />
+      <div className="lg-flex width-100 justify-between align-center">
+        <h2 className="xl-font text-white">Filter recipes</h2>
+        <div>
+          <BorkBox setBorked={setBorked} isBorked={isBorked} />
+          <ClearFilters
+            setSearchQuery={setSearchQuery}
+            setMealTypeFilter={setMealTypeFilter}
+            setDietaryNeedsFilter={setDietaryNeedsFilter}
+            setShowPie={setShowPie}
+          />
+          <PieBox setShowPie={setShowPie} showPie={showPie} />
+        </div>
       </div>
       <Search
         searchQuery={searchQuery}

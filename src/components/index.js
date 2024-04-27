@@ -6,6 +6,7 @@ import Hero from "./hero";
 import Filters from "./filters/index";
 import Footer from "./footer";
 
+import { filterRecipes } from "./util/filter-recipe.js";
 import "./styles/index.css";
 
 const data = alphabetize(rawData);
@@ -17,31 +18,6 @@ const HomePage = () => {
   const [isBorked, setBorked] = useState(false);
   const [showPie, setShowPie] = useState(false);
 
-  const filterRecipes = ({ recipeList, filterType, filter }) => {
-    if (!filter) {
-      return recipeList;
-    }
-    const filteredRecipeList = Object.values(recipeList).filter((recipe) => {
-      if (filterType === "search") {
-        return recipe.title.match(new RegExp(filter, "ig"));
-      }
-      if (filterType === "mealType" && recipe.timeOfDay.length) {
-        return recipe.timeOfDay.find((mealType) => mealType === filter);
-      }
-      if (filterType === "dietaryNeeds" && recipe.dietaryNeeds) {
-        return recipe.dietaryNeeds.find(
-          (dietaryNeed) => dietaryNeed === filter
-        );
-      }
-      if (filterType === "showPie" && recipe.isPie) {
-        return recipe;
-      }
-      return {};
-    });
-    const filteredObj = {};
-    filteredRecipeList.map((recipe) => (filteredObj[recipe.id] = recipe));
-    return filteredObj;
-  };
   const filteredSearchRecipes = filterRecipes({
     recipeList: data,
     filterType: "search",

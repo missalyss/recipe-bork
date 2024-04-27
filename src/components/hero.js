@@ -13,9 +13,7 @@ const Hero = ({ isBorked }) => {
             isBorked ? "borked-text" : ""
           }`}
         >
-          {isBorked
-            ? "Zee-a Helgeburnes Femeely Receepe-a Börk"
-            : "The Helgabones Family Recipe Börk"}
+          {isBorked ? "Femeely Receepe-a Börk" : "Family Recipe Börk"}
         </h1>
       </div>
     </a>
