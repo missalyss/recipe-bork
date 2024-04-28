@@ -15,7 +15,7 @@ const AlphaNav = ({ recipes }) => {
     );
   });
 
-  return <ul className="nav-ul mt7 mb0 flex flex-wrap">{list}</ul>;
+  return <ul className="nav-ul mt7 mb0 lg-width-66 flex flex-wrap">{list}</ul>;
 };
 
 export default AlphaNav;

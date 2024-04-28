@@ -28,9 +28,9 @@ const FoodFilters = ({
   };
 
   return (
-    <div className="flex align-center mt2">
+    <div className="flex align-center mb2">
       <select
-        className="search-box cursor-pointer mr3"
+        className="search-box cursor-pointer mr3 width-50 lg-width-33"
         name="time-of-day"
         id="time-of-day"
         onChange={(e) => setMealTypeFilter(e.target.value)}
@@ -48,7 +48,7 @@ const FoodFilters = ({
       </select>
 
       <select
-        className="search-box cursor-pointer"
+        className="search-box cursor-pointer width-50 lg-width-33"
         name="dietary-needs"
         id="dietary-needs"
         onChange={(e) => setDietaryNeedsFilter(e.target.value)}

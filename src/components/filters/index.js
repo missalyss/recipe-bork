@@ -36,6 +36,15 @@ const Filters = ({
           <PieBox setShowPie={setShowPie} showPie={showPie} />
         </div>
       </div>
+      <FoodFilters
+        setMealTypeFilter={setMealTypeFilter}
+        setDietaryNeedsFilter={setDietaryNeedsFilter}
+        mealTypeFilter={mealTypeFilter}
+        dietaryNeedsFilter={dietaryNeedsFilter}
+        isBorked={isBorked}
+      />
+      <div className="lg-flex">
+
       <Search
         searchQuery={searchQuery}
         numberOfResults={filteredResultCount}
@@ -44,15 +53,9 @@ const Filters = ({
         setMealTypeFilter={setMealTypeFilter}
         setDietaryNeedsFilter={setDietaryNeedsFilter}
         setShowPie={setShowPie}
-      />
-      <FoodFilters
-        setMealTypeFilter={setMealTypeFilter}
-        setDietaryNeedsFilter={setDietaryNeedsFilter}
-        mealTypeFilter={mealTypeFilter}
-        dietaryNeedsFilter={dietaryNeedsFilter}
-        isBorked={isBorked}
-      />
+        />
       <AlphaNav recipes={filteredRecipes} />
+        </div>
     </>
   );
 };

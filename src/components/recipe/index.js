@@ -22,8 +22,7 @@ const Recipe = ({
   isSignedIn,
 }) => {
   const includeDearAlyssa = !isEmpty(dearAlyssa);
-  const titlea = title.toLowerCase();
-  const id = titlea.replace(/\s+/g, "-");
+  const id = title.toLowerCase().replace(/\s+/g, "-");
 
   return Boolean(familySecret) && !isSignedIn ? (
     <SecretRecipe id={id} title={title} />

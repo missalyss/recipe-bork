@@ -6,16 +6,24 @@
   width: 100%;
 }
 
+.width-75 {
+  width: 75%;
+}
+
+.width-66 {
+  width: 66%;
+}
+
 .width-50 {
   width: 50%;
 }
 
-.width-25 {
-  width: 25%;
-}
-
 .width-33 {
   width: 33%;
+}
+
+.width-25 {
+  width: 25%;
 }
 
 @media screen and (min-width: 700px) {
@@ -25,20 +33,32 @@
 }
 
 @media screen and (min-width: 700px) {
+  .lg-width-75 {
+    width: 75%;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+.lg-width-66 {
+  width: 66%;
+}
+}
+@media screen and (min-width: 700px) {
   .lg-width-50 {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 700px) {
-  .lg-width-25 {
-    width: 25%;
+  .lg-width-33 {
+    width: 33%;
   }
 }
 
 @media screen and (min-width: 700px) {
-  .lg-width-33 {
-    width: 33%;
+  .lg-width-25 {
+    width: 25%;
   }
 }
 
