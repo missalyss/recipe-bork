@@ -1,9 +1,11 @@
-.text-link {
+.myButton {
   background: none;
   border: none;
   padding: 0;
   font: inherit;
-  cursor: pointer;
   outline: inherit;
+}
+
+.textLink {
   text-decoration: underline;
 }

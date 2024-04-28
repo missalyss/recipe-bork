@@ -2,13 +2,14 @@ import React from "react";
 import "../styles/index.css";
 import "./button.css";
 
-const Button = ({ onClick, className, visualStyle, children }) => {
+const Button = ({ onClick, className, visualStyle, children, ...otherProps }) => {
   return (
     <button
       onClick={onClick}
-      className={`cursor-pointer ${
-        visualStyle === "link" ? "text-link" : ""
+      className={`cursor-pointer myButton ${
+        visualStyle === "link" ? "textLink" : ""
       } ${className}`}
+      {...otherProps}
     >
       {children}
     </button>

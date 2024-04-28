@@ -27,15 +27,15 @@ const Recipe = ({
   return Boolean(familySecret) && !isSignedIn ? (
     <SecretRecipe id={id} title={title} />
   ) : (
-    <div className="radius-2 p3 mb3 recipe-container bg-white" id={id}>
+    <div className="radiusMd p3 mb3 recipe-container bg-white" id={id}>
       <RecipeHeading id={id} title={title} />
-      {tempTimeYield && <p className="text-center">{tempTimeYield}</p>}
+      {tempTimeYield && <p className="textCenter">{tempTimeYield}</p>}
       <Ingredients ingredients={ingredients} />
 
       <Directions directions={directions} />
       {includeDearAlyssa && <DearAlyssa dearAlyssa={dearAlyssa} />}
       <Credit credit={credit} dearAlyssa={dearAlyssa} />
-      <a href="#topOfPage" className="scroll-link text-blue block text-center">
+      <a href="#topOfPage" className="scroll-link blue block textCenter">
         Scroll to top
       </a>
     </div>

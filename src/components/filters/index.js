@@ -24,7 +24,7 @@ const Filters = ({
   return (
     <>
       <div className="lg-flex width-100 justify-between align-center">
-        <h2 className="xl-font text-white">Filter recipes</h2>
+        <h2 className="textXl white">Filter recipes</h2>
         <div>
           <BorkBox setBorked={setBorked} isBorked={isBorked} />
           <ClearFilters
@@ -44,18 +44,17 @@ const Filters = ({
         isBorked={isBorked}
       />
       <div className="lg-flex">
-
-      <Search
-        searchQuery={searchQuery}
-        numberOfResults={filteredResultCount}
-        isBorked={isBorked}
-        setSearchQuery={setSearchQuery}
-        setMealTypeFilter={setMealTypeFilter}
-        setDietaryNeedsFilter={setDietaryNeedsFilter}
-        setShowPie={setShowPie}
+        <Search
+          searchQuery={searchQuery}
+          numberOfResults={filteredResultCount}
+          isBorked={isBorked}
+          setSearchQuery={setSearchQuery}
+          setMealTypeFilter={setMealTypeFilter}
+          setDietaryNeedsFilter={setDietaryNeedsFilter}
+          setShowPie={setShowPie}
         />
-      <AlphaNav recipes={filteredRecipes} />
-        </div>
+        <AlphaNav recipes={filteredRecipes} />
+      </div>
     </>
   );
 };

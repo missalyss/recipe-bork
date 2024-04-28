@@ -1,26 +1,27 @@
-.xxl-font {
+.textXxl {
   font-size: 48px;
 }
 
-.xl-font {
+.textXl {
   font-size: 32px;
 }
 
-.lg-font {
+.textLg {
   font-size: 24px;
 }
 
-.md-font {
-  font-size: 20px;
+.text-md {
+  font-size: 18px;
 }
 
-.sm-font {
-  font-size: 16px;
+.textSm {
+  font-size: 15px;
 }
 
-.xs-font {
-  font-size: 12px;
+.textXs {
+  font-size: 13px;
 }
+
 
 .bold {
   font-weight: bold;
@@ -34,14 +35,86 @@
   font-weight: lighter;
 }
 
-.text-left {
+.textLeft {
   text-align: left;
 }
 
-.text-right {
+.textRight {
   text-align: right;
 }
 
-.text-center {
+.textCenter {
   text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textXxl {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textXl {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textLg {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-text-md {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textSm {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textXs {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-bold {
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-bolder {
+    font-weight: bolder;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-lighter {
+    font-weight: lighter;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textLeft {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textRight {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lg-textCenter {
+    text-align: center;
+  }
 }

@@ -3,7 +3,7 @@ import "../styles/index.css";
 const PieBox = ({ setShowPie, showPie }) => {
   return (
     <div className="checkbox piebox">
-      <label className="cursor-pointer text-white lg-font" htmlFor="showPie">
+      <label className="cursor-pointer white textLg" htmlFor="showPie">
         🥧
       </label>
       <input

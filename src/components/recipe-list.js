@@ -23,12 +23,12 @@ const RecipeList = ({ recipes, isBorked }) => {
   const isSignedIn = sessionStorage.getItem("beep boop") === "beep boop beep";
 
   return (
-    <div className="recipeContainer">
+    <>
       {recipesWithAlphadivider.map((heading, index) => {
         if (heading.length === 1) {
           return (
             <h2
-              className="bg-dark-blue text-white text-center radius-1 pt2 pb2"
+              className="bg-darkBlue white textCenter radiusSm pt2 pb2"
               id={heading}
               key={index}
             >
@@ -45,7 +45,7 @@ const RecipeList = ({ recipes, isBorked }) => {
           />
         );
       })}
-    </div>
+    </>
   );
 };
 

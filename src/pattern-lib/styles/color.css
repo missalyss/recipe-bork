@@ -6,7 +6,7 @@
   --red: #932a24;
 }
 
-.text-black {
+.black {
   color: var(--black);
 }
 
@@ -14,28 +14,28 @@
   background-color: var(--black);
 }
 
-.text-blue {
+.blue {
   color: var(--blue);
 }
 .bg-blue {
   background-color: var(--blue);
 }
 
-.text-red {
+.red {
   color: var(--red);
 }
 .bg-red {
   background-color: var(--red);
 }
 
-.text-dark-blue {
+.darkBlue {
   color: var(--dark-blue);
 }
-.bg-dark-blue {
+.bg-darkBlue {
   background-color: var(--dark-blue);
 }
 
-.text-white {
+.white {
   color: var(--white);
 }
 .bg-white {

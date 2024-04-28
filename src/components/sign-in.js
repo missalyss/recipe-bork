@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Button from "../pattern-lib/components/button";
 const CURRENT_PASSWORD = "primedirective";
 
 const SignIn = ({ isBorked }) => {
@@ -19,9 +19,9 @@ const SignIn = ({ isBorked }) => {
         onChange={(e) => setInputVal(e.target.value)}
         placeholder={isBorked ? "Serkrit Parsewerd" : "Secret Password"}
       />
-      <button type="button" onClick={signIn}>
+      <Button type="button" onClick={signIn}>
         {isBorked ? "Lug In" : "Log In"}
-      </button>
+      </Button>
     </React.Fragment>
   );
 };

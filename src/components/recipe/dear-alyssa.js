@@ -2,7 +2,7 @@ import React from "react";
 
 const DearAlyssa = ({ dearAlyssa }) => {
   return (
-    <div className="text-left mt4 text-red sm-font pl2 pr2">
+    <div className="textLeft mt4 red textSm pl2 pr2">
       <p>
         <em>Dear Alyssa,</em>
       </p>

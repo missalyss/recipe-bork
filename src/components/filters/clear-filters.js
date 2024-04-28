@@ -17,7 +17,7 @@ const ClearFilters = ({
         setShowPie(false);
       }}
       visualStyle="link"
-      className="text-white"
+      className="white"
     >
       Clear all filters
     </Button>

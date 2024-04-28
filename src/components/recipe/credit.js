@@ -5,11 +5,11 @@ const Credit = ({ credit, dearAlyssa }) => {
   const includeDearAlyssa = !isEmpty(dearAlyssa);
 
   return credit && credit?.text ? (
-    <p className={`xs-font text-center ${includeDearAlyssa ? "pt4" : ""}`}>
+    <p className={`textXs textCenter ${includeDearAlyssa ? "pt4" : ""}`}>
       Thank you,{" "}
       {credit.url ? (
         <a
-          className="text-blue"
+          className="blue"
           target="_blank"
           href={credit?.url}
           rel="noreferrer"

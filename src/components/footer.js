@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = ({ isBorked }) => {
   return (
-    <footer className="container bg-dark-blue text-white">
+    <footer className="container bg-darkBlue white radiusSm textCenter pt2 pb2">
       {isBorked
-        ? "Mede-a vit ❤️ by Ilyssa Helgesun"
-        : "Made with ❤️ by Alyssa Helgason"}
+        ? "Mede-a vit ❤️ by Ilyssa Mershell"
+        : "❤️ by Alyssa Michelle"}
     </footer>
   );
 };
